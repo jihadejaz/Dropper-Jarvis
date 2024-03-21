@@ -1,0 +1,267 @@
+
+
+
+
+
+
+
+
+
+
+.content{
+  color: white;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.homeleft{
+  @media (max-width: 480px) {
+    display: flex;
+    width: auto;
+justify-content: center;
+margin-top: 20px;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
+
+
+
+.homeleft h1{
+  @media  (min-width:1024px){
+      font-size: 3.7em;
+  }
+
+  @media (min-width:1440px){
+    font-size: 5em;
+    justify-content: space-between; 
+    width: 15px;
+    
+   }
+   
+   text-transform: capitalize;
+    display: flex;
+    font-weight: 300;
+    align-items: center;
+
+   
+   color: rgb(47, 146, 138);
+   width: 15px;
+
+   @media screen and (max-width:430px) {
+    font-size: 3em;
+  }
+
+  @media (max-width: 480px) {
+   font-size: 3em;
+    display:flex;
+  margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    
+   
+  }
+
+}
+
+.homebanner{
+
+
+  @media (min-width:1024px) {
+    padding: 80px 50px;
+    align-items: center;
+  }
+  
+
+
+    @media (min-width:1440px){
+      padding: 90px 90px;
+      display: block;
+ justify-content: space-between;  
+     }
+
+    @media (max-width: 480px) {
+        display: flex;
+        width: auto;
+margin-top: 20px;
+        align-items: center;
+      }
+
+}
+
+.container{
+
+
+@media (min-width:1024px) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+  @media (min-width:1440px){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media (max-width: 480px) {
+    display: block;
+margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.hright{
+    color: white;
+}
+.homeright{
+
+
+
+
+    font-weight: normal;
+    display: block;
+    @media(max-width:480px){
+      display: block;
+      flex-direction: column;
+        font-size: 1em; 
+        text-align: center; 
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+.homeright h2{
+
+
+ 
+    width: 590px;
+    text-transform: capitalize;
+margin-bottom: 10px;
+font-size: 2em;
+color: white;
+
+@media  (max-width:1440px){
+  font-size: 1.8em;
+  width: 500px;
+}
+font-style: italic;
+
+
+@media( max-width :430px){
+font-size: 1.1em;
+font-style: italic;
+
+}
+
+    font-weight: normal;
+    @media(max-width:418px){
+        font-size: 1em;
+        text-align: center;
+margin-bottom: 30px;
+font-style: italic;
+
+align-items: center;
+
+        justify-items: center;
+        display: flex;
+        justify-content: center;
+        color: white;
+    }
+}
+
+
+
+
+.homeright a{
+    font-weight: normal;
+    text-transform: capitalize;
+    font-size: 1.3em;
+color: white;
+display: inline-block;
+
+
+@media( max-width :430px){
+  font-size: 1em;
+  
+  }
+@media  (max-width:418px) {
+  font-size:1em
+}
+
+
+
+@media  (min-width:1024px){
+  font-size: 1.2em;
+}
+}
+
+.hrightbutoom button{
+  @media  (min-width:1024px){
+    font-size: 1em;
+    width: 220px;
+    margin-top: 15px;
+
+    height: 40px;
+  }
+
+  @media( max-width :430px){
+    font-size: 1em;
+    width: 220px;
+    
+    }
+
+  @media (max-width:418px) {
+    width: 220px;
+    font-size: 1.1em;
+    color: rgb(47, 146, 138);
+  }
+
+    background: transparent;
+    text-transform: capitalize;
+    width: 300px;
+    font-size: 1.2em;
+    border: 1px solid rgb(46, 183, 236);
+ color: white;
+ height: 49px;
+}
+
+
+

@@ -1,0 +1,170 @@
+
+
+
+
+.sidenav-left{
+    display: none;
+    font-size: 2rem;
+    font-weight: normal;
+color: white;
+    
+    @media (max-width:480px) {
+        justify-content: center;
+             display: flex;
+             align-items: center;
+           
+       }
+}
+
+
+.sidenav{
+    padding: 0px 20px;
+    display: none;
+
+    @media (max-width:480px) {
+    display: flex;
+   align-items: center;
+          justify-content: space-between;
+      }
+    
+}
+
+.sidenav img{
+    height: 90px;
+    width: 100px;
+    display: none;
+    object-fit: cover;
+    @media screen and (max-width:375px) {
+        margin-left: 150px;
+        display: flex;
+         
+        } @media screen and (max-width:390px) {
+            margin-left: 152px;
+        display: flex;
+             
+            }
+
+
+            @media screen and (max-width:430px) {
+                margin-right: 109px;
+                display: flex;
+           
+              }
+            
+   @media screen and (max-width:414px) {
+     margin-right: 92px;
+     display: flex;
+
+   }
+
+
+}
+
+
+
+header{
+
+    align-items: center;
+    @media (max-width: 480px) {
+        display: flex;
+      }
+   
+}
+
+
+
+  
+  
+  
+
+
+
+
+.navheader{
+
+    @media (min-width:1024px){
+      
+        padding: 20px 30px;
+        display: flex;
+        justify-content: space-between; 
+    
+       }
+  
+    
+
+    align-items: center;
+    @media (max-width: 480px) {
+        display: none;
+        
+
+      }
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+   
+}
+
+.navbar img{
+     height: 80px;
+     width: 100px;
+     object-fit: cover;
+
+}
+
+.navul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.navbar ul li{
+    padding: 0 40px;
+   font-weight: normal;
+
+}
+
+.navbar ul li .link {
+text-transform: capitalize;
+text-decoration: none; 
+font-size: 1.3rem;
+    color: white;
+
+}
+
+.navbutton {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    @media (max-width: 418px) {
+      }
+}
+.navbutton button {
+    border: 1px solid rgb(46, 183, 236);
+    background: transparent;
+    color: white;
+    flex-grow: 1;
+    color:  rgb(47, 146, 138);
+    height: 43px;
+    width: fit-content;
+    text-transform: capitalize;
+    font-size: 1.1rem;
+    padding: 8px 20px; 
+    cursor: pointer; 
+}
