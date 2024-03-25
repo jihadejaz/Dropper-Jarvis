@@ -1,8 +1,8 @@
 # example netlify.toml
 [build]
-  command = "hugo build"
-  functions = "netlify/functions"
-  publish = "dist"
+  command = "hugo"
+  publish = "/opt/build/repo/dist"
+
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
