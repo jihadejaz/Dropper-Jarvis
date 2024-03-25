@@ -95,7 +95,7 @@ color: "rgb(47, 146, 138)",
         <div className='header'>
           <div className='navheader'>
             <div className='navbar'>
-              <img src="images/icon.jpg" alt="Icon" />
+              <img src="images/icon2.png" alt="Icon" />
               <ul className='navul'>
                 <li><NavLink to="/" className='link'>Home</NavLink></li>
                 <li><NavLink to="/help-center" className='link'>Help Center</NavLink></li>
