@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './header.css';
+
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,7 +9,7 @@ function Header() {
 
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth <= 1150);
+      setIsMobile(window.innerWidth <= 699);
     };
 
     handleResize(); // Set initial state
@@ -36,16 +37,32 @@ function Header() {
     const buttonClassName = "nav__cta";
 
     return (
-      <ul className={listClassName}>
+      <ul className={listClassName} style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "space-between", 
+        textTransform: "capitalize" 
+      }}>
         <li style={{ backgroundColor: "transparent" }}>
-          <NavLink to="/" className={linkClassName} onClick={closeMobileMenu}>
-            Home
-          </NavLink>
+          <Link to="/" className={linkClassName} onClick={closeMobileMenu}>
+            home
+          </Link>
         </li>
         <li style={{ backgroundColor: "transparent" }}>
-          <NavLink to="" className={linkClassName} onClick={closeMobileMenu}>
-          Help Center
-          </NavLink>
+          <Link to="ads" className={linkClassName} onClick={closeMobileMenu}>
+          ads
+          </Link>
+        </li>
+        <li style={{ backgroundColor: "transparent" }}>
+          <Link to="coming" className={linkClassName} onClick={closeMobileMenu}>
+          product
+          </Link>
+        </li>
+      
+        <li style={{ backgroundColor: "transparent" }}>
+          <Link to="coming" className={linkClassName} onClick={closeMobileMenu}>
+          help Center
+          </Link>
         </li>
         <li style={{ backgroundColor: "transparent", 
       
@@ -53,7 +70,7 @@ color: "rgb(47, 146, 138)",
       
       }}>
   <NavLink to="" className={`${linkClassName} ${buttonClassName}`} onClick={closeMobileMenu}>
-  <button style={{color: "rgb(47, 146, 138)",border: "1px solid rgb(46, 183, 236)", width:"110px" , height:"40px",  alignItems:"center",fontSize:"1em"  }}>Sign Up</button>
+  <button style={{color: "rgb(47, 146, 138)",border: "1px solid rgb(46, 183, 236)", width:"110px" , height:"40px",  alignItems:"center",fontSize:"1em",  background:"transparent"}}>Sign Up</button>
   </NavLink>
 </li>  
       </ul>
@@ -62,51 +79,53 @@ color: "rgb(47, 146, 138)",
 
   return (
     <>
-      
-      
 
-      <header className="header2">
-        
-        <nav className="nav container">
-         
 
-          {isMobile && (
-            <div className="nav__toggle" id="nav-toggle" onClick={toggleMenu}>
-              <a  className="menu-icon">&#9776;</a> {/* Menu icon */}
+<header  className={`header2 ${isMobile ? '' : 'hidden'}`}>
+      <nav className={`nav container ${isMobile ? 'nav-mobile' : 'nav-desktop'}`}>
+        {isMobile && (
+          <div className="nav__toggle" onClick={toggleMenu}>
+            <a className="menu-icon">&#9776;</a>
+          </div>
+        )}
+        {isMobile ? (
+          <div className={`nav__menu ${isMenuOpen ? "show-menu" : ""}`}>
+            {renderNavLinks()}
+            <div className="nav__close" onClick={toggleMenu}>
+              <a className="close-icon">&times;</a>
             </div>
-          )}
-          
-
-          {isMobile ? (
-            <div className={`nav__menu ${isMenuOpen ? "show-menu" : ""}`} id="nav-menu">
-              {renderNavLinks()}
-              <div className="nav__close" id="nav-close" onClick={toggleMenu}>
-                <a  className="close-icon">&times;</a> {/* Close icon */}
-              </div>
-            </div>
-          ) : (
-            renderNavLinks()
-          )}
-        </nav>
-      </header>
-
-
-      <header>
+          </div>
+        ) : (
+          renderNavLinks()
+        )}
+      </nav>
+    </header>
+        <header>
         <div className='header'>
           <div className='navheader'>
             <div className='navbar'>
               <img src="images/icon2.png" alt="Icon" />
               <ul className='navul'>
-                <li><NavLink to="/" className='link'>Home</NavLink></li>
-                <li><NavLink to="/help-center" className='link'>Help Center</NavLink></li>
+                <li><Link to="/" className='link'>Home</Link></li>
+                <li><Link to="ads" className='link'>ads</Link></li>
+                <li><Link to="coming" className='link'>product</Link></li>
+                <li><Link to="coming" className='link'>Help Center</Link></li>
               </ul>
             </div>
           </div>
           <div className='navbutton'>
-            <button>Sign Up</button>
+            <a className='navbuttonicon'> 
+            <i class="fa fa-user-circle" aria-hidden="true"></i>
+
+            </a>
           </div>
         </div>
       </header>
+      
+
+     
+
+     
 
 
       <div className='sideimage'>

@@ -1,0 +1,2593 @@
+@media screen and (min-width:2000px) and (max-width:2999px){
+  .call{
+
+margin: 10px 80px;
+  
+flex-wrap: wrap;
+align-items: center;
+ 
+  gap: 40px;
+justify-content:space-between;
+
+  }
+
+  .adspages{
+     
+          display: block;
+          
+      }
+
+
+
+
+
+  .ada{
+
+   
+      display: flex;
+       justify-content: space-evenly;
+      padding: 45px 30px; 
+      }
+
+
+      .adssreach {
+
+
+
+         
+            
+             
+     
+          color: white;
+          position: relative;
+      display: flex;
+      margin-top: 40px;
+      align-items: center;
+      
+      justify-content: center;
+              }
+
+              .adssreach input{
+
+                  
+                     
+                      
+              
+                      height: 50px;
+                      border-radius: 10px;
+                      background-color: transparent;
+                      border: 2px skyblue solid;
+                          width: 800px;
+                          color: white;
+                          padding-left: 30px;
+                          }
+                                     
+
+
+                          .adssreach i{
+
+
+
+
+                         
+                          
+                              position: absolute;
+                      
+                              margin-left: 670px;  
+                              font-size: 1.2em;
+                                  color: aqua;
+                                  }
+  
+
+
+
+
+
+
+
+
+
+
+
+   
+.adsleft{
+ color:  rgb(47, 146, 138);
+ width: 400px;
+ padding: 15px 10px;
+ margin-left: 15px;
+ height: 69.9vh;
+ border-radius: 15px;
+}
+
+
+
+
+.adsleft h1{
+ display: flex;
+ align-items: center;
+ margin-bottom: 5px;
+ font-size: 1.9em;
+ margin-left: 5px;
+}
+
+  
+.adsline a{
+ content: "";
+ display: flex;
+ align-items: center;
+ margin-left: 5px;
+ justify-content: center;
+ border: 1px solid rgba(216, 215, 215, 0.267);
+}
+
+.adssocial{
+  display: flex;
+  justify-content: start;
+
+}
+
+.adssocial ul li{
+     padding: 10px;
+     margin-top: 20px;
+     display: flex;
+     font-size: 1.2rem;
+     align-items: center;
+     justify-content: start;
+     text-transform: capitalize;
+   }
+
+
+   .adssocial ul li i{
+   
+         font-size: 1.4em;
+         margin-right: 10px;
+         display: flex;
+         align-items: center;
+       }
+
+       .adsright{
+
+
+
+   
+          width: 90%;
+             color: aliceblue;
+             height: 70vh;
+             border-radius: 15px;
+             margin-left: 10px;
+             display: flex;
+             flex-direction: column; 
+             padding: 0 10px;
+         
+         
+         
+         }
+         
+        
+        
+         .links {
+          color:  rgb(47, 146, 138);
+      
+        }
+        
+        
+
+
+
+         .rightadscontainer{
+              display: flex;
+              width: 105%;
+              justify-content: center;
+          }
+         
+         .adsrightlinks
+         {
+         
+         
+                 display: flex;
+                 justify-content: flex-start;
+                 margin-left: 15px;
+                 margin-top: 21px;
+                 padding: 0px 0px;
+               }
+
+  .links{
+    font-size: 1.4em;
+  }
+
+
+
+
+
+               .adsrightline {
+ 
+
+ 
+
+                  
+                      width: 99%;
+                      margin-top: 12px;
+                      border: 1px solid rgba(216, 215, 215, 0.267);
+                      display: flex;
+                      align-items: center;
+                      justify-content: center; 
+                      padding: 0 0px;
+                    }
+
+
+                    .rightscrolling{
+                      overflow-y: scroll;
+                  
+                    }
+                  
+
+       .rightscrolling {
+
+         
+              height: calc(100% - 2rem); 
+              margin-top: 15px;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+        
+              }
+      
+              .adsimgcard img{
+                
+                      width: 100%;
+                      max-width: 319px;
+                object-fit: cover;
+                  }  
+
+
+                  .adsimgcard {
+                     
+                          display: flex;
+                          flex-direction: column;
+                      }
+
+                      .adsright ul li{
+
+
+                              padding:0px 22px;
+                              font-size: 1em;
+                        
+                              }
+
+
+                              .adsright ul{
+                               
+                                      display: flex;
+                                
+                                      }
+
+
+                                      .adsicons i {
+                                        padding: 0px 4px;
+                                        color: whitesmoke;
+                                     }
+                                      .adsicons a {
+                                         font-size: 0.8em;
+                                         margin-left: 10px;
+                                         color: whitesmoke;
+                                      }
+                                                  
+
+
+                                                      .addetails {
+
+                                                             
+                                                              
+                                                      
+                                                          
+                                                              display: flex;
+                                                      
+                                                      
+                                                                      }
+                                                                  
+                                                                    
+
+                                                                      .adsinfo h1{
+
+
+
+                                                                        
+                                                                             
+                                                                              
+                                                                      
+                                                                          
+                                                                              font-size: 1.1em;
+                                                                              font-weight: normal;
+                                                                      
+                                                                      
+                                                                                      }
+
+
+
+
+                                                                                      .adsinfo a{
+
+
+                                                                                       
+                                                                                             
+                                                                                              
+                                                                                              font-size: 0.9em;
+                                                                                      
+                                                                                      
+                                                                                      
+                                                                                                      }
+                                                                                                  
+                                  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //2000 screen// */
+
+@media screen and (min-width:1501px) and (max-width:1999px){
+    .call{
+
+margin: 10px 80px;
+    
+flex-wrap: wrap;
+align-items: center;
+   
+    gap: 17px;
+justify-content:space-between;
+
+    }
+
+    .adspages{
+       
+            display: block;
+            
+        }
+
+
+
+
+
+    .ada{
+ 
+     
+        display: flex;
+         justify-content: space-evenly;
+        padding: 45px 30px; 
+        }
+
+
+        .adssreach {
+
+
+
+           
+              
+               
+       
+            color: white;
+            position: relative;
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        
+        justify-content: center;
+                }
+
+                .adssreach input{
+ 
+                    
+                       
+                        
+                
+                        height: 50px;
+                        border-radius: 10px;
+                        background-color: transparent;
+                        border: 2px skyblue solid;
+                            width: 600px;
+                            color: white;
+                            padding-left: 30px;
+                            }
+                                       
+
+
+                            .adssreach i{
+ 
+ 
+ 
+ 
+                           
+                            
+                                position: absolute;
+                        
+                                margin-left: 500px;  
+                                font-size: 1.2em;
+                                    color: aqua;
+                                    }
+    
+
+
+
+
+
+
+
+
+
+
+
+     
+.adsleft{
+   color:  rgb(47, 146, 138);
+   width: 300px;
+   padding: 15px 10px;
+   margin-left: 15px;
+   height: 69.9vh;
+   border-radius: 15px;
+}
+
+
+
+
+.adsleft h1{
+   display: flex;
+   align-items: center;
+   margin-bottom: 5px;
+ }
+
+    
+.adsline a{
+   content: "";
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: 1px solid rgba(216, 215, 215, 0.267);
+ }
+
+ .adssocial{
+    display: flex;
+    justify-content: start;
+
+ }
+
+ .adssocial ul li{
+       padding: 10px;
+       display: flex;
+       align-items: center;
+       justify-content: start;
+       text-transform: capitalize;
+     }
+ 
+
+     .adssocial ul li i{
+     
+           font-size: 1.4em;
+           margin-right: 10px;
+           display: flex;
+           align-items: center;
+         }
+
+         .adsright{
+ 
+ 
+ 
+     
+            width: 100%;
+               color: aliceblue;
+               height: 70vh;
+               border-radius: 15px;
+               margin-left: 10px;
+               display: flex;
+               flex-direction: column; 
+               padding: 0 10px;
+           
+           
+           
+           }
+           
+          
+          
+           .links {
+            color:  rgb(47, 146, 138);
+        
+          }
+          
+          
+
+
+
+           .rightadscontainer{
+                display: flex;
+                width: 105%;
+                justify-content: center;
+            }
+           
+           .adsrightlinks
+           {
+           
+                   display: flex;
+                   justify-content: flex-start;
+                   margin-left: 15px;
+                   margin-top: 10px;
+                   padding: 0px 0px;
+                 }
+
+
+.links{
+  background-color: #0D000D ;
+
+  padding: 4px 20px;
+  display: flex;
+}
+
+
+
+                 .adsrightline {
+   
+ 
+   
+ 
+                    
+                        width: 99%;
+                        margin-top: 12px;
+                        border: 1px solid rgba(216, 215, 215, 0.267);
+                        display: flex;
+                        align-items: center;
+                        justify-content: center; 
+                        padding: 0 0px;
+                      }
+
+
+                      .rightscrolling{
+                        overflow-y: scroll;
+                    
+                      }
+                    
+
+         .rightscrolling {
+ 
+           
+                height: calc(100% - 2rem); 
+                margin-top: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+          
+                }
+        
+                .adsimgcard img{
+                  
+                        width: 100%;
+                        max-width: 319px;
+                  object-fit: cover;
+                    }  
+
+
+                    .adsimgcard {
+                       
+                            display: flex;
+                            flex-direction: column;
+                        }
+
+                        .adsright ul li{
+  
+ 
+                                padding:0px 22px;
+                                font-size: 1em;
+                          
+                                }
+
+
+                                .adsright ul{
+                                 
+                                        display: flex;
+                                  
+                                        }
+
+
+                                        .adsicons i {
+                                          padding: 0px 4px;
+                                          color: whitesmoke;
+                                       }
+                                        .adsicons a {
+                                           font-size: 0.8em;
+                                           margin-left: 10px;
+                                           color: whitesmoke;
+                                        }
+                                                    
+
+
+                                                        .addetails {
+ 
+                                                               
+                                                                
+                                                        
+                                                            
+                                                                display: flex;
+                                                        
+                                                        
+                                                                        }
+                                                                    
+                                                                      
+ 
+                                                                        .adsinfo h1{
+ 
+ 
+ 
+                                                                          
+                                                                               
+                                                                                
+                                                                        
+                                                                            
+                                                                                font-size: 1.1em;
+                                                                                font-weight: normal;
+                                                                        
+                                                                        
+                                                                                        }
+
+
+
+
+                                                                                        .adsinfo a{
+ 
+ 
+                                                                                         
+                                                                                               
+                                                                                                
+                                                                                                font-size: 0.9em;
+                                                                                        
+                                                                                        
+                                                                                        
+                                                                                                        }
+                                                                                                    
+                                    }
+
+
+
+
+
+
+
+
+
+
+
+/* //1400 screen// */
+
+  
+    @media screen and (min-width:1400px) and (max-width:1500px) {
+        .call{
+         flex-wrap: wrap;
+         align-items: center;
+             gap: 40px;
+ margin: 10px 0px;
+ justify-content: center;
+        }
+        .adspages{
+       
+            display: block;
+            
+        }
+     
+        .ada{
+ 
+     
+            display: flex;
+             justify-content: space-evenly;
+            padding: 41px 35px; 
+            }
+
+
+            .adsleft h1{
+             margin-left:10px;
+           }
+  
+        .adsleft{
+            color:  rgb(47, 146, 138);
+            width: 280px;
+            padding: 20px 15px;
+            margin-left: 15px;
+            height: 69.9vh;
+
+            border-radius: 15px;
+         }
+    
+         .adsline a{
+            content: "";
+            margin-left: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid rgba(216, 215, 215, 0.267);
+          }
+        
+        
+          .adssreach {
+
+
+
+          
+            color: white;
+            position: relative;
+        display: flex;
+        margin-top: 20px;
+        align-items: center;
+        
+        justify-content: center;
+                }
+
+
+                .adssreach input{
+ 
+                    
+                       
+                        
+                
+                    height: 50px;
+                    border-radius: 10px;
+                    background-color: transparent;
+                    border: 2px skyblue solid;
+                        width: 580px;
+                        color: white;
+                        padding-left: 30px; 
+                        }
+                           
+
+
+                        .adssreach i{
+ 
+ 
+ 
+ 
+                           
+                            
+                            position: absolute;
+                    
+                            margin-left: 490px;  
+                            font-size: 1.2em;
+                                color: aqua;
+                                }
+
+
+
+
+
+
+.adssocial{
+  margin-top: 10px;
+}
+
+
+          .adssocial ul li{
+            padding: 10px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: start;
+            text-transform: capitalize;
+          }
+      
+         
+          
+          .adssocial ul li i{
+          
+                font-size: 1.4em;
+                margin-right: 10px;
+                display: flex;
+
+                align-items: center;
+              }
+    
+
+
+
+
+              .adsright{
+ 
+ 
+ 
+     
+                width: 80%;
+                   color: aliceblue;
+                   height: 70vh;
+                   border-radius: 15px;
+                   margin-left: 30px;
+                   display: flex;
+                   flex-direction: column; 
+                   padding: 0 0;
+               
+               
+               
+               }
+               
+
+               .links {
+    color:  rgb(47, 146, 138);
+
+
+    
+  }
+  
+
+               .adsrightline {
+   
+ 
+   
+ margin-left: 10px;
+                    
+                width: 98%;
+                margin-top: 12px;
+                border: 1px solid rgba(216, 215, 215, 0.267);
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                padding: 0 10px;
+              }
+
+
+              
+                
+           .adsrightlinks
+           {
+           
+           
+             
+                   display: flex;
+                   justify-content: flex-start;
+                   margin-left: 15px;
+                   margin-top: 10px;
+                   padding: 0px 0px;
+                 }
+
+                 .links{
+                  background-color: #0D000D ;
+                
+                  padding: 4px 20px;
+                  display: flex;
+                }
+
+                 .rightscrolling{
+                  overflow-y: scroll;
+              
+                }
+
+               .rightscrolling {
+ 
+           
+                height: calc(100% - 1em); 
+                /* padding: 0 10px; */
+                margin-top: 15px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+          
+                }
+        
+                 .adsimgcard img{
+                     height: auto;
+                        width: 100%;
+                        max-width: 280px;
+                  object-fit: cover;
+                    }  
+
+                    .adsimgcard {
+                       
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .adsright ul li{                        
+                        padding:0px 22px;
+                        font-size: 1em;
+                  
+                        }
+                        
+
+
+                        .adsright ul{
+                                 
+                            display: flex;
+                      
+
+                            }
+
+                            .adsicons i {
+                              padding: 0px 4px;
+                              color: whitesmoke;
+                           }
+                            .adsicons a {
+                               font-size: 0.7em;
+                               margin-left: 5px;
+                               color: whitesmoke;
+                            }
+
+
+
+                                           .addetails {
+ 
+                                                               
+                                                                
+                                                        
+                                                            
+                                            display: flex;
+                                    
+                                    
+                                                    }
+                                                    .adsinfo h1{
+ 
+ 
+ 
+                                                                          
+                                                                               
+                                                                                
+                                                                        
+                                                                            
+                                                        font-size: 1.1em;
+                                                        font-weight: normal;
+                                                
+                                                
+                                                                }
+
+
+                                                                .adsinfo a{
+ 
+ 
+                                                                                         
+                                                                                               
+                                                                                                
+                                                                    font-size: 0.9em;
+                                                            
+                                                            
+                                                            
+                                                                            }
+
+        }
+
+
+ 
+ @media screen and (min-width:1024px) and (max-width:1399px) {
+    .call{
+     flex-wrap: wrap;
+     align-items: center;
+         gap: 40px;
+margin: 10px 0px;
+justify-content: center;
+    }
+    
+    .adspages{
+       
+        display: block;
+        
+    }
+
+
+
+
+
+
+    .adssreach {
+        color: white;
+        position: relative;
+    display: flex;
+    margin-top: 38px;
+    align-items: center;
+    
+    justify-content: center;
+            }
+
+            .adssreach input{
+ 
+                    
+                height: 50px;
+                border-radius: 10px;
+                background-color: transparent;
+                border: 2px skyblue solid;
+                    width: 500px;
+                    color: white;
+                    padding-left: 30px; 
+                    }
+                       
+
+                    .adssreach i{
+ 
+ 
+ 
+ 
+                           
+                            
+                            position: absolute;
+                    
+                            margin-left: 420px;  
+                            font-size: 1.2em;
+                                color: aqua;
+                                }
+
+
+
+
+    .ada{
+        display: flex;
+         justify-content: space-evenly;
+        padding: 41px 35px; 
+        }
+        .adsleft h1{
+          margin-left:10px;
+        }
+
+    .adsleft{
+        color:  rgb(47, 146, 138);
+        width: 280px;
+        padding: 19px 15px;
+        margin-left: 15px;
+        height: 69.9vh;
+
+        border-radius: 15px;
+     }
+
+     .adsline a{
+        content: "";
+        display: flex;
+        margin-left: 8px;
+        margin-right: 6px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(216, 215, 215, 0.267);
+      }
+    
+    
+
+      .adsleft h1{
+        display: flex;
+        align-items: center;
+        font-size: 1.3em;
+
+        margin-bottom: 5px;
+      }
+    
+
+
+
+      .adssocial ul li{
+        padding: 10px;
+        display: flex;
+        margin-top: 16px;
+        align-items: center;
+        justify-content: start;
+        text-transform: capitalize;
+      }
+  
+ 
+      .adssocial ul li i{
+      
+            font-size: 1.4em;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+          }
+
+
+          
+          .rightadscontainer{
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .links {
+            color:  rgb(47, 146, 138);
+        
+          }
+          .adsright{
+            width: 74%;
+               color: aliceblue;
+               height: 70vh;
+               border-radius: 15px;
+               margin-left: 10px;
+               display: flex;
+               flex-direction: column; 
+               padding: 0px 0;
+           
+           
+           
+           }
+
+
+
+           .adsrightlinks
+           {
+           
+           
+             
+                   display: flex;
+                   justify-content: flex-start;
+                   margin-left: 15px;
+                   margin-top: 10px;
+                   padding: 0px 0px;
+                 }
+                 .links{
+                  background-color: #0D000D ;
+                
+                  padding: 4px 20px;
+                  display: flex;
+                }
+                 .rightscrolling{
+                  overflow-y: scroll;
+              
+                }
+
+           .rightscrolling {
+ 
+           
+            height: calc(100% - 1em); 
+            /* padding: 0 10px; */
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      
+            }
+
+            .adsimgcard img{
+                height: auto;
+                                    width: 100%;
+                                    max-width: 280px;
+                              object-fit: cover;
+                                }  
+
+
+                                .adsimgcard {
+                       
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+
+                                .adsrightline {
+   
+ 
+ margin-left: 10px;
+   
+ 
+                    
+                                    width: 99%;
+                                    margin-top: 12px;
+                                    border: 1px solid rgba(216, 215, 215, 0.267);
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center; 
+                                    padding: 0 0px;
+                                  }
+
+
+                                  .adsright ul li{                        
+                                    padding:0px 22px;
+                                    font-size: 1em;
+                              
+                                    }
+
+                                    .adsright ul{
+                                 
+                                        display: flex;
+                                  
+                                        }
+
+                                        .adsicons i {
+                                          padding: 0px 4px;
+                                          color: whitesmoke;
+                                       }
+                                        .adsicons a {
+                                           font-size: 0.7em;
+                                           margin-left: 2px;
+                                           color: whitesmoke;
+                                        }
+
+                                                       .addetails {
+ 
+                                                               
+                                                                
+                                                        
+                                                            
+                                                        display: flex;
+                                                
+                                                
+                                                                }
+
+
+                                                                .adsinfo h1{
+ 
+ 
+ 
+                                                                          
+                                                                               
+                                                                                
+                                                                        
+                                                                            
+                                                                    font-size: 1.1em;
+                                                                    font-weight: normal;
+                                                            
+                                                            
+                                                                            }
+                                                                            
+
+                                                                            .adsinfo a{
+ 
+ 
+                                                                                         
+                                                                                               
+                                                                                                
+                                                                                font-size: 0.9em;
+                                                                        
+                                                                        
+                                                                        
+                                                                                        }
+
+                                }
+
+
+
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .call{
+     flex-wrap: wrap;
+     align-items: center;
+         gap: 30px;
+margin: 10px 0px;
+justify-content: center;
+    }
+    .adspages{
+           
+        display: block;
+        
+    }
+
+
+    .adssreach {
+        color: white;
+        position: relative;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+    
+    justify-content: center;
+            }
+            
+
+            .adssreach input{
+ 
+                    
+                height: 50px;
+                border-radius: 10px;
+                background-color: transparent;
+                border: 2px skyblue solid;
+                    width: 440px;
+                    color: white;
+                    padding-left: 30px; 
+                    }
+                       
+
+                    .adssreach i{
+ 
+ 
+ 
+ 
+                           
+                            
+                            position: absolute;
+                    
+                            margin-left: 350px;  
+                            font-size: 1.2em;
+                                color: aqua;
+                                }
+
+
+
+
+    .ada{
+        display: flex;
+         justify-content: space-evenly;
+        padding: 27px 15px; 
+        }
+
+    .adsleft{
+        color:  rgb(47, 146, 138);
+        width: 280px;
+        padding: 19px 15px;
+        margin-left: 15px;
+        height: 69.9vh;
+
+        border-radius: 15px;
+     }
+
+     .adsline a{
+        content: "";
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid rgba(216, 215, 215, 0.267);
+      }
+    
+    
+
+      .adsleft h1{
+        display: flex;
+        align-items: center;
+        font-size: 1.1em;
+
+        margin-bottom: 5px;
+      }
+    
+.adssocial{
+  margin-top: 10px;
+}
+
+
+      .adssocial ul li{
+        padding: 10px 1px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        text-transform: capitalize;
+      }
+  
+ 
+      .adssocial ul li i{
+      
+            font-size: 1.2em;
+            margin-right: 10px;
+            display: flex;
+            align-items: center;
+          }
+
+
+          
+          .rightadscontainer{
+            display: flex;
+            justify-content: center;
+        }
+
+
+          .adsright{
+ 
+ 
+ 
+     
+            width: 74%;
+               color: aliceblue;
+               height: 70vh;
+               border-radius: 15px;
+               margin-left: 10px;
+               display: flex;
+               flex-direction: column; 
+               padding: 0px 0;
+           
+           
+           
+           }
+            .links {
+            color:  rgb(47, 146, 138);
+        
+          }
+          
+
+          
+           .adsrightlinks
+           {
+           
+           
+             
+                   display: flex;
+                   justify-content: flex-start;
+                   margin-left: 15px;
+                   margin-top: 5px;
+                   padding: 0px 0px;
+                 }
+                 .links{
+                  background-color: #0D000D ;
+                
+                  padding: 4px 20px;
+                  display: flex;
+                }
+
+                 .rightscrolling{
+                  overflow-y: scroll;
+              
+                }
+           .rightscrolling {
+ 
+           
+            height: calc(100% - 1em); 
+            /* padding: 0 10px; */
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      
+            }
+
+            .adsimgcard img{
+                height: auto;
+                                    width: 100%;
+                                    max-width: 230px;
+                              object-fit: cover;
+                                }  
+
+
+                                .adsimgcard {
+                       
+                                    display: flex;
+                                    flex-direction: column;
+                                }
+
+                                .adsrightline {
+   
+ 
+ margin-left: 10px;
+   
+ 
+                    
+                                    width: 99%;
+                                    margin-top: 12px;
+                                    border: 1px solid rgba(216, 215, 215, 0.267);
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center; 
+                                    padding: 0 0px;
+                                  }
+
+
+                                  .adsright ul li{                        
+                                    padding:0px 22px;
+                                    font-size: 1em;
+                              
+                                    }
+
+                                    .adsright ul{
+                                 
+                                        display: flex;
+                                  
+                                        }
+                                        .adsicons i {
+                                          padding: 0px 4px;
+                                          color: whitesmoke;
+                                       }
+                                        .adsicons a {
+                                           font-size: 0.8em;
+                                           margin-left: 0px;
+                                           color: whitesmoke;
+                                        }
+
+                                        .adsicons
+                                        {
+                                               color: whitesmoke;
+                                               padding:  5px;
+                                               overflow: hidden;
+                                               font-size: 0.67rem;
+                                                       }
+
+   
+
+                                                       .addetails {
+ 
+                                                               
+                                                                
+                                                        
+                                                            
+                                                        display: flex;
+                                                
+                                                
+                                                                }
+                                                                .adsinfo h1{
+ 
+ 
+ 
+                                                                          
+                                                                               
+                                                                                
+                                                                        
+                                                                            
+                                                                    font-size: 0.9em;
+                                                                    font-weight: normal;
+                                                            
+                                                            
+                                                                            }
+
+
+                                                
+
+                                                                            .adsinfo a{
+ 
+ 
+                                                                                         
+                                                                                               
+                                                                                                
+                                                                                font-size: 0.6em;
+                                                                        
+                                                                        
+                                                                        
+                                                                                        }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+ 
+ 
+  
+ 
+@media screen and  (min-width:413px) and (max-width:767px) {
+    .call{
+
+            
+        flex-wrap: wrap;
+        align-items: center;
+        margin: 20px 0px;
+           
+            gap: 20px;
+        justify-content:space-evenly;
+        
+            }
+
+
+            .adspages{
+      
+               display: block;
+               
+           }
+
+
+
+           .ada{
+
+    
+
+   
+
+                   display: block;
+               padding: 35px 15px;
+               }
+
+
+               .adssreach {
+                   color: white;
+               display: flex;
+               margin-top: 40px;
+               align-items: center;
+               
+               justify-content: center;
+                       }
+           
+                       .adssreach input{
+            
+                               
+                           height: 50px;
+                           border-radius: 10px;
+                           background-color: transparent;
+                           border: 2px skyblue solid;
+                               width: 340px;
+                               color: white;
+                               padding-left: 30px; 
+                               }
+                                  
+           
+                               .adssreach i{
+            
+            
+            
+            
+                                      
+                                       display: none;
+                                           }
+           
+
+
+
+           .adsleft h1{
+  
+         
+               
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 5px;
+                    padding: 5px;
+                    margin-top: 11px;
+                    font-size: 1.5em;
+                }
+
+           
+                .adssocial{
+    
+               
+                      overflow: hidden;
+                      width: 100%;
+                      
+                      }
+
+
+
+                .adssocial ul{
+                
+                       display: flex;
+                       justify-content: center;
+                       align-items:center;
+                   }
+
+
+                   .adsleft{
+
+                           display: block;
+                           width: 100%;
+                           align-items: center;
+                       }
+               
+                       .adssocial ul li{
+ 
+
+    
+                        
+                               display: flex;
+                               justify-content: center;
+                               align-items:center;
+                               padding: 15px 38px;
+                       font-size: 1.3em;
+                              }
+                       
+               
+                              .adssocial ul li i{
+  
+      
+                           
+                                   display: flex;
+                                   justify-content: center;
+                                   align-items:center;
+                                  }
+
+                                  .links {
+                                   color:  rgb(47, 146, 138);
+                               
+                                 }
+                               .adsright{
+                                   margin-top: 20px;
+                                     display: block;
+                                      color: whitesmoke;
+                                    padding: 20px 10px;
+                                    }
+                                    .adsicons a {
+                                      font-size: 0.6em;
+                                      
+                                      margin-left: 0px;
+                                      color: whitesmoke;
+                                   }
+
+                                   .adsicons i {
+                                    padding: 0px 4px;
+                                    color: whitesmoke;
+                                 }
+
+
+                                  .adsrightlinks
+                                     {
+
+                                       overflow-x: auto; 
+                                         white-space: nowrap; 
+        
+                                       }
+
+                           
+                                  .adsrightlinks li{
+                                  
+                              
+                                       list-style-type: none; 
+                                margin-right: 10px;
+                               
+                                       
+                                   }
+               
+                                   .adssocial span{
+                                    display: none;
+                                   }
+                                   .links-list .links{
+                                       
+                                          font-size: 1em;
+                                          padding: 0 19px;
+                                   
+                                           
+                                       }
+                                   
+                                   
+                                   
+                                   
+                                   
+                                   .links-list{
+                                  
+                                           display: inline-flex;
+                                           padding: 0 10px;
+                                         }
+                                   
+               
+                                         .rightscrolling {
+
+                                          
+   
+                                           overflow-y: scroll;
+                                           
+                                   
+                                    
+                                   
+                                    
+                                            height: 396px;
+                                           padding: 0 0px;
+                                           margin-top: 15px;
+                                           display: flex;
+                                           flex-direction: column;
+                                           align-items: center;
+                                       }
+                                     
+                               
+                                       .adsimgcard img{
+
+
+ 
+    
+                                          
+                                               height:auto;
+                                                   width: 170px;
+                                                   border-radius: 20px;   
+                                          
+                                           }
+                                           
+                               
+                               
+                               
+                                           .addetails {
+
+                                                              
+                                                               
+                                                       
+                                                           
+                                               display: block;
+                                       
+                                       
+                                                       }
+                                                   
+                                                     
+
+                                                       .adsinfo h1{
+
+
+
+                                                         
+                                                              
+                                                               
+                                                       
+                                                           
+                                                               font-size: 1em;
+                                                               font-weight: normal;
+                                                       
+                                                       
+                                                                       }
+
+
+
+
+                                                                       .adsinfo a{
+
+
+                                                                        
+                                                                              
+                                                                               
+                                                                               font-size: 0.7em;
+                                                                       
+                                                                       
+                                                                       
+                                                                                       }
+                                                                                      
+                               
+                                                                                   
+                                                
+                               
+                               
+                                   }
+
+
+
+
+
+
+
+ 
+ 
+  
+ 
+ @media screen and  (min-width:321px) and (max-width:412px) {
+     .call{
+ 
+             
+         flex-wrap: wrap;
+         align-items: center;
+         margin: 4px;
+            
+             gap: 10px;
+         justify-content:space-evenly;
+         
+             }
+
+
+             .adspages{
+       
+                display: block;
+                
+            }
+
+
+
+            .ada{
+ 
+     
+ 
+    
+ 
+                    display: block;
+                padding: 35px 15px;
+                }
+
+
+                .adssreach {
+                    color: white;
+                display: flex;
+                margin-top: 40px;
+                align-items: center;
+                
+                justify-content: center;
+                        }
+            
+                        .adssreach input{
+             
+                                
+                            height: 50px;
+                            border-radius: 10px;
+                            background-color: transparent;
+                            border: 2px skyblue solid;
+                                width: 300px;
+                                color: white;
+                                padding-left: 30px; 
+                                }
+                                   
+            
+                                .adssreach i{
+             
+             
+             
+             
+                                       
+                                        display: none;
+                                            }
+            
+
+
+
+            .adsleft h1{
+   
+          
+                
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     margin-bottom: 5px;
+                     padding: 5px;
+                     margin-top: 11px;
+                     font-size: 1.5em;
+                 }
+
+            .adssocial span{
+display: none;
+            }
+                 .adssocial{
+     
+                
+                       overflow: hidden;
+                       width: 100%;
+                       
+                       }
+
+
+ 
+                 .adssocial ul{
+                 
+                        display: flex;
+                        justify-content: center;
+                        align-items:center;
+                    }
+ 
+ 
+                    .adsleft{
+
+                            display: block;
+                            width: 100%;
+                            align-items: center;
+                        }
+                
+                        .adssocial ul li{
+  
+ 
+     
+                         
+                                display: flex;
+                                justify-content: center;
+                                align-items:center;
+                                padding: 15px 38px;
+                        font-size: 1.3em;
+                               }
+                        
+                
+                               .adssocial ul li i{
+   
+       
+                            
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items:center;
+                                   }
+
+                                   .links {
+                                    color:  rgb(47, 146, 138);
+                                
+                                  }
+                                .adsright{
+                                    margin-top: 20px;
+                                      display: block;
+                                       color: whitesmoke;
+                                     padding: 20px 10px;
+                                     }
+                                    
+                                     
+                                   
+                                     .adsicons a {
+                                        font-size: 0.6em;
+                                        
+                                        margin-left: 0px;
+                                        color: whitesmoke;
+                                     }
+
+                                     .adsicons i {
+                                      padding: 0px 4px;
+                                      color: whitesmoke;
+                                   }
+  
+
+                                   .adsrightlinks
+                                      {
+
+                                        overflow-x: auto; 
+                                          white-space: nowrap; 
+         
+                                        }
+ 
+                            
+                                   .adsrightlinks li{
+                                   
+                               
+                                        list-style-type: none; 
+                                 margin-right: 10px;
+                                
+                                        
+                                    }
+                
+                                    .links-list .links{
+                                        
+                                           font-size: 1em;
+                                          padding: 0 18px;
+
+                                    
+                                            
+                                        }
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    .links-list{
+                                   
+                                            display: inline-flex;
+                                            padding: 0;
+                                          }
+                                    
+                
+                                          .rightscrolling {
+ 
+    
+                                            overflow-y: scroll;
+                                            
+                                    
+                                     
+                                    
+                                     
+                                             height: 421px;
+                                            padding: 0 0px;
+                                            margin-top: 15px;
+                                            display: flex;
+                                            flex-direction: column;
+                                            align-items: center;
+                                        }
+                                      
+                                
+                                        .adsimgcard img{
+ 
+ 
+  
+     
+                                           
+                                                height:auto;
+                                                    width: 140px;
+                                                    border-radius: 20px;   
+                                           
+                                            }
+                                            
+                                
+                                
+                                
+                                            .addetails {
+ 
+                                                               
+                                                                
+                                                        
+                                                            
+                                                display: block;
+                                        
+                                        
+                                                        }
+                                                    
+                                                      
+
+                                                        .adsinfo h1{
+
+
+
+                                                          
+                                                               
+                                                                
+                                                        
+                                                            
+                                                                font-size: 0.8em;
+                                                                font-weight: normal;
+                                                        
+                                                        
+                                                                        }
+
+
+
+
+                                                                        .adsinfo a{
+
+
+                                                                         
+                                                                               
+                                                                                
+                                                                                font-size: 0.6em;
+                                                                        
+                                                                        
+                                                                        
+                                                                                        }
+                                
+                                
+                                
+                                
+                                
+                                    }
+ 
+ 
+                                  
+
+
+
+                                    
+
+ 
+ 
+  
+ 
+ @media screen and    (min-width:260px) and  (max-width:320px) {
+  .call{
+
+          
+      flex-wrap: wrap;
+      align-items: center;
+      margin: 20px;
+         
+          gap: 17px;
+      justify-content:center;
+      
+          }
+
+
+          .adspages{
+    
+             display: block;
+             
+         }
+
+
+
+         .ada{
+
+  
+
+ 
+
+                 display: block;
+             padding: 35px 15px;
+             }
+
+
+             .adssreach {
+                 color: white;
+             display: flex;
+             margin-top: 40px;
+             align-items: center;
+             
+             justify-content: center;
+                     }
+         
+                     .adssreach input{
+          
+                             
+                         height: 50px;
+                         border-radius: 10px;
+                         background-color: transparent;
+                         border: 2px skyblue solid;
+                             width: 230px;
+                             color: white;
+                             padding-left: 30px; 
+                             }
+                                
+         
+                             .adssreach i{
+          
+          
+          
+          
+                                    
+                                     display: none;
+                                         }
+         
+
+
+
+         .adsleft h1{
+
+       
+             
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  margin-bottom: 5px;
+                  padding: 5px;
+                  margin-top: 11px;
+                  font-size: 1.5em;
+              }
+
+         
+              .adssocial{
+  
+             
+                    overflow: hidden;
+                    width: 100%;
+                    
+                    }
+
+
+
+              .adssocial ul{
+              
+                     display: flex;
+                     justify-content: center;
+                     align-items:center;
+                 }
+
+
+                 .adsleft{
+
+                         display: block;
+                         width: 100%;
+                         align-items: center;
+                     }
+             
+                     .adssocial ul li{
+
+
+  
+                      
+                             display: flex;
+                             justify-content: center;
+                             align-items:center;
+                             padding: 15px 29px;
+                     font-size: 1.2em;
+                            }
+                     
+             
+                            .adssocial ul li i{
+
+    
+                         
+                                 display: flex;
+                                 justify-content: center;
+                                 align-items:center;
+                                }
+
+                                .links {
+                                 color:  rgb(47, 146, 138);
+                             
+                               }
+                             .adsright{
+                                 margin-top: 20px;
+                                   display: block;
+                                    color: whitesmoke;
+                                  padding: 20px 10px;
+                                  }
+                                  .adsicons i {
+                                    padding: 0px 4px;
+                                    color: whitesmoke;
+                                 }
+
+
+
+
+                                  .adsicons a {
+                                    font-size: 0.58em;
+                                    padding: 0px 4px;
+                                    color: whitesmoke;
+                                 }
+
+                                .adsrightlinks
+                                   {
+
+                                     overflow-x: auto; 
+                                       white-space: nowrap; 
+      
+                                     }
+
+                         
+                                .adsrightlinks li{
+                                
+                            
+                                     list-style-type: none; 
+                              margin-right: 10px;
+                             
+                                     
+                                 }
+             
+                                 .links-list .links{
+                                     
+                                        font-size: 1em;
+                                       padding: 0 18px;
+
+                                 
+                                         
+                                     }
+                                 
+                                 
+                                 
+                                 
+                                 
+                                 .links-list{
+                                
+                                         display: inline-flex;
+                                         padding: 0;
+                                       }
+                                 
+             
+                                       .rightscrolling {
+
+ 
+                                         overflow-y: scroll;
+                                         
+                                 
+                                  
+                                 
+                                  
+                                          height: 330px;
+                                         padding: 0 10px;
+                                         margin-top: 15px;
+                                         display: flex;
+                                         flex-direction: column;
+                                         align-items: center;
+                                     }
+                                   
+                             
+                                     .adsimgcard img{
+
+
+
+  
+                                        
+                                             height:auto;
+                                                 width: 230px;
+                                                 border-radius: 20px;   
+                                        
+                                         }
+                                         
+                             
+                             
+                             
+                                         .addetails {
+
+                                                            
+                                                             
+                                                     
+                                                         
+                                             display: flex;
+                                     
+                                     
+                                                     }
+                                                 
+                                                   
+
+                                                     .adsinfo h1{
+
+
+
+                                                       
+                                                            
+                                                             
+                                                     
+                                                         
+                                                             font-size: 0.75em;
+                                                             font-weight: normal;
+                                                     
+                                                     
+                                                                     }
+
+
+
+
+                                                                     .adsinfo a{
+
+
+                                                                      
+                                                                            
+                                                                             
+                                                                             font-size: 0.6em;
+                                                                     
+                                                                     
+                                                                     
+                                                                                     }
+                             
+                             
+                             
+                             
+                             
+                                 }
+
+
+
+
+
+
+
+                                 
+
+
+
+
+
+
+
+
+
+
+
+                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                    
+ .links-list{
+    
+     white-space: nowrap;
+     overflow-x: auto;
+ 
+       -ms-overflow-style: none;
+       scrollbar-width: none;
+ 
+ }  
+ 
+ .adsrightlinks::-webkit-scrollbar {
+     display: none;
+   }
+ 
+ 
+ .link-list li{
+    
+     list-style-type: none;
+         margin-right: 10px;
+   
+ }
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+    
+
+
+
+.links-list .link{
+    @media (max-width:375px) {
+       font-size: 1em;
+
+        
+    }
+}
+
+
+
+
+.links-list{
+    
+    white-space: nowrap;
+    overflow-x: auto;
+
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+
+}  
+
+.adsrightlinks::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+.adsleft{
+    color:  rgb(47, 146, 138);
+    text-transform: capitalize;
+
+    background-color: #050F14;
+
+}
+
+
+.adsleft span{
+    @media (max-width:400px) {
+        display: none;
+    }
+}
+.adsright {
+ 
+
+
+
+
+      background-color: #050F14;
+
+
+
+  
+
+  
+    
+
+  }
+
+
+
+ 
+
+
+   
+  
+  
+  .rightscrolling::-webkit-scrollbar {
+    display: none; 
+  }
+  
+  .rightscrolling {
+    -ms-overflow-style: none; 
+
+    scrollbar-width: none; 
+  }
+
+
+
+
+
+
+
+.call {
+
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

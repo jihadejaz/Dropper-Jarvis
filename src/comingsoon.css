@@ -1,0 +1,54 @@
+@media (min-width: 1024px) and (max-width: 2000px) {
+    .coming {
+        height: 80vh;
+    }
+    .comingsoon h1 {
+        font-size: 6em;
+    }
+}
+
+@media (min-width: 2560px) {
+    .coming {
+        height: 80vh;
+    }
+    .comingsoon h1 {
+        font-size: 9em;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 770px) {
+    .coming {
+        height: 70vh;
+    }
+    .comingsoon h1 {
+        font-size: 2.8em;
+    }
+}
+
+@media (max-width: 359px) {
+    .coming {
+        height: 70vh; 
+    }
+    .comingsoon h1 {
+        font-size: 2.5em; 
+    }
+}
+
+
+.coming {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comingsoon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comingsoon h1 {
+    font-weight: normal;
+    text-transform: capitalize;
+    color: rgb(47, 146, 138);
+}

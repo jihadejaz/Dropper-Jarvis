@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css'
+
 function Home() {
 
   
@@ -15,7 +16,13 @@ function Home() {
 <div className='homeleft'>
     <h1 className="animate-text">i'm dropper Jarvis</h1>
 
+
+
     </div>
+
+
+
+
   
   <div className='homeright'>
 
@@ -28,8 +35,36 @@ function Home() {
 
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
+
+
+
+ 
+   
  </section>
 
 

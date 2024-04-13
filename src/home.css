@@ -1,8 +1,159 @@
+
+@media  screen and (min-width:700px) and (max-width:899px) {
+ 
+  .homebanner {
+   
+ 
+      padding: 100px 90px;
+      
+    }
+   
+    .hrightbutoom button {
+   
+    
+    
+    
+    
+        width: 160px;
+        background-color: transparent;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        background-color: transparent;
+        border: 1px solid rgb(46, 183, 236);
+      }
+  
+  
+.homeleft h1{
+ 
+  font-size: 3.2em;
+  
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+
+
+
+  
+  .homeright {
+  
+  
+   
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center;
+    
+  
+  
+   
+  
+ 
+  }
+  
+  .homeright h2 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-style: italic;
+    text-transform: capitalize;
+  
+  font-weight: normal;
+  color: white;
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+    
+
+
+@media  screen and (min-width:900px) and (max-width:1024px) {
+
+.homebanner{
+  padding: 70px 40px;
+}
+  .homeleft h1{
+  
+    
+    
+    
+      width: 10px;
+      font-size: 3.2em;
+      align-items: center;
+      text-align: center;
+    
+    font-weight: normal; 
+    text-transform: capitalize;
+    
+    
+
+}
+
+
+.hrightbutoom button {
+   
+    
+    
+    
+    
+  width: 160px;
+  background-color: transparent;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em;
+  background-color: transparent;
+  border: 1px solid rgb(46, 183, 236);
+}
+
+
+
+
+
+}
+
+
+
+
+
 .homebanner {
   color: white;
-  @media (min-width: 1440px) {
+  @media (min-width: 1440px) and (max-width:2560px) {
     padding: 100px 90px;
+    
   }
+ 
 
   @media (min-width: 1024px) and (max-width: 1439px) {
     padding: 60px 50px;
@@ -14,7 +165,7 @@
 .homeleft h1{
 @media (max-width: 480px) {
   display: flex;
-  font-size: 2em;
+  font-size: 2.4em;
   margin-top: 50px;
   width: 0;
   text-align: center;
@@ -23,17 +174,11 @@
 }
 
 @media (min-width: 481px) and (max-width: 770px) {
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
 }
 
 
-@media (min-width: 771px) and (max-width: 900px) {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
 
 
 @media (min-width: 1024px) {
@@ -59,9 +204,17 @@ color: rgb(47, 146, 138);
 
 }
 .homeleft {
-  @media (max-width: 1440px) {
+ 
+  @media (min-width: 1440px)  and (max-width:1999px) {
     display: flex;
-    font-size: 1em;
+    font-size: 1.1em;
+
+    align-items: center;
+    justify-content: center;
+  }
+  @media (min-width: 2000px) and (max-width:2560px)  {
+    display: flex;
+    font-size: 1.9em;
 
     align-items: center;
     justify-content: center;
@@ -71,9 +224,7 @@ color: rgb(47, 146, 138);
 
 
 
-
-
-  @media (max-width: 414px) {
+  @media (max-width: 440px) {
     display: flex;
 text-align: center;
     justify-content: center;
@@ -82,12 +233,6 @@ text-align: center;
 }
 
 .homeright {
-  @media (max-width: 1440px) {
-    display: block;
-
-    align-items: center;
-    justify-content: center;
-  }
 
 
   @media (max-width: 769px) {
@@ -99,9 +244,8 @@ text-align: center;
 
 
  
-  
 
-  @media (max-width: 440px) {
+  @media (max-width: 445px) {
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -122,12 +266,23 @@ color: white;
 
 
 
-  @media (min-width: 1440px) {
+  @media (min-width: 1440px)  {
     font-size: 2.2em;
-    width: 680px;
+    width: 650px;
 
   }
   
+
+@media (min-width:2560px) {
+  font-size: 3.6em;
+  width: 890px;
+
+}
+
+
+
+
+
   @media (min-width: 1024px) and (max-width: 1439px)  {
     font-size: 1.43em;
     width: 413px;
@@ -146,13 +301,12 @@ color: white;
   @media (max-width: 445px) {
    
       display: flex;
-      font-size: 0.78em;
+      font-size: 0.80em;
       text-align: center;
       justify-content: center;
       align-items: center;
     
   }
-
 
 
 
@@ -189,18 +343,38 @@ color: white;
   color: white;
   border: 1px solid rgb(46, 183, 236);
   height: 40px;
-  @media (min-width: 1440px) {
+  @media (min-width: 1440px) and (max-width:1999px) {
     width: 190px; 
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: transparent;
+
+    height: 45px;
     align-items: center;
     font-size: 1.1em;
     text-transform: capitalize;
   }
+  @media (min-width: 2000px) and (max-width:2560px) {
+    width: 250px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+    font-size: 1.7em;
+    height: 60px;
+    text-transform: capitalize;
+  }
+
+
+
   @media (min-width: 1024px) and (max-width: 1439px) {
     width: 190px; 
     display: flex;
+    background-color: transparent;
+
     justify-content: center;
     align-items: center;
     font-size: 1.1em;
@@ -209,6 +383,7 @@ color: white;
   text-align: center;
   @media (max-width: 768px) {
     width: 160px;
+    background-color: transparent;
 
     display: flex;
     justify-content: center;
@@ -223,9 +398,10 @@ color: white;
   @media (max-width: 378px) {
     width: 160px;
     display: flex;
+    
     justify-content: center;
     align-items: center;
-    font-size: 0.9em;
+    font-size: 1em;
     background-color: transparent;
     border: 1px solid rgb(46, 183, 236);
   }
@@ -239,10 +415,11 @@ color: white;
 
 
 .container {
-  @media (min-width: 1440px) {
+  @media (min-width: 1440px){
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 50vh;
   }
 
   @media (max-width: 769px) {
@@ -253,7 +430,6 @@ color: white;
 
   @media (max-width: 445px) {
     display: block;
-  
   }
 
   @media (min-width: 900px) {
@@ -264,10 +440,11 @@ color: white;
 
 
 
-
   @media (min-width: 1024px) {
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
+  
 }
