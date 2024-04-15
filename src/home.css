@@ -88,6 +88,94 @@
   
 }
 
+@media  screen and (min-width:494px) and (max-width:699px) {
+ 
+  .homebanner {
+      padding: 190px 40px;
+      
+    }
+   
+    .hrightbutoom button {
+   
+    
+    
+    
+    
+        width: 160px;
+        background-color: transparent;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1em;
+        background-color: transparent;
+        border: 1px solid rgb(46, 183, 236);
+      }
+  
+  
+.homeleft h1{
+ 
+  font-size: 3.2em;
+  
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+
+
+
+  
+  .homeright {
+  
+  
+   
+      display: flex;
+      flex-direction: column; 
+      justify-content: center;
+      align-items: center;
+    
+  
+  
+   
+  
+ 
+  }
+  
+  .homeright h2 {
+    font-size: 1em;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-style: italic;
+    text-transform: capitalize;
+  
+  font-weight: normal;
+  color: white;
+  
+  
+  
+  
+  
+  
+ 
+  
+  
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+}
+
+
 
 
 
@@ -100,7 +188,7 @@
 @media  screen and (min-width:900px) and (max-width:1024px) {
 
 .homebanner{
-  padding: 70px 40px;
+  padding: 130px 40px;
 }
   .homeleft h1{
   
@@ -147,6 +235,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 .homebanner {
   color: white;
   @media (min-width: 1440px) and (max-width:2560px) {
@@ -156,7 +253,7 @@
  
 
   @media (min-width: 1024px) and (max-width: 1439px) {
-    padding: 60px 50px;
+    padding: 100px 50px;
   }
 
 }
@@ -173,9 +270,15 @@
   align-items: center;
 }
 
-@media (min-width: 481px) and (max-width: 770px) {
+@media (min-width: 481px) and (max-width: 500px) {
   font-size: 3em;
   text-align: center;
+}
+@media (min-width: 540px) and (max-width: 640px) {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -224,12 +327,15 @@ color: rgb(47, 146, 138);
 
 
 
-  @media (max-width: 440px) {
+  @media (max-width: 480px) {
     display: flex;
 text-align: center;
     justify-content: center;
     align-items: center;
   }
+
+  
+
 }
 
 .homeright {
@@ -428,8 +534,10 @@ color: white;
     align-items: center;
   }
 
-  @media (max-width: 445px) {
-    display: block;
+  @media (max-width: 487px) {
+    display:block;
+  
+  
   }
 
   @media (min-width: 900px) {
