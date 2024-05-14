@@ -1,0 +1,134 @@
+.loginpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loginicon{
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.loginimg img{
+    height: 100px;
+}
+.logintitle h1 {
+    color: white;
+    font-weight: normal;
+}
+
+.logintitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logininput{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    width: 300px;
+    height:310px;
+   padding: 6px;
+      background-color: #050F14;  
+margin-top: 10px;
+
+}
+.loginpass{
+    padding: 16px 0px;
+}
+.emailpass{
+    padding: 0px 19px 10px;
+}
+.emailpass h2{
+    color: whitesmoke;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: start;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.emailpass input{
+    width: 258px;
+    background-color: black;
+    border-radius: 5px;
+    height: 34px;
+    border: 1px solid rgb(87, 80, 80);
+}
+.loginpassword h2{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: normal;
+
+}
+.loginpassword {
+    padding: 17px 19px 10px; 
+
+}
+.loginpassword input{
+    width: 258px;
+    background-color: black;
+    border-radius: 5px;
+    border: 1px solid rgb(87, 80, 80);
+
+    height: 34px;
+}
+
+
+
+.loginpasswordtitle {
+    color: whitesmoke;
+    font-size: 0.79rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-weight: normal;
+}
+.buttonpass{
+    padding: 13px 19px 10px;
+
+}
+.buttonpass button{
+    width: 260px;
+    background-color: #0c212b;  
+color: azure;
+text-transform: capitalize;
+    border-radius: 5px;
+    height: 34px;
+    border:none;
+
+}
+
+.signupwithgoogle {
+    padding: 13px 19px 10px;
+}
+
+
+
+.goolgebutton {
+    width: 260px;
+    display: flex;
+    align-items: center;
+    height: 34px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    position: relative; 
+    border: none; 
+    background-color: #4285F4; 
+    color: white; 
+}
+
+.goolgebutton i {
+    margin-left: 18px;
+    position: absolute; 
+}
+
+.googletitle {
+    flex: 1; 
+    text-align: center; 
+}
