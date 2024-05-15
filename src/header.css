@@ -71,7 +71,7 @@
 
 @media  screen and (min-width:700px) and (max-width:1023px) {
   .navbar ul li .link {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
   .navbar img {
     height: 90px;
@@ -194,7 +194,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;}
+  padding:0px 20px;}
 
 }
 
@@ -261,7 +261,7 @@
   padding: 10px 20px;}
 }
 
-@media screen and (min-width:1501px) and (max-width:1999px){
+@media screen and (min-width:1501px) and (max-width:1699px){
   .navbar ul li .link {
     font-size: 1.1rem;
   }
@@ -322,6 +322,69 @@
   padding: 0px 20px;}
 }
 
+
+
+
+@media screen and (min-width:1700px) and (max-width:1999px){
+  .navbar ul li .link {
+    font-size: 1.1rem;
+  }
+  .navbar img {
+    height: 90px;
+  }
+  .navbar {
+    display: flex;
+    align-items: center;
+    
+}
+.navbutton button {
+
+    border: 1px solid rgb(46, 183, 236); 
+    padding: 8px 16px; 
+    cursor: pointer; 
+
+}
+
+.navheader {
+    display: flex;
+    align-items: center;
+    color: blue;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    padding: 0 40px;
+    font-weight: normal;
+}
+
+.navbar ul li .link {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+  
+}
+
+
+.navbutton {
+    display: flex;
+    align-items: center;
+    color: blue;
+
+
+
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3px 20px;}
+}
 
 
 
@@ -431,9 +494,13 @@
 .navbuttonicon{
 
  
+  @media (min-width:600px)  and (max-width:1236px) {
+    font-size: 1.4em;
+
+  }
 
 
-  @media (min-width:600px)  and (max-width:1999px) {
+  @media (min-width:1236px)  and (max-width:1999px) {
     font-size: 2.3em;
 
   }
@@ -453,8 +520,11 @@
         color:  rgb(47, 146, 138);
         cursor: pointer; 
 
+
+
+        
         @media (min-width:600px)  and (max-width:1999px) {
-          font-size: 1em;
+          font-size: 1.1em;
           background-color: transparent;
         }
 
@@ -776,7 +846,7 @@
   }
   
   .nav__link:hover {
-    color: red;
+    color: white;
   }
   
   .nav__close {
@@ -836,3 +906,42 @@
     
 }
 
+.linkss{
+
+
+  @media screen and (min-width:700px) and (max-width:999px) {
+    color:  rgb(47, 146, 138);
+   border: 1px solid;
+   padding: 5px 20px;
+  }
+
+
+
+@media screen and (min-width:1000px) and (max-width:1024px) {
+  color:  rgb(47, 146, 138);
+ border: 1px solid;
+ padding: 5px 23px;
+
+}
+
+@media screen and (min-width:1024px) and (max-width:1600px) {
+  color:  rgb(47, 146, 138);
+ border: 1px solid;
+ font-size: 1em;
+
+ padding: 5px 24px;
+}
+@media screen and (min-width:1601px) and (max-width:2000px) {
+  color:  rgb(47, 146, 138);
+ border: 1px solid;
+ padding: 6px 24px;
+}
+@media screen and (min-width:2001px) and (max-width:3000px) {
+  color:  rgb(47, 146, 138);
+ border: 1px solid;
+ padding: 9px 29px;
+ font-size: 1.3em;
+}
+
+  
+}
