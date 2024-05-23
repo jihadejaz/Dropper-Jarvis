@@ -185,7 +185,7 @@
     align-items: center;
   }
 
-  .adsright {
+  .proright {
     width: 100%;
     color: aliceblue;
     height: 70vh;
@@ -243,7 +243,7 @@
     justify-content: center;
   }
 
-  .adsrightlinks {
+  .prorightlinks {
 
     display: flex;
     justify-content: flex-start;
@@ -262,7 +262,7 @@
 
 
 
-  .adsrightline {
+  .prorightline {
 
 
 
@@ -330,7 +330,7 @@
     flex-direction: column;
   }
 
-  .adsright ul li {
+  .proright ul li {
 
 
     padding: 0px 22px;
@@ -339,7 +339,7 @@
   }
 
 
-  .adsright ul {
+  .proright ul {
 
     display: flex;
 
@@ -442,406 +442,6 @@
 
 
 
-@media screen and (min-width:1600px) and (max-width:1790px) {
-  .call {
-
-    margin: 10px 90px;
-
-    flex-wrap: wrap;
-    align-items: center;
-
-    gap: 50px;
-    justify-content: space-between;
-
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-  .fliterbutton{
-    display: none;
-  }
-  
-
-  .closememu {
-    display: none;
-  }
-
-
-  .ada {
-
-
-    display: flex;
-    justify-content: space-evenly;
-    padding: 39px 30px;
-  }
-
-
-  .adssreach {
-
-
-
-
-
-
-
-    color: white;
-    position: relative;
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 600px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-
-  .adssreach i {
-
-
-
-
-
-
-    position: absolute;
-
-    margin-left: 500px;
-    font-size: 1.2em;
-    color: aqua;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .productleft {
-    color: rgb(47, 146, 138);
-    width: 300px;
-    padding: 26.7px 20px;
-    height: 69.9vh;
-    border-radius: 15px;
-  }
-
-
-
-
-  .productleft h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 17.6px;
-  }
-
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutlines a {
-    content: "";
-    display: flex;
-    margin-top: 29px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    margin-top: 10px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-
-  .productsocial {
-    display: flex;
-    justify-content: center;
-
-  }
-
-  .productsocial ul li {
-    padding: 10px;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: capitalize;
-  }
-
-
-  .productsocial ul li i {
-
-    font-size: 1.4em;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-  }
-
-  .adsright {
-    width: 100%;
-    color: aliceblue;
-    height: 70vh;
-    border-radius: 15px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px;
-  }
-
-
-
-  .links {
-    color: rgb(47, 146, 138);
-
-  }
-
-
-
-
-
-  .rightadscontainer {
-    display: flex;
-    width: 105%;
-    justify-content: center;
-  }
-
-  .adsrightlinks {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 15px;
-    margin-top: 13px;
-    padding: 5px 0px;
-  }
-
-  .flittercat h1 {
-    display: flex;
-    font-size: 1.3em;
-    justify-content: center;
-  }
-
-  .links {
-    background-color: #0D000D;
-    border-radius: 8px;
-    padding: 8px 40px;
-
-    display: flex;
-  }
-
-  .links-list {
-    padding: 3px;
-  }
-
-
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-
-  .leftscoll h1 {
-    display: flex;
-    margin-top: 20px;
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px;
-    font-size: 1.1rem;
-  }
-
-
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-8%);
-  }
-
-  .adsrightline {
-    width: 99%;
-    margin-top: 12px;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 0px;
-  }
-
-
-  .rightscrolling {
-    overflow-y: scroll;
-
-  }
-
-
-  .rightscrolling {
-    height: calc(100% - 2rem);
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-  }
-
-  .flittercat {
-    margin-top: 10px;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: center;
-    max-height: 280px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 0.90rem;
-    padding: 4px 5px;
-  }
-
-  .adsimgcard img {
-
-    width: 100%;
-    max-width: 319px;
-    object-fit: cover;
-  }
-
-
-  .adsimgcard {
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  .adsright ul li {
-
-
-    padding: 0px 22px;
-    font-size: 1em;
-
-  }
-
-
-  .adsright ul {
-
-    display: flex;
-
-  }
-
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .adsicons a {
-    font-size: 0.8em;
-    margin-left: 10px;
-    color: whitesmoke;
-  }
-
-
-
-  .addetails {
-
-
-
-
-
-    display: flex;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1.1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.9em;
-
-
-
-  }
-
-}
 
 
 
@@ -856,7 +456,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 37px;
     margin: 10px 0;
 
   }
@@ -1036,7 +636,7 @@
     align-items: center;
   }
 
-  .adsright {
+  .proright {
     width: 100%;
     color: aliceblue;
     height: 70vh;
@@ -1094,7 +694,7 @@
     justify-content: center;
   }
 
-  .adsrightlinks {
+  .prorightlinks {
 
     display: flex;
     justify-content: flex-start;
@@ -1113,7 +713,7 @@
 
 
 
-  .adsrightline {
+  .prorightline {
 
 
 
@@ -1181,7 +781,7 @@
     flex-direction: column;
   }
 
-  .adsright ul li {
+  .proright ul li {
 
 
     padding: 0px 22px;
@@ -1190,7 +790,7 @@
   }
 
 
-  .adsright ul {
+  .proright ul {
 
     display: flex;
 
@@ -1265,6 +865,406 @@
 
 
 
+@media screen and (min-width:1600px) and (max-width:1790px) {
+  .call {
+
+    margin: 10px 90px;
+
+    flex-wrap: wrap;
+    align-items: center;
+
+    gap: 34px;
+    justify-content: space-between;
+
+  }
+
+  .adspages {
+
+    display: block;
+
+  }
+  .fliterbutton{
+    display: none;
+  }
+  
+
+  .closememu {
+    display: none;
+  }
+
+
+  .ada {
+
+
+    display: flex;
+    justify-content: space-evenly;
+    padding: 39px 30px;
+  }
+
+
+  .adssreach {
+
+
+
+
+
+
+
+    color: white;
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .adssreach input {
+
+
+
+
+
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 7px #050F14 solid;
+    width: 600px;
+    color: white;
+    padding-left: 30px;
+  }
+
+
+
+  .adssreach i {
+
+
+
+
+
+
+    position: absolute;
+
+    margin-left: 500px;
+    font-size: 1.2em;
+    color: aqua;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .productleft {
+    color: rgb(47, 146, 138);
+    width: 300px;
+    padding: 29px 20px;
+    height: 69.9vh;
+    border-radius: 15px;
+  }
+
+
+
+
+  .productleft h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 17.6px;
+  }
+
+
+  .adsline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .flutlines a {
+    content: "";
+    display: flex;
+    margin-top: 29px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .flutline a {
+    content: "";
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+
+
+
+  .productsocial {
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .productsocial ul li {
+    padding: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+  }
+
+
+  .productsocial ul li i {
+
+    font-size: 1.4em;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .proright {
+    width: 100%;
+    color: aliceblue;
+    height: 70vh;
+    border-radius: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+
+
+  .links {
+    color: rgb(47, 146, 138);
+
+  }
+
+
+
+
+
+  .rightadscontainer {
+    display: flex;
+    width: 105%;
+    justify-content: center;
+  }
+
+  .prorightlinks {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 15px;
+    margin-top: 13px;
+    padding: 5px 0px;
+  }
+
+  .flittercat h1 {
+    display: flex;
+    font-size: 1.3em;
+    justify-content: center;
+  }
+
+  .links {
+    background-color: #0D000D;
+    border-radius: 8px;
+    padding: 8px 40px;
+
+    display: flex;
+  }
+
+  .links-list {
+    padding: 3px;
+  }
+
+
+
+  .buttonofleftscolling {
+    background: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+
+  .leftscoll h1 {
+    display: flex;
+    margin-top: 20px;
+    justify-content: start;
+    font-weight: 600;
+  }
+
+
+  .leftscoll h2 {
+    display: flex;
+    font-weight: normal;
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+
+
+
+  .translatedDiv {
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .translatedDiv.slide-left {
+    transform: translateX(-8%);
+  }
+
+  .prorightline {
+    width: 99%;
+    margin-top: 12px;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0px;
+  }
+
+
+  .rightscrolling {
+    overflow-y: scroll;
+
+  }
+
+
+  .rightscrolling {
+    height: calc(100% - 2rem);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .flittercat {
+    margin-top: 10px;
+  }
+
+  .catsocial {
+    display: flex;
+    justify-content: center;
+    max-height: 280px;
+    overflow-y: auto;
+  }
+
+  .cat-social-list li {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .cat-social-list li a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.90rem;
+    padding: 4px 5px;
+  }
+
+  .adsimgcard img {
+
+    width: 100%;
+    max-width: 319px;
+    object-fit: cover;
+  }
+
+
+  .adsimgcard {
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .proright ul li {
+
+
+    padding: 0px 22px;
+    font-size: 1em;
+
+  }
+
+
+  .proright ul {
+
+    display: flex;
+
+  }
+
+
+  .adsicons i {
+    padding: 0px 4px;
+    color: whitesmoke;
+  }
+
+  .adsicons a {
+    font-size: 0.8em;
+    margin-left: 10px;
+    color: whitesmoke;
+  }
+
+
+
+  .addetails {
+
+
+
+
+
+    display: flex;
+
+
+  }
+
+
+
+  .adsinfo h1 {
+
+
+
+
+
+
+
+
+    font-size: 1.1em;
+    font-weight: normal;
+
+
+  }
+
+
+
+
+  .adsinfo a {
+
+
+
+
+
+    font-size: 0.9em;
+
+
+
+  }
+
+}
 
 
 /* //1400 screen// */
@@ -1298,7 +1298,7 @@
 
     display: flex;
     justify-content: space-evenly;
-    padding: 38px 35px;
+    padding: 30px 20px;
   }
 
 
@@ -1312,7 +1312,7 @@
   .productleft {
     color: rgb(47, 146, 138);
     width: 280px;
-    padding: 25px 15px;
+    padding: 28px 15px;
     margin-left: 15px;
     height: 69.9vh;
 
@@ -1408,7 +1408,7 @@
 
 
 
-  .adsright {
+  .proright {
 
 
 
@@ -1441,7 +1441,7 @@
 
 
 
-  .adsrightline {
+  .prorightline {
 
 
 
@@ -1469,7 +1469,7 @@
 
 
 
-  .adsrightlinks {
+  .prorightlinks {
 
 
 
@@ -1503,7 +1503,7 @@
   .catsocial {
     display: flex;
     justify-content: center;
-    max-height: 280px;
+    max-height: 235px;
     overflow-y: auto;
   }
 
@@ -1613,7 +1613,7 @@
     flex-direction: column;
   }
 
-  .adsright ul li {
+  .proright ul li {
     padding: 0px 22px;
     font-size: 1em;
 
@@ -1621,7 +1621,7 @@
 
 
 
-  .adsright ul {
+  .proright ul {
 
     display: flex;
 
@@ -1684,7 +1684,7 @@
 
 
 
-@media screen and (min-width:1036px) and (max-width:1399px) {
+@media screen and (min-width:1200px) and (max-width:1399px) {
   .call {
     flex-wrap: wrap;
     align-items: center;
@@ -1713,7 +1713,7 @@
     color: white;
     position: relative;
     display: flex;
-    margin-top: 30px;
+    margin-top: 20px;
     align-items: center;
 
     justify-content: center;
@@ -1758,7 +1758,7 @@
   .ada {
     display: flex;
     justify-content: space-evenly;
-    padding: 41px 35px;
+    padding: 29px 12px;
   }
 
 
@@ -1827,7 +1827,7 @@
 
   }
 
-  .adsright {
+  .proright {
     width: 74%;
     color: aliceblue;
     height: 70vh;
@@ -1845,7 +1845,7 @@
 
 
 
-  .adsrightlinks {
+  .prorightlinks {
 
 
 
@@ -1872,7 +1872,7 @@
   .catsocial {
     display: flex;
     justify-content: center;
-    max-height: 290px;
+    max-height: 170px;
     overflow-y: auto;
   }
 
@@ -1887,7 +1887,7 @@
     justify-content: center;
     text-align: center;
     font-size: 0.99rem;
-    padding: 4.8px 10px;
+    padding: 4px 0px;
   }
 
   .buttonofleftscolling {
@@ -1961,7 +1961,7 @@ margin-top: 20px;
   .adsimgcard img {
     height: auto;
     width: 100%;
-    max-width: 280px;
+    max-width: 220px;
     object-fit: cover;
   }
 
@@ -1972,7 +1972,7 @@ margin-top: 20px;
     flex-direction: column;
   }
 
-  .adsrightline {
+  .prorightline {
 
 
     margin-left: 10px;
@@ -1989,26 +1989,25 @@ margin-top: 20px;
   }
 
 
-  .adsright ul li {
+  .proright ul li {
     padding: 0px 22px;
     font-size: 1em;
 
   }
 
-  .adsright ul {
+  .proright ul {
 
     display: flex;
 
   }
 
   .adsicons i {
-    padding: 0px 4px;
+
     color: whitesmoke;
   }
 
   .adsicons a {
-    font-size: 0.7em;
-    margin-left: 2px;
+    font-size: 0.5em;
     color: whitesmoke;
   }
 
@@ -2033,7 +2032,7 @@ margin-top: 20px;
 
 
 
-    font-size: 1.1em;
+    font-size: 0.9em;
     font-weight: normal;
 
 
@@ -2046,7 +2045,7 @@ margin-top: 20px;
 
 
 
-    font-size: 0.9em;
+    font-size: 0.7em;
 
 
 
@@ -2057,7 +2056,7 @@ margin-top: 20px;
 
 
 
-@media screen and (min-width:861px) and (max-width:1035px) {
+@media screen and (min-width:1024px) and (max-width:1199px) {
   .call {
     flex-wrap: wrap;
     align-items: center;
@@ -2084,7 +2083,7 @@ margin-top: 20px;
   .catsocial {
     display: flex;
     justify-content: center;
-    max-height: 300px;
+    max-height: 100px;
     overflow-y: auto;
   }
 
@@ -2099,7 +2098,7 @@ margin-top: 20px;
     justify-content: center;
     text-align: center;
     font-size: 0.99rem;
-    padding: 4.8px 10px;
+    padding: 1px 10px;
   }
 
   .buttonofleftscolling {
@@ -2140,7 +2139,7 @@ margin-top: 20px;
     color: white;
     position: relative;
     display: flex;
-    margin-top: 40px;
+    margin-top: 14px;
     align-items: center;
 
     justify-content: center;
@@ -2150,28 +2149,21 @@ margin-top: 20px;
   .adssreach input {
 
 
-    height: 50px;
+    height: 36px;
     border-radius: 10px;
     background-color: transparent;
     border: 2px #050F14 solid;
 
-    width: 440px;
+    width: 360px;
     color: white;
     padding-left: 30px;
   }
 
 
   .adssreach i {
-
-
-
-
-
-
     position: absolute;
-
-    margin-left: 350px;
-    font-size: 1.2em;
+    margin-left: 290px;
+    font-size: 1em;
     color: aqua;
   }
 
@@ -2181,7 +2173,7 @@ margin-top: 20px;
   .ada {
     display: flex;
     justify-content: space-evenly;
-    padding: 27px 15px;
+    padding: 27px 10px;
   }
 
   .productleft {
@@ -2264,7 +2256,7 @@ margin-top: 20px;
   }
 
 
-  .adsright {
+  .proright {
 
 
 
@@ -2289,7 +2281,7 @@ margin-top: 20px;
 
 
 
-  .adsrightlinks {
+  .prorightlinks {
 
 
 
@@ -2327,7 +2319,7 @@ margin-top: 20px;
   .adsimgcard img {
     height: auto;
     width: 100%;
-    max-width: 230px;
+    max-width: 200px;
     object-fit: cover;
   }
 
@@ -2338,7 +2330,7 @@ margin-top: 20px;
     flex-direction: column;
   }
 
-  .adsrightline {
+  .prorightline {
 
 
     margin-left: 10px;
@@ -2355,34 +2347,35 @@ margin-top: 20px;
   }
 
 
-  .adsright ul li {
+  .proright ul li {
     padding: 0px 22px;
     font-size: 1em;
 
   }
 
-  .adsright ul {
+  .proright ul {
 
     display: flex;
 
   }
 
   .adsicons i {
-    padding: 0px 4px;
+    padding: 0px 2px;
     color: whitesmoke;
   }
 
+
   .adsicons a {
-    font-size: 0.8em;
+    font-size: 0.5em;
     margin-left: 0px;
     color: whitesmoke;
   }
 
   .adsicons {
     color: whitesmoke;
-    padding: 5px;
+    padding: 0px 5px;
     overflow: hidden;
-    font-size: 0.67rem;
+    font-size: 0.8rem;
   }
 
 
@@ -2407,7 +2400,7 @@ margin-top: 20px;
 
 
 
-    font-size: 0.9em;
+    font-size: 0.7em;
     font-weight: normal;
 
 
@@ -2422,7 +2415,7 @@ margin-top: 20px;
 
 
 
-    font-size: 0.6em;
+    font-size: 0.5em;
 
 
 
@@ -2437,24 +2430,15 @@ margin-top: 20px;
 
 
 
-
-
-
-
-
-
-
-
-
-@media screen and (min-width:651px) and (max-width:860px) {
+@media screen and (min-width:914px) and (max-width:1023px) {
   .call {
 
 
     flex-wrap: wrap;
     align-items: center;
-    margin: 20px 0px;
+    margin: 20px 5px;
 
-    gap: 20px;
+    gap: 30px;
     justify-content: space-evenly;
 
   }
@@ -2475,7 +2459,7 @@ margin-top: 20px;
 
 
     display: block;
-    padding: 20px 15px;
+    padding: 15px 15px;
   }
 
   .closememu {
@@ -2492,7 +2476,7 @@ margin-top: 20px;
   .adssreach {
     color: white;
     display: flex;
-    margin-top: 30px;
+    margin-top: 40px;
     align-items: center;
 
     justify-content: center;
@@ -2505,7 +2489,7 @@ margin-top: 20px;
     border-radius: 10px;
     background-color: transparent;
     border: 7px #050F14 solid;
-    width: 390px;
+    width: 580px;
     color: white;
     padding-left: 30px;
   }
@@ -2625,7 +2609,7 @@ margin-top: 20px;
     display: flex;
   }
 
-  .adsright {
+  .proright {
     margin-top: 30px;
     display: block;
     color: whitesmoke;
@@ -2647,7 +2631,7 @@ margin-top: 20px;
   .catsocial {
     display: flex;
     justify-content: start;
-    max-height: 620px;
+    max-height: 820px;
     overflow-y: auto;
   }
 
@@ -2703,13 +2687,13 @@ margin-top: 20px;
 
   .fliterbutton {
     color: rgb(47, 146, 138);
-    position: fixed;
-    right: 0;
-    left: 100px;
+    position: relative;
+    right: 0px;
+    left: -20px;
 
   }
 
-  .adsrightlinks {
+  .prorightlinks {
 
     overflow-x: auto;
     white-space: nowrap;
@@ -2717,7 +2701,7 @@ margin-top: 20px;
   }
 
 
-  .adsrightlinks li {
+  .prorightlinks li {
 
 
     list-style-type: none;
@@ -2759,7 +2743,783 @@ margin-top: 20px;
 
 
 
-    height: 550px;
+    height: 500px;
+    padding: 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .adsimgcard img {
+
+
+
+
+
+    height: auto;
+    width: 170px;
+    border-radius: 20px;
+
+  }
+
+
+
+
+  .addetails {
+
+
+
+
+
+    display: block;
+
+
+  }
+
+
+
+  .adsinfo h1 {
+
+
+
+
+
+
+
+
+    font-size: 1em;
+    font-weight: normal;
+
+
+  }
+
+
+
+
+  .adsinfo a {
+
+
+
+
+
+    font-size: 0.7em;
+
+
+
+  }
+
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width:911px) and (max-width:913px) {
+  .call {
+
+
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 5px;
+
+    gap: 30px;
+    justify-content: space-evenly;
+
+  }
+
+
+  .adspages {
+
+    display: block;
+
+  }
+
+
+
+  .ada {
+
+
+
+
+
+    display: block;
+    padding: 15px 15px;
+  }
+
+  .closememu {
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    padding: 10px 15px;
+  }
+
+  .productleft {
+    height: 900%;
+  }
+
+  .adssreach {
+    color: white;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .adssreach input {
+
+
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 7px #050F14 solid;
+    width: 580px;
+    color: white;
+    padding-left: 30px;
+  }
+
+
+  .adssreach i {
+
+
+
+
+
+    display: none;
+  }
+
+
+
+
+  .productleft h1 {
+
+
+
+
+    align-items: center;
+    padding: 15px;
+    font-size: 1.6em;
+  }
+
+  .adsline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .flutline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .productsocial {
+
+
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+
+
+  .productsocial ul {
+
+    display: block;
+    justify-content: start;
+  }
+
+  .modal-button {
+    cursor: pointer;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .modal.show {
+    transform: translateX(0);
+  }
+
+  .productleft {
+    /* background-color: hsla(0, 0%, 6%, 0.2);
+                    backdrop-filter: blur(16px); */
+    display: block;
+    width: 100%;
+    align-items: center;
+  }
+
+
+
+  .productsocial ul li {
+
+
+
+
+    display: flex;
+    justify-content: start;
+    padding: 13px 17px;
+    font-size: 1.1em;
+  }
+
+
+  .productsocial ul li i {
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .links {
+    background-color: #0D000D;
+    color: rgb(47, 146, 138);
+
+    padding: 6px 20px;
+    display: flex;
+  }
+
+  .proright {
+    margin-top: 30px;
+    display: block;
+    color: whitesmoke;
+    padding: 10px 10px;
+  }
+
+  .adsicons a {
+    font-size: 0.6em;
+
+    margin-left: 0px;
+    color: whitesmoke;
+  }
+
+  .adsicons i {
+    padding: 0px 4px;
+    color: whitesmoke;
+  }
+
+  .catsocial {
+    display: flex;
+    justify-content: start;
+    max-height: 820px;
+    overflow-y: auto;
+  }
+
+  .cat-social-list li {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+
+  .cat-social-list li a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    font-size: 0.99rem;
+    padding: 3px 10px;
+  }
+
+  .buttonofleftscolling {
+    background: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .leftscoll h1 {
+    display: flex;
+    padding: 10px 20px;
+
+    justify-content: start;
+    font-weight: 600;
+  }
+
+
+  .leftscoll h2 {
+    display: flex;
+    font-weight: normal;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+
+  .translatedDiv {
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .translatedDiv.slide-left {
+    transform: translateX(-11%);
+  }
+
+  .fliterbutton {
+    color: rgb(47, 146, 138);
+    position: relative;
+    right: 0px;
+    left: -20px;
+
+  }
+
+  .prorightlinks {
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+  }
+
+
+  .prorightlinks li {
+
+
+    list-style-type: none;
+    margin-right: 10px;
+
+
+  }
+
+  .productsocial span {
+    display: none;
+  }
+
+  .links-list .links {
+
+    font-size: 1em;
+    padding: 10px 19px;
+
+
+  }
+
+
+
+
+
+  .links-list {
+
+    display: inline-flex;
+    padding: 10px;
+  }
+
+
+  .rightscrolling {
+
+
+
+    overflow-y: scroll;
+
+
+
+
+
+    height: 520px;
+    padding: 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .adsimgcard img {
+
+
+
+
+
+    height: auto;
+    width: 170px;
+    border-radius: 20px;
+
+  }
+
+
+
+
+  .addetails {
+
+
+
+
+
+    display: block;
+
+
+  }
+
+
+
+  .adsinfo h1 {
+
+
+
+
+
+
+
+
+    font-size: 1em;
+    font-weight: normal;
+
+
+  }
+
+
+
+
+  .adsinfo a {
+
+
+
+
+
+    font-size: 0.7em;
+
+
+
+  }
+
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width:900px) and (max-width:910px) {
+  .call {
+
+
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 5px;
+
+    gap: 30px;
+    justify-content: space-evenly;
+
+  }
+
+
+  .adspages {
+
+    display: block;
+
+  }
+
+
+
+  .ada {
+
+
+
+
+
+    display: block;
+    padding: 15px 15px;
+  }
+
+  .closememu {
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    padding: 10px 15px;
+  }
+
+  .productleft {
+    height: 900%;
+  }
+
+  .adssreach {
+    color: white;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .adssreach input {
+
+
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 7px #050F14 solid;
+    width: 580px;
+    color: white;
+    padding-left: 30px;
+  }
+
+
+  .adssreach i {
+
+
+
+
+
+    display: none;
+  }
+
+
+
+
+  .productleft h1 {
+
+
+
+
+    align-items: center;
+    padding: 15px;
+    font-size: 1.6em;
+  }
+
+  .adsline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .flutline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .productsocial {
+
+
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+
+
+  .productsocial ul {
+
+    display: block;
+    justify-content: start;
+  }
+
+  .modal-button {
+    cursor: pointer;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .modal.show {
+    transform: translateX(0);
+  }
+
+  .productleft {
+    /* background-color: hsla(0, 0%, 6%, 0.2);
+                    backdrop-filter: blur(16px); */
+    display: block;
+    width: 100%;
+    align-items: center;
+  }
+
+
+
+  .productsocial ul li {
+
+
+
+
+    display: flex;
+    justify-content: start;
+    padding: 13px 17px;
+    font-size: 1.1em;
+  }
+
+
+  .productsocial ul li i {
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .links {
+    background-color: #0D000D;
+    color: rgb(47, 146, 138);
+
+    padding: 6px 20px;
+    display: flex;
+  }
+
+  .proright {
+    margin-top: 30px;
+    display: block;
+    color: whitesmoke;
+    padding: 10px 10px;
+  }
+
+  .adsicons a {
+    font-size: 0.6em;
+
+    margin-left: 0px;
+    color: whitesmoke;
+  }
+
+  .adsicons i {
+    padding: 0px 4px;
+    color: whitesmoke;
+  }
+
+  .catsocial {
+    display: flex;
+    justify-content: start;
+    max-height: 820px;
+    overflow-y: auto;
+  }
+
+  .cat-social-list li {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+
+  .cat-social-list li a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    font-size: 0.99rem;
+    padding: 3px 10px;
+  }
+
+  .buttonofleftscolling {
+    background: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .leftscoll h1 {
+    display: flex;
+    padding: 10px 20px;
+
+    justify-content: start;
+    font-weight: 600;
+  }
+
+
+  .leftscoll h2 {
+    display: flex;
+    font-weight: normal;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+
+  .translatedDiv {
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .translatedDiv.slide-left {
+    transform: translateX(-11%);
+  }
+
+  .fliterbutton {
+    color: rgb(47, 146, 138);
+    position: relative;
+    right: 0px;
+    left: -20px;
+
+  }
+
+  .prorightlinks {
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+  }
+
+
+  .prorightlinks li {
+
+
+    list-style-type: none;
+    margin-right: 10px;
+
+
+  }
+
+  .productsocial span {
+    display: none;
+  }
+
+  .links-list .links {
+
+    font-size: 1em;
+    padding: 10px 19px;
+
+
+  }
+
+
+
+
+
+  .links-list {
+
+    display: inline-flex;
+    padding: 10px;
+  }
+
+
+  .rightscrolling {
+
+
+
+    overflow-y: scroll;
+
+
+
+
+
+    height: 500px;
     padding: 0 0px;
     display: flex;
     flex-direction: column;
@@ -2837,6 +3597,1561 @@ margin-top: 20px;
 
 
 
+@media screen and (min-width:851px) and (max-width:900px) {
+  .call {
+
+
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 5px;
+
+    gap: 30px;
+    justify-content: space-evenly;
+
+  }
+
+
+  .adspages {
+
+    display: block;
+
+  }
+
+
+
+  .ada {
+
+
+
+
+
+    display: block;
+    padding: 15px 15px;
+  }
+
+  .closememu {
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    padding: 10px 15px;
+  }
+
+  .productleft {
+    height: 900%;
+  }
+
+  .adssreach {
+    color: white;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .adssreach input {
+
+
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 7px #050F14 solid;
+    width: 580px;
+    color: white;
+    padding-left: 30px;
+  }
+
+
+  .adssreach i {
+
+
+
+
+
+    display: none;
+  }
+
+
+
+
+  .productleft h1 {
+
+
+
+
+    align-items: center;
+    padding: 15px;
+    font-size: 1.6em;
+  }
+
+  .adsline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .flutline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .productsocial {
+
+
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+
+
+  .productsocial ul {
+
+    display: block;
+    justify-content: start;
+  }
+
+  .modal-button {
+    cursor: pointer;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .modal.show {
+    transform: translateX(0);
+  }
+
+  .productleft {
+    /* background-color: hsla(0, 0%, 6%, 0.2);
+                    backdrop-filter: blur(16px); */
+    display: block;
+    width: 100%;
+    align-items: center;
+  }
+
+
+
+  .productsocial ul li {
+
+
+
+
+    display: flex;
+    justify-content: start;
+    padding: 13px 17px;
+    font-size: 1.1em;
+  }
+
+
+  .productsocial ul li i {
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .links {
+    background-color: #0D000D;
+    color: rgb(47, 146, 138);
+
+    padding: 6px 20px;
+    display: flex;
+  }
+
+  .proright {
+    margin-top: 30px;
+    display: block;
+    color: whitesmoke;
+    padding: 10px 10px;
+  }
+
+  .adsicons a {
+    font-size: 0.6em;
+
+    margin-left: 0px;
+    color: whitesmoke;
+  }
+
+  .adsicons i {
+    padding: 0px 4px;
+    color: whitesmoke;
+  }
+
+  .catsocial {
+    display: flex;
+    justify-content: start;
+    max-height: 820px;
+    overflow-y: auto;
+  }
+
+  .cat-social-list li {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+
+  .cat-social-list li a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    font-size: 0.99rem;
+    padding: 3px 10px;
+  }
+
+  .buttonofleftscolling {
+    background: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .leftscoll h1 {
+    display: flex;
+    padding: 10px 20px;
+
+    justify-content: start;
+    font-weight: 600;
+  }
+
+
+  .leftscoll h2 {
+    display: flex;
+    font-weight: normal;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+
+  .translatedDiv {
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .translatedDiv.slide-left {
+    transform: translateX(-11%);
+  }
+
+  .fliterbutton {
+    color: rgb(47, 146, 138);
+    position: relative;
+    right: 0px;
+    left: -20px;
+
+  }
+
+  .prorightlinks {
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+  }
+
+
+  .prorightlinks li {
+
+
+    list-style-type: none;
+    margin-right: 10px;
+
+
+  }
+
+  .productsocial span {
+    display: none;
+  }
+
+  .links-list .links {
+
+    font-size: 1em;
+    padding: 10px 19px;
+
+
+  }
+
+
+
+
+
+  .links-list {
+
+    display: inline-flex;
+    padding: 10px;
+  }
+
+
+  .rightscrolling {
+
+
+
+    overflow-y: scroll;
+
+
+
+
+
+    height: 520px;
+    padding: 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .adsimgcard img {
+
+
+
+
+
+    height: auto;
+    width: 170px;
+    border-radius: 20px;
+
+  }
+
+
+
+
+  .addetails {
+
+
+
+
+
+    display: block;
+
+
+  }
+
+
+
+  .adsinfo h1 {
+
+
+
+
+
+
+
+
+    font-size: 1em;
+    font-weight: normal;
+
+
+  }
+
+
+
+
+  .adsinfo a {
+
+
+
+
+
+    font-size: 0.7em;
+
+
+
+  }
+
+
+
+
+
+
+}
+
+
+@media screen and (min-width:800px) and (max-width:850px) {
+  .call {
+
+
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 5px;
+
+    gap: 30px;
+    justify-content: space-evenly;
+
+  }
+
+
+  .adspages {
+
+    display: block;
+
+  }
+
+
+
+  .ada {
+
+
+
+
+
+    display: block;
+    padding: 15px 15px;
+  }
+
+  .closememu {
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    padding: 10px 15px;
+  }
+
+  .productleft {
+    height: 900%;
+  }
+
+  .adssreach {
+    color: white;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .adssreach input {
+
+
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 7px #050F14 solid;
+    width: 580px;
+    color: white;
+    padding-left: 30px;
+  }
+
+
+  .adssreach i {
+
+
+
+
+
+    display: none;
+  }
+
+
+
+
+  .productleft h1 {
+
+
+
+
+    align-items: center;
+    padding: 15px;
+    font-size: 1.6em;
+  }
+
+  .adsline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .flutline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .productsocial {
+
+
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+
+
+  .productsocial ul {
+
+    display: block;
+    justify-content: start;
+  }
+
+  .modal-button {
+    cursor: pointer;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .modal.show {
+    transform: translateX(0);
+  }
+
+  .productleft {
+    /* background-color: hsla(0, 0%, 6%, 0.2);
+                    backdrop-filter: blur(16px); */
+    display: block;
+    width: 100%;
+    align-items: center;
+  }
+
+
+
+  .productsocial ul li {
+
+
+
+
+    display: flex;
+    justify-content: start;
+    padding: 13px 17px;
+    font-size: 1.1em;
+  }
+
+
+  .productsocial ul li i {
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .links {
+    background-color: #0D000D;
+    color: rgb(47, 146, 138);
+
+    padding: 6px 20px;
+    display: flex;
+  }
+
+  .proright {
+    margin-top: 30px;
+    display: block;
+    color: whitesmoke;
+    padding: 10px 10px;
+  }
+
+  .adsicons a {
+    font-size: 0.6em;
+
+    margin-left: 0px;
+    color: whitesmoke;
+  }
+
+  .adsicons i {
+    padding: 0px 4px;
+    color: whitesmoke;
+  }
+
+  .catsocial {
+    display: flex;
+    justify-content: start;
+    max-height: 820px;
+    overflow-y: auto;
+  }
+
+  .cat-social-list li {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+
+  .cat-social-list li a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    font-size: 0.99rem;
+    padding: 3px 10px;
+  }
+
+  .buttonofleftscolling {
+    background: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .leftscoll h1 {
+    display: flex;
+    padding: 10px 20px;
+
+    justify-content: start;
+    font-weight: 600;
+  }
+
+
+  .leftscoll h2 {
+    display: flex;
+    font-weight: normal;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+
+  .translatedDiv {
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .translatedDiv.slide-left {
+    transform: translateX(-11%);
+  }
+
+  .fliterbutton {
+    color: rgb(47, 146, 138);
+    position: relative;
+    right: 0px;
+    left: -20px;
+
+  }
+
+  .prorightlinks {
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+  }
+
+
+  .prorightlinks li {
+
+
+    list-style-type: none;
+    margin-right: 10px;
+
+
+  }
+
+  .productsocial span {
+    display: none;
+  }
+
+  .links-list .links {
+
+    font-size: 1em;
+    padding: 10px 19px;
+
+
+  }
+
+
+
+
+
+  .links-list {
+
+    display: inline-flex;
+    padding: 10px;
+  }
+
+
+  .rightscrolling {
+
+
+
+    overflow-y: scroll;
+
+
+
+
+
+    height: 520px;
+    padding: 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .adsimgcard img {
+
+
+
+
+
+    height: auto;
+    width: 170px;
+    border-radius: 20px;
+
+  }
+
+
+
+
+  .addetails {
+
+
+
+
+
+    display: block;
+
+
+  }
+
+
+
+  .adsinfo h1 {
+
+
+
+
+
+
+
+
+    font-size: 1em;
+    font-weight: normal;
+
+
+  }
+
+
+
+
+  .adsinfo a {
+
+
+
+
+
+    font-size: 0.7em;
+
+
+
+  }
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width:751px) and (max-width:799px) {
+  .call {
+
+
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0px;
+
+    gap: 20px;
+    justify-content: space-evenly;
+
+  }
+
+
+  .adspages {
+
+    display: block;
+
+  }
+
+
+
+  .ada {
+
+
+
+
+
+    display: block;
+    padding: 15px 15px;
+  }
+
+  .closememu {
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    padding: 10px 15px;
+  }
+
+  .productleft {
+    height: 900%;
+  }
+
+  .adssreach {
+    color: white;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .adssreach input {
+
+
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 7px #050F14 solid;
+    width: 580px;
+    color: white;
+    padding-left: 30px;
+  }
+
+
+  .adssreach i {
+
+
+
+
+
+    display: none;
+  }
+
+
+
+
+  .productleft h1 {
+
+
+
+
+    align-items: center;
+    padding: 15px;
+    font-size: 1.6em;
+  }
+
+  .adsline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .flutline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .productsocial {
+
+
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+
+
+  .productsocial ul {
+
+    display: block;
+    justify-content: start;
+  }
+
+  .modal-button {
+    cursor: pointer;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .modal.show {
+    transform: translateX(0);
+  }
+
+  .productleft {
+    /* background-color: hsla(0, 0%, 6%, 0.2);
+                    backdrop-filter: blur(16px); */
+    display: block;
+    width: 100%;
+    align-items: center;
+  }
+
+
+
+  .productsocial ul li {
+
+
+
+
+    display: flex;
+    justify-content: start;
+    padding: 13px 17px;
+    font-size: 1.1em;
+  }
+
+
+  .productsocial ul li i {
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .links {
+    background-color: #0D000D;
+    color: rgb(47, 146, 138);
+
+    padding: 6px 20px;
+    display: flex;
+  }
+
+  .proright {
+    margin-top: 30px;
+    display: block;
+    color: whitesmoke;
+    padding: 10px 10px;
+  }
+
+  .adsicons a {
+    font-size: 0.6em;
+
+    margin-left: 0px;
+    color: whitesmoke;
+  }
+
+  .adsicons i {
+    padding: 0px 4px;
+    color: whitesmoke;
+  }
+
+  .catsocial {
+    display: flex;
+    justify-content: start;
+    max-height: 820px;
+    overflow-y: auto;
+  }
+
+  .cat-social-list li {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+
+  .cat-social-list li a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    font-size: 0.99rem;
+    padding: 3px 10px;
+  }
+
+  .buttonofleftscolling {
+    background: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .leftscoll h1 {
+    display: flex;
+    padding: 10px 20px;
+
+    justify-content: start;
+    font-weight: 600;
+  }
+
+
+  .leftscoll h2 {
+    display: flex;
+    font-weight: normal;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+
+  .translatedDiv {
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .translatedDiv.slide-left {
+    transform: translateX(-11%);
+  }
+
+  .fliterbutton {
+    color: rgb(47, 146, 138);
+    position: relative;
+    right: 0px;
+    left: -20px;
+
+  }
+
+  .prorightlinks {
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+  }
+
+
+  .prorightlinks li {
+
+
+    list-style-type: none;
+    margin-right: 10px;
+
+
+  }
+
+  .productsocial span {
+    display: none;
+  }
+
+  .links-list .links {
+
+    font-size: 1em;
+    padding: 10px 19px;
+
+
+  }
+
+
+
+
+
+  .links-list {
+
+    display: inline-flex;
+    padding: 10px;
+  }
+
+
+  .rightscrolling {
+
+
+
+    overflow-y: scroll;
+
+
+
+
+
+    height: 520px;
+    padding: 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .adsimgcard img {
+
+
+
+
+
+    height: auto;
+    width: 170px;
+    border-radius: 20px;
+
+  }
+
+
+
+
+  .addetails {
+
+
+
+
+
+    display: block;
+
+
+  }
+
+
+
+  .adsinfo h1 {
+
+
+
+
+
+
+
+
+    font-size: 1em;
+    font-weight: normal;
+
+
+  }
+
+
+
+
+  .adsinfo a {
+
+
+
+
+
+    font-size: 0.7em;
+
+
+
+  }
+
+
+
+
+
+
+}
+
+
+@media screen and (min-width:651px) and (max-width:750px) {
+  .call {
+
+
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0px;
+
+    gap: 20px;
+    justify-content: space-evenly;
+
+  }
+
+
+  .adspages {
+
+    display: block;
+
+  }
+
+
+
+  .ada {
+
+
+
+
+
+    display: block;
+    padding: 15px 15px;
+  }
+
+  .closememu {
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    padding: 10px 15px;
+  }
+
+  .productleft {
+    height: 900%;
+  }
+
+  .adssreach {
+    color: white;
+    display: flex;
+    margin-top: 40px;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .adssreach input {
+
+
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 7px #050F14 solid;
+    width: 580px;
+    color: white;
+    padding-left: 30px;
+  }
+
+
+  .adssreach i {
+
+
+
+
+
+    display: none;
+  }
+
+
+
+
+  .productleft h1 {
+
+
+
+
+    align-items: center;
+    padding: 15px;
+    font-size: 1.6em;
+  }
+
+  .adsline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .flutline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .productsocial {
+
+
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+
+
+  .productsocial ul {
+
+    display: block;
+    justify-content: start;
+  }
+
+  .modal-button {
+    cursor: pointer;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .modal.show {
+    transform: translateX(0);
+  }
+
+  .productleft {
+    /* background-color: hsla(0, 0%, 6%, 0.2);
+                    backdrop-filter: blur(16px); */
+    display: block;
+    width: 100%;
+    align-items: center;
+  }
+
+
+
+  .productsocial ul li {
+
+
+
+
+    display: flex;
+    justify-content: start;
+    padding: 13px 17px;
+    font-size: 1.1em;
+  }
+
+
+  .productsocial ul li i {
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .links {
+    background-color: #0D000D;
+    color: rgb(47, 146, 138);
+
+    padding: 6px 20px;
+    display: flex;
+  }
+
+  .proright {
+    margin-top: 30px;
+    display: block;
+    color: whitesmoke;
+    padding: 10px 10px;
+  }
+
+  .adsicons a {
+    font-size: 0.6em;
+
+    margin-left: 0px;
+    color: whitesmoke;
+  }
+
+  .adsicons i {
+    padding: 0px 4px;
+    color: whitesmoke;
+  }
+
+  .catsocial {
+    display: flex;
+    justify-content: start;
+    max-height: 820px;
+    overflow-y: auto;
+  }
+
+  .cat-social-list li {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+
+  .cat-social-list li a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    font-size: 0.99rem;
+    padding: 3px 10px;
+  }
+
+  .buttonofleftscolling {
+    background: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .leftscoll h1 {
+    display: flex;
+    padding: 10px 20px;
+
+    justify-content: start;
+    font-weight: 600;
+  }
+
+
+  .leftscoll h2 {
+    display: flex;
+    font-weight: normal;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+
+  .translatedDiv {
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .translatedDiv.slide-left {
+    transform: translateX(-11%);
+  }
+
+  .fliterbutton {
+    color: rgb(47, 146, 138);
+    position: relative;
+    right: 0px;
+    left: -20px;
+
+  }
+
+  .prorightlinks {
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+  }
+
+
+  .prorightlinks li {
+
+
+    list-style-type: none;
+    margin-right: 10px;
+
+
+  }
+
+  .productsocial span {
+    display: none;
+  }
+
+  .links-list .links {
+
+    font-size: 1em;
+    padding: 10px 19px;
+
+
+  }
+
+
+
+
+
+  .links-list {
+
+    display: inline-flex;
+    padding: 10px;
+  }
+
+
+  .rightscrolling {
+
+
+
+    overflow-y: scroll;
+
+
+
+
+
+    height: 500px;
+    padding: 0 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .adsimgcard img {
+
+
+
+
+
+    height: auto;
+    width: 170px;
+    border-radius: 20px;
+
+  }
+
+
+
+
+  .addetails {
+
+
+
+
+
+    display: block;
+
+
+  }
+
+
+
+  .adsinfo h1 {
+
+
+
+
+
+
+
+
+    font-size: 1em;
+    font-weight: normal;
+
+
+  }
+
+
+
+
+  .adsinfo a {
+
+
+
+
+
+    font-size: 0.7em;
+
+
+
+  }
+
+
+
+
+
+
+}
+
+
+
 @media screen and (min-width:550px) and (max-width:650px) {
   .call {
     flex-wrap: wrap;
@@ -2849,9 +5164,9 @@ margin-top: 20px;
 
   .fliterbutton {
     color: rgb(47, 146, 138);
-    position: fixed;
+    position: relative;
     right: 0;
-    left: 80px;
+    left: -28px;
 
   }
 
@@ -2919,7 +5234,7 @@ margin-top: 20px;
     border-radius: 10px;
     background-color: transparent;
     border: 7px #050F14 solid;
-    width: 340px;
+    width: 420px;
     color: white;
     padding-left: 30px;
   }
@@ -3019,7 +5334,7 @@ margin-top: 20px;
     display: flex;
   }
 
-  .adsright {
+  .proright {
     margin-top: 30px;
     display: block;
     color: whitesmoke;
@@ -3096,7 +5411,7 @@ margin-top: 20px;
   }
 
 
-  .adsrightlinks {
+  .prorightlinks {
 
     overflow-x: auto;
     white-space: nowrap;
@@ -3104,7 +5419,7 @@ margin-top: 20px;
   }
 
 
-  .adsrightlinks li {
+  .prorightlinks li {
 
 
     list-style-type: none;
@@ -3146,7 +5461,7 @@ margin-top: 20px;
 
 
 
-    height: 590px;
+    height: 520px;
     padding: 0 0px;
     margin-top: 15px;
     display: flex;
@@ -3224,21 +5539,21 @@ margin-top: 20px;
 
 
 
-@media screen and (min-width:451px) and (max-width:549px) {
+@media screen and (min-width:504px) and (max-width:549px) {
   .call {
     flex-wrap: wrap;
     align-items: center;
-    margin: 20px 0px;
-    gap: 20px;
+    margin: 10px 0px;
+    gap: 1px;
     justify-content: space-evenly;
 
   }
 
   .fliterbutton {
     color: rgb(47, 146, 138);
-    position: absolute;
+    position: relative;
     right: 0;
-    left: 38px;
+    left: -27px;
 
   }
 
@@ -3275,7 +5590,7 @@ margin-top: 20px;
 
 
     display: block;
-    padding: 18px 15px;
+    padding: 15px 15px;
   }
 
 
@@ -3306,7 +5621,7 @@ margin-top: 20px;
     border-radius: 10px;
     background-color: transparent;
     border: 7px #050F14 solid;
-    width: 340px;
+    width: 370px;
     color: white;
     padding-left: 30px;
   }
@@ -3406,7 +5721,7 @@ margin-top: 20px;
     display: flex;
   }
 
-  .adsright {
+  .proright {
     margin-top: 30px;
     display: block;
     color: whitesmoke;
@@ -3483,7 +5798,7 @@ margin-top: 20px;
   }
 
 
-  .adsrightlinks {
+  .prorightlinks {
 
     overflow-x: auto;
     white-space: nowrap;
@@ -3491,7 +5806,7 @@ margin-top: 20px;
   }
 
 
-  .adsrightlinks li {
+  .prorightlinks li {
 
 
     list-style-type: none;
@@ -3533,7 +5848,7 @@ margin-top: 20px;
 
 
 
-    height: 590px;
+    height: 520px;
     padding: 0 0px;
     margin-top: 15px;
     display: flex;
@@ -3549,7 +5864,7 @@ margin-top: 20px;
 
 
     height: auto;
-    width: 170px;
+    width: 200px;
     border-radius: 20px;
 
   }
@@ -3579,7 +5894,7 @@ margin-top: 20px;
 
 
 
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: normal;
 
 
@@ -3594,7 +5909,392 @@ margin-top: 20px;
 
 
 
-    font-size: 0.7em;
+    font-size: 0.66em;
+
+
+
+  }
+
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width:441px) and (max-width:503px) {
+  .call {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 0px;
+    gap: 20px;
+    justify-content: space-evenly;
+
+  }
+
+  .fliterbutton {
+    color: rgb(47, 146, 138);
+    position: relative;
+    right: 0;
+    left: -20px;
+
+  }
+
+  .adspages {
+
+    display: block;
+
+  }
+
+  .adsline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .flutline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+
+
+  .ada {
+
+
+
+
+
+    display: block;
+    padding: 15px 15px;
+  }
+
+
+  .adssreach {
+    color: white;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .closememu {
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    padding: 10px 15px;
+  }
+
+  .productleft {
+    height: 900%;
+  }
+
+  .adssreach input {
+
+
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 7px #050F14 solid;
+    width: 370px;
+    color: white;
+    padding-left: 30px;
+  }
+
+
+  .adssreach i {
+
+
+
+
+
+    display: none;
+  }
+
+
+
+
+  .productleft h1 {
+
+
+
+
+    align-items: center;
+    padding: 15px;
+    font-size: 1.1em;
+  }
+
+
+  .productsocial {
+
+
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+
+
+  .productsocial ul {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-button {
+    cursor: pointer;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .modal.show {
+    transform: translateX(0);
+  }
+
+  .productleft {
+    /* background-color: hsla(0, 0%, 6%, 0.2);
+                                                    backdrop-filter: blur(16px); */
+    display: block;
+    width: 100%;
+    align-items: center;
+  }
+
+  .productsocial ul li {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 17px;
+    font-size: 1em;
+  }
+
+
+  .productsocial ul li i {
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .links {
+    background-color: #0D000D;
+    color: rgb(47, 146, 138);
+
+    padding: 10px 20px;
+    display: flex;
+  }
+
+  .proright {
+    margin-top: 30px;
+    display: block;
+    color: whitesmoke;
+    padding: 16px 10px;
+  }
+
+  .adsicons a {
+    font-size: 0.6em;
+
+    margin-left: 0px;
+    color: whitesmoke;
+  }
+
+  .catsocial {
+    display: flex;
+    justify-content: start;
+    max-height: 620px;
+    overflow-y: auto;
+  }
+
+  .cat-social-list li {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+
+  .cat-social-list li a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    font-size: 0.99rem;
+    padding: 3px 10px;
+  }
+
+  .buttonofleftscolling {
+    background: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .leftscoll h1 {
+    display: flex;
+    padding: 10px 20px;
+
+    justify-content: start;
+    font-weight: 600;
+  }
+
+
+  .leftscoll h2 {
+    display: flex;
+    font-weight: normal;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+
+  .translatedDiv {
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .translatedDiv.slide-left {
+    transform: translateX(-11%);
+  }
+
+  .adsicons i {
+    padding: 0px 4px;
+    color: whitesmoke;
+  }
+
+
+  .prorightlinks {
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+  }
+
+
+  .prorightlinks li {
+
+
+    list-style-type: none;
+    margin-right: 10px;
+
+
+  }
+
+  .productsocial span {
+    display: none;
+  }
+
+  .links-list .links {
+
+    font-size: 1em;
+    padding: 10px 19px;
+
+
+  }
+
+
+
+
+
+  .links-list {
+
+    display: inline-flex;
+    padding: 0 10px;
+  }
+
+
+  .rightscrolling {
+
+
+
+    overflow-y: scroll;
+
+
+
+
+
+    height: 520px;
+    padding: 0 0px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .adsimgcard img {
+
+
+
+
+
+    height: auto;
+    width: 180px;
+    border-radius: 20px;
+
+  }
+
+
+
+
+  .addetails {
+
+
+
+
+
+    display: block;
+
+
+  }
+
+
+
+  .adsinfo h1 {
+
+
+
+
+
+
+
+
+    font-size: 0.9em;
+    font-weight: normal;
+
+
+  }
+
+
+
+
+  .adsinfo a {
+
+
+
+
+
+    font-size: 0.66em;
 
 
 
@@ -3610,10 +6310,7 @@ margin-top: 20px;
 
 
 
-
-
-
-@media screen and (min-width:413px) and (max-width:450px) {
+@media screen and (min-width:430px) and (max-width:440px) {
   .call {
     flex-wrap: wrap;
     align-items: center;
@@ -3625,9 +6322,9 @@ margin-top: 20px;
 
   .fliterbutton {
     color: rgb(47, 146, 138);
-    position: absolute;
+    position: relative;
     right: 0;
-    left: 14px;
+    left: -14px;
 
   }
 
@@ -3794,7 +6491,7 @@ margin-top: 20px;
     display: flex;
   }
 
-  .adsright {
+  .proright {
     margin-top: 20px;
     display: block;
     color: whitesmoke;
@@ -3871,7 +6568,7 @@ margin-top: 20px;
   }
 
 
-  .adsrightlinks {
+  .prorightlinks {
 
     overflow-x: auto;
     white-space: nowrap;
@@ -3879,7 +6576,770 @@ margin-top: 20px;
   }
 
 
-  .adsrightlinks li {
+  .prorightlinks li {
+
+
+    list-style-type: none;
+    margin-right: 10px;
+
+
+  }
+
+  .productsocial span {
+    display: none;
+  }
+
+  .links-list .links {
+
+    font-size: 1em;
+    padding: 10px 19px;
+
+
+  }
+
+
+
+
+
+  .links-list {
+
+    display: inline-flex;
+    padding: 0 10px;
+  }
+
+
+  .rightscrolling {
+
+
+
+    overflow-y: scroll;
+
+
+
+
+
+    height: 590px;
+    padding: 0 0px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .adsimgcard img {
+
+
+
+
+
+    height: auto;
+    width: 170px;
+    border-radius: 20px;
+
+  }
+
+
+
+
+  .addetails {
+
+
+
+
+
+    display: block;
+
+
+  }
+
+
+
+  .adsinfo h1 {
+
+
+
+
+
+
+
+
+    font-size: 1em;
+    font-weight: normal;
+
+
+  }
+
+
+
+
+  .adsinfo a {
+
+
+
+
+
+    font-size: 0.7em;
+
+
+
+  }
+
+
+
+
+
+
+}
+
+@media screen and (min-width:414px) and (max-width:429px) {
+  .call {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 20px;
+    justify-content: space-evenly;
+
+  }
+
+  .fliterbutton {
+    color: rgb(47, 146, 138);
+    position: relative;
+    right: 0;
+    left: -14px;
+
+  }
+
+  .adspages {
+
+    display: block;
+
+  }
+
+
+  .adsline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .flutline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+
+
+  .ada {
+
+
+
+
+
+    display: block;
+    padding: 10px 15px;
+  }
+
+
+  .adssreach {
+    color: white;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .closememu {
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    padding: 10px 15px;
+  }
+
+  .productleft {
+    height: 900%;
+  }
+
+  .adssreach input {
+
+
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 7px #050F14 solid;
+    width: 340px;
+    color: white;
+    padding-left: 30px;
+  }
+
+
+  .adssreach i {
+
+
+
+
+
+    display: none;
+  }
+
+
+
+
+  .productleft h1 {
+
+
+    align-items: center;
+    padding: 15px;
+    font-size: 1.1em;
+  }
+
+
+  .productsocial {
+
+
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+
+
+  .productsocial ul {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-button {
+    cursor: pointer;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .modal.show {
+    transform: translateX(0);
+  }
+
+  .productleft {
+    /* background-color: hsla(0, 0%, 6%, 0.2);
+                                                    backdrop-filter: blur(16px); */
+    display: block;
+    width: 100%;
+    align-items: center;
+  }
+
+  .productsocial ul li {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 17px;
+    font-size: 1em;
+  }
+
+
+  .productsocial ul li i {
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .links {
+    background-color: #0D000D;
+    color: rgb(47, 146, 138);
+
+    padding: 10px 20px;
+    display: flex;
+  }
+
+  .proright {
+    margin-top: 20px;
+    display: block;
+    color: whitesmoke;
+    padding: 16px 10px;
+  }
+
+  .adsicons a {
+    font-size: 0.6em;
+
+    margin-left: 0px;
+    color: whitesmoke;
+  }
+
+  .catsocial {
+    display: flex;
+    justify-content: start;
+    max-height: 620px;
+    overflow-y: auto;
+  }
+
+  .cat-social-list li {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+
+  .cat-social-list li a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    font-size: 0.99rem;
+    padding: 3px 10px;
+  }
+
+  .buttonofleftscolling {
+    background: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .leftscoll h1 {
+    display: flex;
+    padding: 10px 20px;
+
+    justify-content: start;
+    font-weight: 600;
+  }
+
+
+  .leftscoll h2 {
+    display: flex;
+    font-weight: normal;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+
+  .translatedDiv {
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .translatedDiv.slide-left {
+    transform: translateX(-11%);
+  }
+
+  .adsicons i {
+    padding: 0px 4px;
+    color: whitesmoke;
+  }
+
+
+  .prorightlinks {
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+  }
+
+
+  .prorightlinks li {
+
+
+    list-style-type: none;
+    margin-right: 10px;
+
+
+  }
+
+  .productsocial span {
+    display: none;
+  }
+
+  .links-list .links {
+
+    font-size: 1em;
+    padding: 10px 19px;
+
+
+  }
+
+
+
+
+
+  .links-list {
+
+    display: inline-flex;
+    padding: 0 10px;
+  }
+
+
+  .rightscrolling {
+
+
+
+    overflow-y: scroll;
+
+
+
+
+
+    height: 430px;
+    padding: 0 0px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .adsimgcard img {
+
+
+
+
+
+    height: auto;
+    width: 170px;
+    border-radius: 20px;
+
+  }
+
+
+
+
+  .addetails {
+
+
+
+
+
+    display: block;
+
+
+  }
+
+
+
+  .adsinfo h1 {
+
+
+
+
+
+
+
+
+    font-size: 1em;
+    font-weight: normal;
+
+
+  }
+
+
+
+
+  .adsinfo a {
+
+
+
+
+
+    font-size: 0.7em;
+
+
+
+  }
+
+
+
+
+
+
+}
+@media screen and (min-width:412px) and (max-width:413px) {
+  .call {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 20px;
+    justify-content: space-evenly;
+
+  }
+
+  .fliterbutton {
+    color: rgb(47, 146, 138);
+    position: relative;
+    right: 0;
+    left: -14px;
+
+  }
+
+  .adspages {
+
+    display: block;
+
+  }
+
+
+  .adsline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .flutline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+
+
+  .ada {
+
+
+
+
+
+    display: block;
+    padding: 10px 15px;
+  }
+
+
+  .adssreach {
+    color: white;
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .closememu {
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    padding: 10px 15px;
+  }
+
+  .productleft {
+    height: 900%;
+  }
+
+  .adssreach input {
+
+
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 7px #050F14 solid;
+    width: 340px;
+    color: white;
+    padding-left: 30px;
+  }
+
+
+  .adssreach i {
+
+
+
+
+
+    display: none;
+  }
+
+
+
+
+  .productleft h1 {
+
+
+    align-items: center;
+    padding: 15px;
+    font-size: 1.1em;
+  }
+
+
+  .productsocial {
+
+
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+
+
+  .productsocial ul {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal-button {
+    cursor: pointer;
+  }
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .modal.show {
+    transform: translateX(0);
+  }
+
+  .productleft {
+    /* background-color: hsla(0, 0%, 6%, 0.2);
+                                                    backdrop-filter: blur(16px); */
+    display: block;
+    width: 100%;
+    align-items: center;
+  }
+
+  .productsocial ul li {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 17px;
+    font-size: 1em;
+  }
+
+
+  .productsocial ul li i {
+
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .links {
+    background-color: #0D000D;
+    color: rgb(47, 146, 138);
+
+    padding: 10px 20px;
+    display: flex;
+  }
+
+  .proright {
+    margin-top: 20px;
+    display: block;
+    color: whitesmoke;
+    padding: 16px 10px;
+  }
+
+  .adsicons a {
+    font-size: 0.6em;
+
+    margin-left: 0px;
+    color: whitesmoke;
+  }
+
+  .catsocial {
+    display: flex;
+    justify-content: start;
+    max-height: 620px;
+    overflow-y: auto;
+  }
+
+  .cat-social-list li {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+
+  .cat-social-list li a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    font-size: 0.99rem;
+    padding: 3px 10px;
+  }
+
+  .buttonofleftscolling {
+    background: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .leftscoll h1 {
+    display: flex;
+    padding: 10px 20px;
+
+    justify-content: start;
+    font-weight: 600;
+  }
+
+
+  .leftscoll h2 {
+    display: flex;
+    font-weight: normal;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+
+  .translatedDiv {
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .translatedDiv.slide-left {
+    transform: translateX(-11%);
+  }
+
+  .adsicons i {
+    padding: 0px 4px;
+    color: whitesmoke;
+  }
+
+
+  .prorightlinks {
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+  }
+
+
+  .prorightlinks li {
 
 
     list-style-type: none;
@@ -3996,7 +7456,404 @@ margin-top: 20px;
 }
 
 
+@media screen and (min-width:380px) and (max-width:411px) {
+  .call {
 
+
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 4px;
+
+    gap: 10px;
+    justify-content: space-evenly;
+
+  }
+
+
+  .fliterbutton {
+    color: rgb(47, 146, 138);
+    position: relative;
+    right: 0;
+    left: -14px;
+
+  }
+
+  .adsline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+  .flutline a {
+    content: "";
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    justify-content: center;
+    border: 1px solid rgba(216, 215, 215, 0.267);
+  }
+
+
+
+
+  .adspages {
+
+    display: block;
+
+  }
+
+  .closememu {
+    font-size: 1rem;
+    color: whitesmoke;
+    display: flex;
+    padding: 10px 15px;
+  }
+
+
+  .modal-button {
+    cursor: pointer;
+  }
+
+  .adspages {
+
+    display: block;
+
+  }
+
+
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+  }
+
+  .modal.show {
+    transform: translateX(0);
+  }
+
+
+
+  .ada {
+    display: block;
+    padding: 8px 15px;
+  }
+
+
+  .adssreach {
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+
+    justify-content: center;
+  }
+
+  .adssreach input {
+
+
+    height: 50px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 7px #050F14 solid;
+    width: 300px;
+    color: white;
+    padding-left: 30px;
+  }
+
+
+  .adssreach i {
+
+
+
+
+
+    display: none;
+  }
+
+
+
+
+
+  .productleft h1 {
+
+
+
+
+    align-items: center;
+    padding: 15px;
+    font-size: 1.1em;
+  }
+
+
+  .productsocial span {
+    display: none;
+  }
+
+  .productsocial {
+
+
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+
+
+  .productsocial ul {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .productleft h1 {
+
+
+
+
+    align-items: center;
+    padding: 15px;
+    font-size: 1.1em;
+  }
+
+
+  .productsocial {
+
+
+    overflow: hidden;
+    width: 100%;
+
+  }
+
+
+
+  .productsocial ul {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .productleft {
+
+    display: block;
+    width: 100%;
+
+    align-items: center;
+  }
+
+  .productleft {
+    height: 900%;
+  }
+
+  .productsocial ul li {
+
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 17px;
+    font-size: 1em;
+  }
+
+
+
+
+  .links {
+    background-color: #0D000D;
+    color: rgb(47, 146, 138);
+
+    padding: 6px 20px;
+    display: flex;
+  }
+
+  .proright {
+    margin-top: 20px;
+    display: block;
+    color: whitesmoke;
+    padding: 15px 10px;
+  }
+
+
+
+  .adsicons a {
+    font-size: 0.6em;
+
+    margin-left: 0px;
+    color: whitesmoke;
+  }
+
+  .adsicons i {
+    padding: 0px 4px;
+    color: whitesmoke;
+  }
+
+  .catsocial {
+    display: flex;
+    justify-content: start;
+    max-height: 550px;
+    overflow-y: auto;
+  }
+
+  .cat-social-list li {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+  }
+
+  .cat-social-list li a {
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    font-size: 0.99rem;
+    padding: 1px 10px;
+  }
+
+  .buttonofleftscolling {
+    background: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+
+  .leftscoll h1 {
+    display: flex;
+    padding: 10px 20px;
+
+    justify-content: start;
+    font-weight: 600;
+  }
+
+
+  .leftscoll h2 {
+    display: flex;
+    font-weight: normal;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+  }
+
+  .translatedDiv {
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .translatedDiv.slide-left {
+    transform: translateX(-11%);
+  }
+
+
+  .prorightlinks {
+
+    overflow-x: auto;
+    white-space: nowrap;
+
+  }
+
+
+  .prorightlinks li {
+
+
+    list-style-type: none;
+    margin-right: 10px;
+
+
+  }
+
+  .links-list .links {
+
+    font-size: 1em;
+    padding: 10px 18px;
+
+
+
+  }
+
+
+
+
+
+  .links-list {
+
+    display: inline-flex;
+    padding: 0;
+  }
+
+
+  .rightscrolling {
+    overflow-y: scroll;
+    height: 530px;
+    padding: 0 0px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  .adsimgcard img {
+    height: auto;
+    width: 140px;
+    border-radius: 20px;
+
+  }
+
+
+
+
+  .addetails {
+
+
+
+
+
+    display: block;
+
+
+  }
+
+
+
+  .adsinfo h1 {
+
+
+
+
+
+
+
+
+    font-size: 0.8em;
+    font-weight: normal;
+
+
+  }
+
+
+
+
+  .adsinfo a {
+
+
+
+
+
+    font-size: 0.6em;
+
+
+
+  }
+
+}
 
 
 
@@ -4024,9 +7881,9 @@ margin-top: 20px;
 
   .fliterbutton {
     color: rgb(47, 146, 138);
-    position: absolute;
+    position: relative;
     right: 0;
-    left: 14px;
+    left: -14px;
 
   }
 
@@ -4230,7 +8087,7 @@ margin-top: 20px;
     display: flex;
   }
 
-  .adsright {
+  .proright {
     margin-top: 0px;
     display: block;
     color: whitesmoke;
@@ -4309,7 +8166,7 @@ margin-top: 20px;
   }
 
 
-  .adsrightlinks {
+  .prorightlinks {
 
     overflow-x: auto;
     white-space: nowrap;
@@ -4317,7 +8174,7 @@ margin-top: 20px;
   }
 
 
-  .adsrightlinks li {
+  .prorightlinks li {
 
 
     list-style-type: none;
@@ -4433,417 +8290,6 @@ margin-top: 20px;
 
 
 
-@media screen and (min-width:380px) and (max-width:412px) {
-  .call {
-
-
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 4px;
-
-    gap: 10px;
-    justify-content: space-evenly;
-
-  }
-
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: absolute;
-    right: 0;
-    left: 14px;
-
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-
-  .adspages {
-
-    display: block;
-
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-
-
-  .ada {
-    display: block;
-    padding: 19px 15px;
-  }
-
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 300px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial span {
-    display: none;
-  }
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .productleft {
-
-    display: block;
-    width: 100%;
-
-    align-items: center;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .productsocial ul li {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 17px;
-    font-size: 1em;
-  }
-
-
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 6px 20px;
-    display: flex;
-  }
-
-  .adsright {
-    margin-top: 20px;
-    display: block;
-    color: whitesmoke;
-    padding: 15px 10px;
-  }
-
-
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 550px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 1px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-
-  .adsrightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .adsrightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 18px;
-
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 0;
-  }
-
-
-  .rightscrolling {
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 530px;
-    padding: 0 0px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 140px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 0.8em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.6em;
-
-
-
-  }
-
-}
-
 
 
 
@@ -4871,9 +8317,9 @@ margin-top: 20px;
   }
   .fliterbutton {
     color: rgb(47, 146, 138);
-    position: fixed;
+    position: relative;
     right: 0;
-    left: 10px;
+    left: -9px;
 
   }
   .closememu {
@@ -5073,7 +8519,7 @@ margin-top: 20px;
   }
 
 
-  .adsright {
+  .proright {
     margin-top: 20px;
     display: block;
     color: whitesmoke;
@@ -5094,7 +8540,7 @@ margin-top: 20px;
     color: whitesmoke;
   }
 
-  .adsrightlinks {
+  .prorightlinks {
 
     overflow-x: auto;
     white-space: nowrap;
@@ -5102,7 +8548,7 @@ margin-top: 20px;
   }
 
 
-  .adsrightlinks li {
+  .prorightlinks li {
 
 
     list-style-type: none;
@@ -5269,7 +8715,7 @@ margin-top: 20px;
 
 }
 
-.adsrightlinks::-webkit-scrollbar {
+.prorightlinks::-webkit-scrollbar {
   display: none;
 }
 
@@ -5318,7 +8764,7 @@ margin-top: 20px;
   scrollbar-width: none;
 }
 
-.adsrightlinks::-webkit-scrollbar {
+.prorightlinks::-webkit-scrollbar {
   display: none;
 }
 
@@ -5333,7 +8779,7 @@ margin-top: 20px;
 
 
 
-.adsright {
+.proright {
   background-color: #050F14;
 }
 

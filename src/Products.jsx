@@ -230,7 +230,7 @@ function Products() {
   <section className='adspages'>
      
       <div className='adssreach'>
-     <a className="fliterbutton"   onClick={toggleModal}> <a className="modal-button fa fa-filter" > </a> </a>
+     <a className="fliterbutton" > <a    onClick={toggleModal}  className="modal-button fa fa-filter"> </a> </a>
   <input type='text' placeholder='Search ...' />
   <i class='fa fa-search'></i>
   </div>
@@ -244,7 +244,7 @@ function Products() {
       <div  className={`translatedDiv ${showDefault ? '' : 'slide-left'}`} >
         {showDefault ? (
           <>
-            <a className='closememu' onClick={closeModal}><a  className="fa fa-times" ></a></a>
+            <a className='closememu' ><a  onClick={closeModal} className="fa fa-times" ></a></a>
 
             <h1>product by Store</h1>
             <span className='adsline'><a></a> </span>
@@ -393,11 +393,11 @@ function Products() {
   
   
       
-      <div className='adsright'>
+      <div className='proright'>
         
           
   
-      <div className='adsrightlinks'>
+      <div className='prorightlinks'>
     <ul className='links-list'>
       
       <li><Link className='links'>Top Rate</Link></li>
@@ -408,7 +408,7 @@ function Products() {
   </div>
   
   
-  <span className='adsrightline'><a></a> </span>
+  <span className='prorightline'><a></a> </span>
   <div className='rightscrolling'>
   
   <section className='call'>
@@ -659,7 +659,7 @@ function Products() {
     
   
       <div className='adsimgcard'>
-      <img src="images/15.jpg" alt="" />
+      <img src="images/17.jpg" alt="" />
       <div className='addetails'>
       <div className='adsinfo'>
         <h1>Project1 Name</h1>

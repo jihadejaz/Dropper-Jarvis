@@ -449,7 +449,7 @@ color: "rgb(47, 146, 138)",
     
   
       <div className='adsimgcard'>
-      <img src="images/15.jpg" alt="" />
+      <img src="images/21.jpg" alt="" />
       <div className='addetails'>
       <div className='adsinfo'>
         <h1>Project1 Name</h1>
