@@ -1,8859 +1,3201 @@
-@media screen and (min-width:2000px) and (max-width:2999px) {
-  .call {
+@media screen and (max-width:2000px) {
 
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 60px;
-    margin: 10px 0;
-
-  }
-
-
-  .fliterbutton {
-    display: none;
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-  .closememu {
-    display: none;
-  }
-
-
-  .ada {
-
-
-    display: flex;
-    justify-content: space-evenly;
-    padding: 45px 30px;
-  }
-
-
-  .adssreach {
-    color: white;
-    position: relative;
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 600px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-
-  .adssreach i {
-
-
-
-
-
-
-    position: absolute;
-
-    margin-left: 500px;
-    font-size: 1.2em;
-    color: aqua;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .productleft {
-    color: rgb(47, 146, 138);
-    width: 300px;
-    padding: 35px 20px;
-    margin-left: 15px;
-    height: 69.9vh;
-    border-radius: 15px;
-
-    overflow: hidden;
-  }
-
-
-
-
-  .productleft h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 9px;
-  }
-
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-  .flittercat {
-    margin-top: 14px;
-  }
-
-  .amazon-trigger {
-    cursor: pointer;
-  }
-
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.1s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-100%);
-  }
-
-
-  .translatedDivs {
-
-    transition: transform 0.3s;
-  }
-
-  .flutlines a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-top: 18px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-top: 9px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-  .productsocial {
-    display: flex;
-    justify-content: center;
-
-  }
-
-  .productsocial ul li {
-    padding: 8px;
-    display: flex;
-    margin-top: 10px;
-    margin-left: 7px;
-    align-items: center;
-    justify-content: center;
-    text-transform: capitalize;
-  }
-
-
-  .productsocial ul li i {
-
-    font-size: 1.4em;
-    margin-right: 13px;
-    display: flex;
-    align-items: center;
-  }
-
-  .proright {
-    width: 100%;
-    color: aliceblue;
-    height: 70vh;
-    border-radius: 15px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px;
-
-
-
-  }
-
-
-
-  .links {
-    color: rgb(47, 146, 138);
-
-  }
-
-  .links-list {
-    padding: 8px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-
-  .leftscoll h1 {
-    display: flex;
-    margin-top: 10px;
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px;
-    font-size: 1.1rem;
-  }
-
-
-  .rightadscontainer {
-    display: flex;
-    width: 105%;
-    justify-content: center;
-  }
-
-  .prorightlinks {
-
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 15px;
-    margin-top: 10px;
-    padding: 0px 0px;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    border-radius: 8px;
-    padding: 9px 40px;
-    display: flex;
-  }
-
-
-
-  .prorightline {
-
-
-
-
-
-    width: 99%;
-    margin-top: 4.9px;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 0px;
-  }
-
-
-  .rightscrolling {
-    overflow-y: scroll;
-
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: center;
-    max-height: 490px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 4.8px 10px;
-  }
-
-  .rightscrolling {
-
-
-    height: calc(100% - 2rem);
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-  }
-
-
-  .adsimgcard img {
-
-    width: 100%;
-    max-width: 319px;
-    object-fit: cover;
-  }
-
-
-  .adsimgcard {
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  .proright ul li {
-
-
-    padding: 0px 22px;
-    font-size: 1em;
-
-  }
-
-
-  .proright ul {
-
-    display: flex;
-
-  }
-
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .adsicons a {
-    font-size: 0.8em;
-    margin-left: 10px;
-    color: whitesmoke;
-  }
-
-
-
-  .addetails {
-
-
-
-
-
-    display: flex;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1.1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.9em;
-
-
-
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width:1791px) and (max-width:1999px) {
-  .call {
-
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  .call{
     gap: 37px;
     margin: 10px 0;
-
   }
-
-
-  .fliterbutton {
-    display: none;
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-  .closememu {
-    display: none;
-  }
-
-
-  .ada {
-
-
-    display: flex;
-    justify-content: space-evenly;
-    padding: 45px 30px;
-  }
-
-
-  .adssreach {
-    color: white;
-    position: relative;
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 600px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-
-  .adssreach i {
-
-
-
-
-
-
-    position: absolute;
-
-    margin-left: 500px;
-    font-size: 1.2em;
-    color: aqua;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .productleft {
-    color: rgb(47, 146, 138);
-    width: 300px;
-    padding: 30px 20px;
-    margin-left: 15px;
-    height: 69.9vh;
-    border-radius: 15px;
-
-    overflow: hidden;
-  }
-
-
-
-
-  .productleft h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 9px;
-  }
-
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-  .flittercat {
-    margin-top: 14px;
-  }
-
-  .amazon-trigger {
-    cursor: pointer;
-  }
-
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.1s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-100%);
-  }
-
-
-  .translatedDivs {
-
-    transition: transform 0.3s;
-  }
-
-  .flutlines a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-top: 18px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-top: 9px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-  .productsocial {
-    display: flex;
-    justify-content: center;
-
-  }
-
-  .productsocial ul li {
-    padding: 8px;
-    display: flex;
-    margin-top: 10px;
-    margin-left: 7px;
-    align-items: center;
-    justify-content: center;
-    text-transform: capitalize;
-  }
-
-
-  .productsocial ul li i {
-
-    font-size: 1.4em;
-    margin-right: 13px;
-    display: flex;
-    align-items: center;
-  }
-
-  .proright {
-    width: 100%;
-    color: aliceblue;
-    height: 70vh;
-    border-radius: 15px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px;
-
-
-
-  }
-
-
-
-  .links {
-    color: rgb(47, 146, 138);
-
-  }
-
-  .links-list {
-    padding: 8px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-
-  .leftscoll h1 {
-    display: flex;
-    margin-top: 10px;
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px;
-    font-size: 1.1rem;
-  }
-
-
-  .rightadscontainer {
-    display: flex;
-    width: 105%;
-    justify-content: center;
-  }
-
-  .prorightlinks {
-
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 15px;
-    margin-top: 10px;
-    padding: 0px 0px;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    border-radius: 8px;
-    padding: 9px 40px;
-    display: flex;
-  }
-
-
-
-  .prorightline {
-
-
-
-
-
-    width: 99%;
-    margin-top: 4.9px;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 0px;
-  }
-
-
-  .rightscrolling {
-    overflow-y: scroll;
-
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: center;
-    max-height: 360px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 4.8px 10px;
-  }
-
-  .rightscrolling {
-
-
-    height: calc(100% - 2rem);
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-  }
-
-
-  .adsimgcard img {
-
-    width: 100%;
-    max-width: 319px;
-    object-fit: cover;
-  }
-
-
-  .adsimgcard {
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  .proright ul li {
-
-
-    padding: 0px 22px;
-    font-size: 1em;
-
-  }
-
-
-  .proright ul {
-
-    display: flex;
-
-  }
-
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .adsicons a {
-    font-size: 0.8em;
-    margin-left: 10px;
-    color: whitesmoke;
-  }
-
-
-
-  .addetails {
-
-
-
-
-
-    display: flex;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1.1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.9em;
-
-
-
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width:1600px) and (max-width:1790px) {
-  .call {
-
-    margin: 10px 90px;
-
-    flex-wrap: wrap;
-    align-items: center;
-
-    gap: 34px;
-    justify-content: space-between;
-
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-  .fliterbutton{
-    display: none;
+    .fliterbutton {
+      display: none;
+    }
+  
+    .adspages {
+  
+      display: block;
+  
+    }
+  
+  
+    .closememu {
+      display: none;
+    }
+  
+  
+    .ada {
+  
+  
+      display: flex;
+      justify-content: space-evenly;
+      padding: 45px 30px;
+    }
+  
+    .productleft {
+  
+      width: 300px;
+      padding: 30px 20px;
+      margin-left: 15px;
+      height: 69.9vh;
+      border-radius: 15px;
+    
+    }
+  
+    .adssreach {
+      color: white;
+      position: relative;
+      display: flex;
+      margin-top: 20px;
+      align-items: center;
+  
+      justify-content: center;
+    }
+  
+    .adssreach input {
+  
+  
+      height: 50px;
+      border-radius: 10px;
+      background-color: transparent;
+      border: 7px #050F14 solid;
+      width: 600px;
+      color: white;
+      padding-left: 30px;
+    }
+  
+  
+  
+    .adssreach i {
+  
+  
+  
+  
+  
+  
+      position: absolute;
+  
+      margin-left: 500px;
+      font-size: 1.2em;
+      color: aqua;
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+    .productleft h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 9px;
+    }
+  
+  
+    .adsline a {
+      content: "";
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(216, 215, 215, 0.267);
+    }
+  
+  
+    .flittercat {
+      margin-top: 14px;
+    }
+  
+    .amazon-trigger {
+      cursor: pointer;
+    }
+  
+  
+    .translatedDiv {
+      overflow: hidden;
+      transition: transform 0.1s ease-in-out;
+    }
+  
+    .translatedDiv.slide-left {
+      transform: translateX(-100%);
+    }
+  
+  
+    .translatedDivs {
+  
+      transition: transform 0.3s;
+    }
+  
+    .flutlines a {
+      content: "";
+      display: flex;
+      align-items: center;
+      margin-top: 18px;
+      justify-content: center;
+      border: 1px solid rgba(216, 215, 215, 0.267);
+    }
+  
+    .flutline a {
+      content: "";
+      display: flex;
+      align-items: center;
+      margin-top: 9px;
+      justify-content: center;
+      border: 1px solid rgba(216, 215, 215, 0.267);
+    }
+  
+  
+    .productsocial {
+      display: flex;
+      justify-content: center;
+  
+    }
+  
+    .productsocial ul li {
+      padding: 8px;
+      display: flex;
+      margin-top: 10px;
+      margin-left: 7px;
+      align-items: center;
+      justify-content: center;
+      text-transform: capitalize;
+    }
+  
+  
+    .productsocial ul li i {
+  
+      font-size: 1.4em;
+      margin-right: 13px;
+      display: flex;
+      align-items: center;
+    }
+  
+    .proright {
+      width: 100%;
+      color: aliceblue;
+      height: 70vh;
+      border-radius: 15px;
+      margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+      padding: 0 10px;
+  
+  
+  
+    }
+  
+  
+  
+    .links {
+      color: rgb(47, 146, 138);
+  
+    }
+  
+    .links-list {
+      padding: 8px;
+    }
+  
+    .buttonofleftscolling {
+      background: none;
+      border: none;
+      background-color: transparent;
+      color: white;
+      display: flex;
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  
+  
+    .leftscoll h1 {
+      display: flex;
+      margin-top: 10px;
+      justify-content: start;
+      font-weight: 600;
+    }
+  
+  
+    .leftscoll h2 {
+      display: flex;
+      font-weight: normal;
+      padding: 10px;
+      font-size: 1.1rem;
+    }
+  
+  
+    .rightadscontainer {
+      display: flex;
+      width: 105%;
+      justify-content: center;
+    }
+  
+    .prorightlinks {
+  
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 15px;
+      margin-top: 10px;
+      padding: 0px 0px;
+    }
+  
+  
+    .links {
+      background-color: #0D000D;
+      border-radius: 8px;
+      padding: 9px 40px;
+      display: flex;
+    }
+  
+  
+  
+    .prorightline {
+  
+  
+  
+  
+  
+      width: 99%;
+      margin-top: 4.9px;
+      border: 1px solid rgba(216, 215, 215, 0.267);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 0px;
+    }
+  
+  
+    .rightscrolling {
+      overflow-y: scroll;
+  
+    }
+  
+    .catsocial {
+      display: flex;
+      justify-content: center;
+      max-height: 360px;
+      overflow-y: auto;
+    }
+  
+    .cat-social-list li {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .cat-social-list li a {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 0.99rem;
+      padding: 4.8px 10px;
+    }
+  
+    .rightscrolling {
+  
+  
+      height: calc(100% - 2rem);
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+  
+    .adsimgcard img {
+  
+      width: 100%;
+      max-width: 319px;
+      object-fit: cover;
+    }
+  
+  
+    .adsimgcard {
+  
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .proright ul li {
+  
+  
+      padding: 0px 22px;
+      font-size: 1em;
+  
+    }
+  
+  
+    .proright ul {
+  
+      display: flex;
+  
+    }
+  
+  
+    .adsicons i {
+      padding: 0px 4px;
+      color: whitesmoke;
+    }
+  
+    .adsicons a {
+      font-size: 0.8em;
+      margin-left: 10px;
+      color: whitesmoke;
+    }
+  
+  
+  
+    .addetails {
+  
+  
+  
+  
+  
+      display: flex;
+  
+  
+    }
+  
+  
+  
+    .adsinfo h1 {
+  
+  
+  
+  
+  
+  
+  
+  
+      font-size: 1.1em;
+      font-weight: normal;
+  
+  
+    }
+  
+  
+  
+  
+    .adsinfo a {
+  
+  
+  
+  
+  
+      font-size: 0.9em;
+  
+  
+  
+    }
+  
+  
+  
+  
   }
   
-
-  .closememu {
-    display: none;
-  }
-
-
-  .ada {
-
-
-    display: flex;
-    justify-content: space-evenly;
-    padding: 39px 30px;
-  }
-
-
-  .adssreach {
-
-
-
-
-
-
-
-    color: white;
-    position: relative;
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 600px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-
-  .adssreach i {
-
-
-
-
-
-
-    position: absolute;
-
-    margin-left: 500px;
-    font-size: 1.2em;
-    color: aqua;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .productleft {
-    color: rgb(47, 146, 138);
-    width: 300px;
-    padding: 29px 20px;
-    height: 69.9vh;
-    border-radius: 15px;
-  }
-
-
-
-
-  .productleft h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 17.6px;
-  }
-
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutlines a {
-    content: "";
-    display: flex;
-    margin-top: 29px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    margin-top: 10px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-
-  .productsocial {
-    display: flex;
-    justify-content: center;
-
-  }
-
-  .productsocial ul li {
-    padding: 10px;
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: capitalize;
-  }
-
-
-  .productsocial ul li i {
-
-    font-size: 1.4em;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-  }
-
-  .proright {
-    width: 100%;
-    color: aliceblue;
-    height: 70vh;
-    border-radius: 15px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 0 10px;
-  }
-
-
-
-  .links {
-    color: rgb(47, 146, 138);
-
-  }
-
-
-
-
-
-  .rightadscontainer {
-    display: flex;
-    width: 105%;
-    justify-content: center;
-  }
-
-  .prorightlinks {
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 15px;
-    margin-top: 13px;
-    padding: 5px 0px;
-  }
-
-  .flittercat h1 {
-    display: flex;
-    font-size: 1.3em;
-    justify-content: center;
-  }
-
-  .links {
-    background-color: #0D000D;
-    border-radius: 8px;
-    padding: 8px 40px;
-
-    display: flex;
-  }
-
-  .links-list {
-    padding: 3px;
-  }
-
-
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-
-  .leftscoll h1 {
-    display: flex;
-    margin-top: 20px;
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px;
-    font-size: 1.1rem;
-  }
-
-
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-8%);
-  }
-
-  .prorightline {
-    width: 99%;
-    margin-top: 12px;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 0px;
-  }
-
-
-  .rightscrolling {
-    overflow-y: scroll;
-
-  }
-
-
-  .rightscrolling {
-    height: calc(100% - 2rem);
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-  }
-
-  .flittercat {
-    margin-top: 10px;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: center;
-    max-height: 280px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 0.90rem;
-    padding: 4px 5px;
-  }
-
-  .adsimgcard img {
-
-    width: 100%;
-    max-width: 319px;
-    object-fit: cover;
-  }
-
-
-  .adsimgcard {
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  .proright ul li {
-
-
-    padding: 0px 22px;
-    font-size: 1em;
-
-  }
-
-
-  .proright ul {
-
-    display: flex;
-
-  }
-
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .adsicons a {
-    font-size: 0.8em;
-    margin-left: 10px;
-    color: whitesmoke;
-  }
-
-
-
-  .addetails {
-
-
-
-
-
-    display: flex;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1.1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.9em;
-
-
-
-  }
-
-}
-
-
-/* //1400 screen// */
-
-
-@media screen and (min-width:1400px) and (max-width:1599px) {
-  .call {
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 20px 90px;
-    margin: 10px 0px;
-    justify-content: center;
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-  .closememu {
-    display: none;
-  }
-
-  .fliterbutton {
-    display: none;
-  }
-
-  .ada {
-
-
-    display: flex;
-    justify-content: space-evenly;
-    padding: 30px 20px;
-  }
-
-
-  .productleft h1 {
-    display: flex;
-    justify-content: center;
-    margin-left: 10px;
-    margin-bottom: 9px;
-  }
-
-  .productleft {
-    color: rgb(47, 146, 138);
-    width: 280px;
-    padding: 28px 15px;
-    margin-left: 15px;
-    height: 69.9vh;
-
-    border-radius: 15px;
-  }
-
-  .adsline a {
-    content: "";
-    margin-left: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-  .adssreach {
-
-
-
-
-    color: white;
-    position: relative;
-    display: flex;
-    margin-top: 19px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-
-  .adssreach input {
-
-
-
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 2px #050F14 solid;
-    width: 580px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-
-  .adssreach i {
-
-
-
-
-
-
-    position: absolute;
-
-    margin-left: 490px;
-    font-size: 1.2em;
-    color: aqua;
-  }
-
-
-
-
-
-
-  .productsocial {
-    margin-top: 10px;
-  }
-
-
-  .productsocial ul li {
-    padding: 10px 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: capitalize;
-  }
-
-
-
-  .productsocial ul li i {
-
-    font-size: 1.4em;
-    margin-right: 10px;
-    display: flex;
-
-    align-items: center;
-  }
-
-
-
-
-
-  .proright {
-
-
-
-
-    width: 80%;
-    color: aliceblue;
-    height: 70vh;
-    border-radius: 15px;
-    margin-left: 30px;
-    display: flex;
-    flex-direction: column;
-    padding: 0 0;
-
-
-
-  }
-
-
-  .links {
-    color: rgb(47, 146, 138);
-
-
-
-  }
-
-  .links-list {
-    padding: 3px;
-  }
-
-
-
-
-  .prorightline {
-
-
-
-    margin-left: 10px;
-
-    width: 98%;
-    margin-top: 4px;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 10px;
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    margin-top: 10px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-
-
-  .prorightlinks {
-
-
-
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 15px;
-    margin-top: 10px;
-    padding: 6.7px 0px;
-  }
-
-  .links {
-    background-color: #0D000D;
-    border-radius: 8px;
-
-    padding: 7px 40px;
-    display: flex;
-  }
-
-  .rightscrolling {
-    overflow-y: scroll;
-
-  }
-
-  .flittercat h1 {
-    display: flex;
-    justify-content: center;
-    font-size: 1.4rem;
-    margin-top: 10px;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: center;
-    max-height: 235px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3.5px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-
-  .leftscoll h1 {
-    display: flex;
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px;
-    font-size: 1.1rem;
-  }
-
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-8%);
-  }
-
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.1s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-100%);
-  }
-
-
-
-
-  .flutlines a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-top: 23px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-top: 10px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .rightscrolling {
-
-
-    height: calc(100% - 1em);
-    /* padding: 0 10px; */
-    margin-top: 19px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-  }
-
-  .adsimgcard img {
-    height: auto;
-    width: 100%;
-
-    max-width: 280px;
-    object-fit: cover;
-  }
-
-  .adsimgcard {
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  .proright ul li {
-    padding: 0px 22px;
-    font-size: 1em;
-
-  }
-
-
-
-  .proright ul {
-
-    display: flex;
-
-
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .adsicons a {
-    font-size: 0.7em;
-    margin-left: 5px;
-    color: whitesmoke;
-  }
-
-
-
-  .addetails {
-
-
-
-
-
-    display: flex;
-
-
-  }
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1.1em;
-    font-weight: normal;
-
-
-  }
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.9em;
-
-
-
-  }
-
-}
-
-
-
-@media screen and (min-width:1200px) and (max-width:1399px) {
-  .call {
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 40px;
-    margin: 10px 0px;
-    justify-content: center;
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-  .closememu {
-    display: none;
-  }
-
-  .fliterbutton {
-    display: none;
-  }
-
-
-
-  .adssreach {
-    color: white;
-    position: relative;
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 2px #050F14 solid;
-    width: 500px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-
-    position: absolute;
-
-    margin-left: 420px;
-    font-size: 1.2em;
-    color: aqua;
-  }
-
-  .flittercat h1 {
-    display: flex;
-    margin-top: 10px;
-    font-size: 1em;
-    justify-content: center;
-  }
-
-
-
-  .ada {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 29px 12px;
-  }
-
-
-  .productleft {
-    color: rgb(47, 146, 138);
-    width: 280px;
-    padding: 20px 15px;
-    margin-left: 15px;
-    height: 69.9vh;
-
-    border-radius: 15px;
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    margin-top: 10px;
-    margin-left: 8px;
-    margin-right: 6px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-  .productleft h1 {
-    display: flex;
-    margin-top: 3px;
-    align-items: center;
-    font-size: 1.4em;
-    justify-content: center;
-    margin-bottom: 5px;
-  }
-
-
-
-
-  .productsocial ul li {
-    padding: 4px;
-    display: flex;
-    margin-top: 16px;
-    align-items: center;
-    justify-content: center;
-    text-transform: capitalize;
-  }
-
-
-  .productsocial ul li i {
-
-    font-size: 1.4em;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-  }
-
-
-  .rightadscontainer {
-    display: flex;
-    justify-content: center;
-  }
-
-
-  .links {
-    color: rgb(47, 146, 138);
-
-  }
-
-  .proright {
-    width: 74%;
-    color: aliceblue;
-    height: 70vh;
-    border-radius: 15px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 2px 0;
-
-
-
-  }
-
-
-
-
-
-  .prorightlinks {
-
-
-
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 15px;
-    margin-top: 1rem;
-    padding: 0px 0px;
-  }
-
-  .links {
-    background-color: #0D000D;
-    border-radius: 8px;
-
-    padding: 4.1px 30px;
-    display: flex;
-  }
-
-  .rightscrolling {
-    overflow-y: scroll;
-
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: center;
-    max-height: 170px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 4px 0px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-
-  .leftscoll h1 {
-    display: flex;
-    justify-content: start;
-    font-weight: 600;
-margin-top: 20px;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.4s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
+  
+  
+  
+  @media screen and (max-width:1790px) {
+  
+  
+  
+  
+    .adssreach {
+  
+  
+  
+  
+      margin-top: 19px;
+      
+  
+    }
+  
+  
+  
+    .productleft {
+  
+      width: 300px;
+      padding: 28px 20px;
+    
+    }
+    
+  
+  
+    .adssreach input {
+      width: 580px;
+    }
+  
+    .proright {
+  
+      width: 80%;
+      border-radius: 15px;
+      margin-left: 30px;
+      padding: 0 0;
+    }
+   
+  
+    .links {
+      color: rgb(47, 146, 138);
+  
+  
+  
+    }
+  
+    .links-list {
+      padding: 3px;
+    }
+  
+  
+  
+  
+    .prorightline {
+  
+  
+  
+      margin-left: 10px;
+  
+      width: 98%;
+      margin-top: 4px;
+     
+    }
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    .flutline a {
+    
+      margin-top: 10px;
+      
+    }
+  
+  
+  
+  
+    .prorightlinks {
+  
+  
+  
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 15px;
+      margin-top: 10px;
+      padding: 6.7px 0px;
+    }
+  
+    .links {
+      background-color: #0D000D;
+      border-radius: 8px;
+  
+      padding: 7px 40px;
+      display: flex;
+    }
+  
+    .rightscrolling {
+      overflow-y: scroll;
+  
+    }
+  
+    .flittercat h1 {
+      display: flex;
+      justify-content: center;
+      font-size: 1.4rem;
+      margin-top: 10px;
+    }
+  
+    .catsocial {
+  
+      max-height: 300px;
+    }
+  
+  
+  
+    .leftscoll h1 {
+      display: flex;
+      justify-content: start;
+      font-weight: 600;
+    }
+  
+  
+    .leftscoll h2 {
+      display: flex;
+      font-weight: normal;
+      padding: 10px;
+      font-size: 1.1rem;
+    }
+  
+  
+    .translatedDiv {
+      overflow: hidden;
+      transition: transform 0.2s ease-in-out;
+    }
+  
+    .translatedDiv.slide-left {
+      transform: translateX(-8%);
+    }
+  
+  
+    .translatedDiv {
+      overflow: hidden;
+      transition: transform 0.1s ease-in-out;
+    }
+  
+    .translatedDiv.slide-left {
+      transform: translateX(-100%);
+    }
+  
+  
+  
+  
+    .rightscrolling {
+  
+  
+      height: calc(100% - 1em);
+      /* padding: 0 10px; */
+      margin-top: 19px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+    .adsimgcard img {
+   
+  
+      max-width: 290px;
+    
+    }
+  
+  
+    .proright ul li {
+      padding: 0px 22px;
+      font-size: 1em;
+  
+    }
+  
+  
+  
+    .proright ul {
+  
+      display: flex;
+  
+  
+    }
+  
+    .adsicons i {
+      padding: 0px 4px;
+      color: whitesmoke;
+    }
+  
+    .adsicons a {
+      font-size: 0.7em;
+      margin-left: 5px;
+      color: whitesmoke;
+    }
+  
+  
+  
+    .addetails {
+  
+  
+  
+  
+  
+      display: flex;
+  
+  
+    }
+  
+    .adsinfo h1 {
+  
+  
+  
+  
+  
+  
+  
+  
+      font-size: 1.1em;
+      font-weight: normal;
+  
+  
+    }
+  
+  
+    .adsinfo a {
+  
+  
+  
+  
+  
+      font-size: 0.9em;
+  
+  
+  
+    }
+  
   }
   
-
-  .flutlines a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-top: 21px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
+  
+  @media screen and (max-width:1399px) {
+   
+  
+  .adssreach{
+    margin-top: 55px;
   }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-    margin-top: 18px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
+  
+  
+  
+  
+    .catsocial {
+  
+      max-height: 400px;
+    }
+  
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    .prorightlinks {
+  
+  
+  
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 15px;
+      margin-top: 10px;
+      padding: 6.7px 0px;
+    }
+  
+    .links {
+      background-color: #0D000D;
+      border-radius: 8px;
+  
+      padding: 7px 40px;
+      display: flex;
+    }
+  
+    .rightscrolling {
+      overflow-y: scroll;
+  
+    }
+  
+    .flittercat h1 {
+      display: flex;
+      justify-content: center;
+      font-size: 1.4rem;
+      margin-top: 10px;
+    }
+  
+   
+  
+    .cat-social-list li {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .cat-social-list li a {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 0.99rem;
+      padding: 3.5px 10px;
+    }
+  
+    .buttonofleftscolling {
+      background: none;
+      border: none;
+      background-color: transparent;
+      color: white;
+      display: flex;
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  
+  
+    .leftscoll h1 {
+      display: flex;
+      justify-content: start;
+      font-weight: 600;
+    }
+  
+  
+    .leftscoll h2 {
+      display: flex;
+      font-weight: normal;
+      padding: 10px;
+      font-size: 1.1rem;
+    }
+  
+  
+    .translatedDiv {
+      overflow: hidden;
+      transition: transform 0.2s ease-in-out;
+    }
+  
+    .translatedDiv.slide-left {
+      transform: translateX(-8%);
+    }
+  
+  
+    .translatedDiv {
+      overflow: hidden;
+      transition: transform 0.1s ease-in-out;
+    }
+  
+    .translatedDiv.slide-left {
+      transform: translateX(-100%);
+    }
+  
+  
+  
+  
+    .flutlines a {
+      content: "";
+      display: flex;
+      align-items: center;
+      margin-top: 23px;
+      justify-content: center;
+      border: 1px solid rgba(216, 215, 215, 0.267);
+    }
+  
+  
+    .rightscrolling {
+  
+  
+      height: calc(100% - 1em);
+      /* padding: 0 10px; */
+      margin-top: 19px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+    .adsimgcard img {
+   
+  
+      max-width: 260px;
+    }
+  
+    .adsimgcard {
+  
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .proright ul li {
+      padding: 0px 22px;
+      font-size: 1em;
+  
+    }
+  
+  
+  
+    .proright ul {
+  
+      display: flex;
+  
+  
+    }
+  
+    .adsicons i {
+      padding: 0px 4px;
+      color: whitesmoke;
+    }
+  
+    .adsicons a {
+      font-size: 0.7em;
+      margin-left: 5px;
+      color: whitesmoke;
+    }
+  
+  
+  
+    .addetails {
+  
+  
+  
+  
+  
+      display: flex;
+  
+  
+    }
+  
+    .adsinfo h1 {
+  
+  
+  
+  
+  
+  
+  
+  
+      font-size: 1.1em;
+      font-weight: normal;
+  
+  
+    }
+  
+  
+    .adsinfo a {
+  
+  
+  
+  
+  
+      font-size: 0.9em;
+  
+  
+  
+    }
+  
   }
-
-
-  .rightscrolling {
-
-
-    height: calc(100% - 1em);
-    /* padding: 0 10px; */
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  
+  
+  
+  @media screen and (max-width:1300px) {
+    .call {
+      flex-wrap: wrap;
+      align-items: center;
+      gap: auto 90px;
+      margin: 10px 0px;
+      justify-content: center;
+    }
+  
+  
+  
+  
+  
+    .productleft {
+      
+      width: 280px;
+      padding: 28px 15px;
+      margin-left: 15px;
+      height: 72vh;
+    
+  
+      border-radius: 15px;
+    }
+  
+   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+    .proright {
+  
+  
+  
+  
+  
+      height: 72vh;
+      
+   
+  
+    }
+   
+  
+    .links {
+      color: rgb(47, 146, 138);
+  
+  
+  
+    }
+  
+    .links-list {
+      padding: 3px;
+    }
+  
+  
+  
+  
+    
+  
+  
+  
+  
+    .prorightlinks {
+  
+  
+  
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 15px;
+      margin-top: 10px;
+      padding: 6.7px 0px;
+    }
+  
+    .links {
+      background-color: #0D000D;
+      border-radius: 8px;
+  
+      padding: 7px 40px;
+      display: flex;
+    }
+  
+    .rightscrolling {
+      overflow-y: scroll;
+  
+    }
+  
+    .flittercat h1 {
+      display: flex;
+      justify-content: center;
+      font-size: 1.4rem;
+      margin-top: 10px;
+    }
+  
+   
+  
+    .cat-social-list li {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    .cat-social-list li a {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 0.99rem;
+      padding: 3.5px 10px;
+    }
+  
+    .buttonofleftscolling {
+      background: none;
+      border: none;
+      background-color: transparent;
+      color: white;
+      display: flex;
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  
+  
+    .leftscoll h1 {
+      display: flex;
+      justify-content: start;
+      font-weight: 600;
+    }
+  
+  
+    .leftscoll h2 {
+      display: flex;
+      font-weight: normal;
+      padding: 10px;
+      font-size: 1.1rem;
+    }
+  
+  
+    .translatedDiv {
+      overflow: hidden;
+      transition: transform 0.2s ease-in-out;
+    }
+  
+    .translatedDiv.slide-left {
+      transform: translateX(-8%);
+    }
+  
+  
+    .translatedDiv {
+      overflow: hidden;
+      transition: transform 0.1s ease-in-out;
+    }
+  
+    .translatedDiv.slide-left {
+      transform: translateX(-100%);
+    }
+  
+  
+  
+  
+    .flutlines a {
+      content: "";
+      display: flex;
+      align-items: center;
+      margin-top: 23px;
+      justify-content: center;
+      border: 1px solid rgba(216, 215, 215, 0.267);
+    }
+  
+  
+    .rightscrolling {
+  
+  
+      height: calc(100% - 1em);
+      /* padding: 0 10px; */
+      margin-top: 19px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+    .adsimgcard img {
+   
+  
+      max-width: 260px;
+    }
+  
+    .adsimgcard {
+  
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .proright ul li {
+      padding: 0px 22px;
+      font-size: 1em;
+  
+    }
+  
+  
+  
+    .proright ul {
+  
+      display: flex;
+  
+  
+    }
+  
+    .adsicons i {
+      padding: 0px 4px;
+      color: whitesmoke;
+    }
+  
+    .adsicons a {
+      font-size: 0.7em;
+      margin-left: 5px;
+      color: whitesmoke;
+    }
+  
+  
+  
+    .addetails {
+  
+  
+  
+  
+  
+      display: flex;
+  
+  
+    }
+  
+    .adsinfo h1 {
+  
+  
+  
+  
+  
+  
+  
+  
+      font-size: 1.1em;
+      font-weight: normal;
+  
+  
+    }
+  
+  
+    .adsinfo a {
+  
+  
+  
+  
+  
+      font-size: 0.9em;
+  
+  
+  
+    }
+  
   }
-
-  .adsimgcard img {
-    height: auto;
-    width: 100%;
-    max-width: 220px;
-    object-fit: cover;
+  
+  @media screen and (max-width:1180px){
+    .ada{
+      padding: 36px 30px;
+    }
+    .adssreach{
+      margin-top: 37px;
+    }
+  } 
+  @media screen and (max-width:1025px) {
+   
+    .buttonofleftscolling {
+      background: none;
+      border: none;
+      background-color: transparent;
+      color: white;
+      display: flex;
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  
+  
+  
+  
+  
+    .leftscoll h1 {
+      display: flex;
+      justify-content: start;
+    }
+  
+  
+    .leftscoll h2 {
+      display: flex;
+      font-weight: normal;
+      padding: 10px;
+      font-size: 1.1rem;
+    }
+  
+    .translatedDiv {
+      overflow: hidden;
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .translatedDiv.slide-left {
+      transform: translateX(-6%);
+    }
+  
+  
+    .adssreach {
+      
+      margin-top: 30px;
+      
+    }
+  
+  
+    .adssreach input {
+  
+  
+      height: 48px;
+     
+  
+      width: 560px;
+      
+    }
+  
+  
+    .adssreach i {
+      margin-left: 433px;
+      font-size: 1em;
+    }
+  
+  
+  
+  
+    .ada {
+      padding: 32px 0px;
+    }
+  
+    .productleft {
+   
+  
+      padding: 25px 15px;
+    
+  
+      height: 72vh;
+  
+    
+    }
+  
+   
+   
+  
+    .flittercat h1 {
+      display: flex;
+      margin-top: 10px;
+      font-size: 1em;
+      justify-content: center;
+    }
+  
+  
+   
+  
+  
+    .productleft h1 {
+    
+      font-size: 1.2em;
+   
+      margin-bottom: 13.8px;
+    }
+  
+    .leftscoll h1 {
+      display: flex;
+      padding: 0px 10px;
+      justify-content: start;
+  
+    }
+  
+  
+    .productsocial ul li i {
+  
+      font-size: 1.2em;
+      
+    }
+  
+  
+  
+  
+  
+  
+    .rightadscontainer {
+      display: flex;
+      justify-content: center;
+    }
+  
+  
+    .proright {
+  
+  
+  
+  margin-right: 19px;
+      width: 74%;
+   
+     
+      padding: 6px 0px;
+  
+  
+  
+    }
+  
+  
+  
+   
+  
+    .links {
+      color: rgb(47, 146, 138);
+  
+    }
+  
+  
+  
+    .prorightlinks {
+  
+  
+  
+      display: flex;
+      justify-content: flex-start;
+      margin-left: 15px;
+      margin-top: 7px;
+      padding: 0px 0px;
+    }
+  
+    .links {
+      background-color: #0D000D;
+      border-radius: 7px;
+      padding: 10px 40px;
+      display: flex;
+    }
+  
+    .rightscrolling {
+      overflow-y: scroll;
+  
+    }
+  
+    .rightscrolling {
+  
+  
+      height: calc(100% - 1em);
+      /* padding: 0 10px; */
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+    }
+  
+    .adsimgcard img {
+      max-width: 250px;
+    }
+  
+  
+    .adsimgcard {
+  
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+  
+    .proright ul li {
+      padding: 0px 22px;
+      font-size: 1em;
+  
+    }
+  
+    .proright ul {
+  
+      display: flex;
+  
+    }
+  
+    .adsicons i {
+      padding: 0px 2px;
+      color: whitesmoke;
+    }
+  
+  
+    .adsicons a {
+      font-size: 0.5em;
+      margin-left: 0px;
+      color: whitesmoke;
+    }
+  
+    .adsicons {
+      color: whitesmoke;
+      padding: 0px 5px;
+      overflow: hidden;
+      font-size: 0.8rem;
+    }
+  
+  
+  
+    .addetails {
+  
+  
+  
+  
+  
+      display: flex;
+  
+  
+    }
+  
+    .adsinfo h1 {
+  
+  
+  
+  
+  
+  
+  
+  
+      font-size: 0.7em;
+      font-weight: normal;
+  
+  
+    }
+  
+  
+  
+  
+    .adsinfo a {
+  
+  
+  
+  
+  
+      font-size: 0.5em;
+  
+  
+  
+    }
+  
   }
-
-
-  .adsimgcard {
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  .prorightline {
-
-
-    margin-left: 10px;
-
-
-
-    width: 99%;
-    margin-top: 16px;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0 0px;
-  }
-
-
-  .proright ul li {
-    padding: 0px 22px;
-    font-size: 1em;
-
-  }
-
-  .proright ul {
-
-    display: flex;
-
-  }
-
-  .adsicons i {
-
-    color: whitesmoke;
-  }
-
-  .adsicons a {
-    font-size: 0.5em;
-    color: whitesmoke;
-  }
-
-  .addetails {
-
-
-
-
-
-    display: flex;
-
-
-  }
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 0.9em;
-    font-weight: normal;
-
-
-  }
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.7em;
-
-
-
-  }
-
-}
-
-
-
-
-@media screen and (min-width:1024px) and (max-width:1199px) {
-  .call {
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 30px;
-    margin: 10px 0px;
-    justify-content: center;
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-  .closememu {
-    display: none;
-  }
-
-  .fliterbutton {
-    display: none;
-
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: center;
-    max-height: 100px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 1px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-
-  .leftscoll h1 {
-    display: flex;
-    justify-content: start;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-6%);
-  }
-
-
-  .adssreach {
-    color: white;
-    position: relative;
-    display: flex;
-    margin-top: 14px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-
-  .adssreach input {
-
-
-    height: 36px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 2px #050F14 solid;
-
-    width: 360px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-    position: absolute;
-    margin-left: 290px;
-    font-size: 1em;
-    color: aqua;
-  }
-
-
-
-
-  .ada {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 27px 10px;
-  }
-
-  .productleft {
-    color: rgb(47, 146, 138);
-    width: 280px;
-    padding: 25px 15px;
-    margin-left: 15px;
-    height: 69.9vh;
-
-    border-radius: 15px;
-  }
-
-  .flittercat h1 {
-    display: flex;
-    margin-top: 10px;
-    font-size: 1em;
-    justify-content: center;
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    margin-top: 10px;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-
-  .productleft h1 {
-    display: flex;
-    align-items: center;
-    font-size: 1.2em;
-    justify-content: center;
-    margin-bottom: 13.8px;
-  }
-.leftscoll h1{
-  display: flex;
-  padding: 0px 10px;
+  
+  
+  
+  
+  @media screen and (max-width:900px) {
+    .call {
+  
+  
+   
+      margin: 0px 0px;
+  
+      gap: 50px;
+  
+    }
+  
+  
+    .adspages {
+  
+      display: block;
+  
+    }
+  
+  
+  
+    .ada {
+  
+  
+  
+      /* height: 950px; */
+  
+      display: block;
+      padding: 15px 15px;
+    }
+  
+    .adsimgcard img {
+      max-width: 180px;
+    }
+    
+    .prorightline {
+  
+  
+  
+  
+      display: none;
+        }
+    .closememu {
+      font-size: 1rem;
+      color: whitesmoke;
+      display: flex;
+      padding: 10px 15px;
+    }
+  
+    .productleft {
+      height: 900%;
+      padding: 4px 4px;
+      margin-left: 0px;
+      border-radius: 0px;
+    }
+  
+  
+    .adssreach {
+      color: white;
+      display: flex;
+      margin-top: 50px;
+      align-items: center;
+  
+      justify-content: center;
+    }
+  
+    .adssreach input {
+  
+  
+      height: 50px;
+      
+      width: 600px;
+    }
+  
+  
+    .adssreach i {
+  
+  
+  
+  
+  
+      display: none;
+    }
+  
+  
+  
+  
+    .productleft h1 {
+  
+  
   justify-content: start;
-
-}
-  .productsocial {
-    margin-top: 10px;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      font-size: 1.6em;
+    }
+  
+    
+    .adsline a {
+      content: "";
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(216, 215, 215, 0.267);
+    }
+  .fliterbutton{
+    display: inline;
   }
-
-
-  .productsocial ul li {
-    padding: 10px 1px;
+    
+  
+    .productsocial {
+  
+  
+      overflow: hidden;
+      width: 100%;
+      display: flex;
+      justify-content: start;
+  
+    }
+  
+  
+  
+    .productsocial ul {
+  
+      display: block;
+      justify-content: start;
+    }
+  
+    .modal-button {
+      cursor: pointer;
+    }
+  
+    .modal {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.3s ease-in-out;
+      transform: translateX(-100%);
+    }
+  
+    .modal.show {
+      transform: translateX(0);
+    }
+  
+    .productleft {
+    
+      display: block;
+      
+      width: 100%;
+      align-items: center;
+    }
+    .productleft h1{
+      margin-bottom: 0px;
+    }
+  
+  
+    .productsocial ul li {
+  
+  
+  
+  
+      display: flex;
+      justify-content: start;
+      padding: 6px 10px;
+      font-size: 1.1em;
+    }
+  
+  
+    .productsocial ul li i {
+  
+  
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+    .links {
+      background-color: #0D000D;
+      color: rgb(47, 146, 138);
+  
+      padding: 6px 20px;
+      display: flex;
+    }
+  
+    .proright {
+      margin-top: 30px;
+      display: block;
+      width: 100%;
+      margin-left: 0px;
+      color: whitesmoke;
+      padding: 10px 0px;
+    }
+  
+    .adsicons a {
+      font-size: 0.6em;
+  
+      margin-left: 0px;
+      color: whitesmoke;
+    }
+  
+    .adsicons i {
+      padding: 0px 4px;
+      color: whitesmoke;
+    }
+  
+    .catsocial {
+      max-height: 530px;
+  
+      display: flex;
+      justify-content: start;
+    }
+  
+    .cat-social-list li {
+      display: flex;
+      justify-content: start;
+    }
+  
+    .cat-social-list li a {
+  
+      font-size: 0.99rem;
+      padding: 1px 10px;
+    }
+  
+    .buttonofleftscolling {
+      background: none;
+      border: none;
+      background-color: transparent;
+      color: white;
+      display: flex;
+      padding: 10px 20px;
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  
+    .leftscoll h1 {
+      display: flex;
+      padding: 10px 20px;
+  
+      justify-content: start;
+      font-weight: 600;
+    }
+  
+  
+    .leftscoll h2 {
+      display: flex;
+      font-weight: normal;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+    }
+  
+    .translatedDiv {
+      overflow: hidden;
+      transition: transform 0.2s ease-in-out;
+    }
+  
+    .translatedDiv.slide-left {
+      transform: translateX(-11%);
+    }
+  
+    .fliterbutton {
+      color: rgb(47, 146, 138);
+      position: relative;
+      right: 0px;
+      left: -20px;
+  
+    }
+  
+    .prorightlinks {
+  
+      overflow-x: auto;
+      white-space: nowrap;
+  
+    }
+  
+  
+    .prorightlinks li {
+  
+  
+      list-style-type: none;
+      margin-right: 10px;
+  
+  
+    }
+    .proright ul{
+      margin-left: 0px;
+      padding: 0px 0px;
+    }
+  
+    .productsocial span {
+      display: none;
+    }
+  
+    .links-list .links {
+  
+      font-size: 1em;
+      padding: 10px 19px;
+  
+  
+    }
+  
+  
+  
+  
+  
+    .links-list {
+  
+      display: inline-flex;
+      padding: 10px;
+    }
+  
+  
+    .rightscrolling {
+  
+  
+  
+      overflow-y: scroll;
+  
+  
+  
+  
+      height: 90%;
+      padding: 0 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  
+    .adsimgcard img {
+  
+  
+  
+  
+  
+      height: auto;
+      width: 270px;
+      border-radius: 10px;
+  
+    }
+  
+  
+  
+  
+    .addetails {
+  
+  
+  
+  
+  
+      display: block;
+  
+  
+    }
+  
+  
+  
+    .adsinfo h1 {
+  
+  
+  
+  
+  
+  
+  
+  
+      font-size: 1em;
+      font-weight: normal;
+  
+  
+    }
+  
+  
+  
+  
+    .adsinfo a {
+  
+  
+  
+  
+  
+      font-size: 0.7em;
+  
+  
+  
+    }
+  
+  
+  
+  
+  
+  
+  }
+  
+  
+  
+  @media screen and (max-width:600px) {
+    .call {
+  
+  
+   
+      margin: 0px 0px;
+  
+      gap: 30px;
+  
+    }
+    
+  
+  
+    .adspages {
+  
+      display: block;
+  
+    }
+  
+    .proright ul{
+      margin-left: 0px;
+      padding: 0px 0px;
+    }
+  
+    .ada {
+  
+  
+  
+  
+  
+      display: block;
+      padding: 15px 15px;
+    }
+  
+  
+    
+    .prorightline {
+  
+  
+  
+  
+      display: none;
+        }
+    .closememu {
+      font-size: 1rem;
+      color: whitesmoke;
+      display: flex;
+      padding: 10px 15px;
+    }
+  
+    .productleft {
+      height: 900%;
+      padding: 4px 4px;
+      margin-left: 0px;
+      border-radius: 0px;
+    }
+  
+  
+    .adssreach {
+      color: white;
+      display: flex;
+      margin-top: 40px;
+      align-items: center;
+  
+      justify-content: center;
+    }
+  
+    .adssreach input {
+  
+  
+      height: 50px;
+      
+      width: 350px;
+    }
+  
+  
+    .adssreach i {
+  
+  
+  
+  
+  
+      display: none;
+    }
+  
+  
+  
+  
+    .productleft h1 {
+  
+  
+  justify-content: start;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      font-size: 1.6em;
+    }
+  
+    
+    .adsline a {
+      content: "";
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(216, 215, 215, 0.267);
+    }
+  .fliterbutton{
+    display: inline;
+  }
+    
+  
+    .productsocial {
+  
+  
+      overflow: hidden;
+      width: 100%;
+      display: flex;
+      justify-content: start;
+  
+    }
+  
+  
+  
+    .productsocial ul {
+  
+      display: block;
+      justify-content: start;
+    }
+  
+    .modal-button {
+      cursor: pointer;
+    }
+  
+    .modal {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.3s ease-in-out;
+      transform: translateX(-100%);
+    }
+  
+    .modal.show {
+      transform: translateX(0);
+    }
+  
+    .productleft {
+    
+      display: block;
+      
+      width: 100%;
+      align-items: center;
+    }
+    .productleft h1{
+      margin-bottom: 0px;
+    }
+  
+  
+    .productsocial ul li {
+  
+  
+  
+  
+      display: flex;
+      justify-content: start;
+      padding: 6px 10px;
+      font-size: 1.1em;
+    }
+  
+  
+    .productsocial ul li i {
+  
+  
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+    .links {
+      background-color: #0D000D;
+      color: rgb(47, 146, 138);
+  
+      padding: 6px 20px;
+      display: flex;
+    }
+  
+    .proright {
+      margin-top: 30px;
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-left: 0px;
+      color: whitesmoke;
+      padding: 6px 0px;
+    }
+  
+    .adsicons a {
+      font-size: 0.6em;
+  
+      margin-left: 0px;
+      color: whitesmoke;
+    }
+  
+    .adsicons i {
+      padding: 0px 4px;
+      color: whitesmoke;
+    }
+  
+    .catsocial {
+      max-height: 530px;
+  
+      display: flex;
+      justify-content: start;
+    }
+  
+    .cat-social-list li {
+      display: flex;
+      justify-content: start;
+    }
+  
+    .cat-social-list li a {
+  
+      font-size: 0.99rem;
+      padding: 1px 10px;
+    }
+  
+    .buttonofleftscolling {
+      background: none;
+      border: none;
+      background-color: transparent;
+      color: white;
+      display: flex;
+      padding: 10px 20px;
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  
+    .leftscoll h1 {
+      display: flex;
+      padding: 10px 20px;
+  
+      justify-content: start;
+      font-weight: 600;
+    }
+  
+  
+    .leftscoll h2 {
+      display: flex;
+      font-weight: normal;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+    }
+  
+    .translatedDiv {
+      overflow: hidden;
+      transition: transform 0.2s ease-in-out;
+    }
+  
+    .translatedDiv.slide-left {
+      transform: translateX(-11%);
+    }
+  
+    .fliterbutton {
+      color: rgb(47, 146, 138);
+      position: relative;
+      right: 0px;
+      left: -20px;
+  
+    }
+  
+    .prorightlinks {
+  
+      overflow-x: auto;
+      white-space: nowrap;
+  
+    }
+  
+  
+    .prorightlinks li {
+  
+  
+      list-style-type: none;
+      margin-right: 10px;
+  
+  
+    }
+  
+    .productsocial span {
+      display: none;
+    }
+  
+    .links-list .links {
+  
+      font-size: 1em;
+      padding: 10px 19px;
+  
+  
+    }
+  
+  
+  
+  
+  
+    .links-list {
+  
+      display: inline-flex;
+      padding: 10px;
+    }
+  
+  
+    .rightscrolling {
+  
+  
+  
+      overflow-y: scroll;
+  
+  
+  
+  
+      height: 550px;
+      padding: 0 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  
+    .adsimgcard img {
+  
+  
+  
+  
+  
+      height: auto;
+      width: 210px;
+      border-radius: 20px;
+  
+    }
+  
+  
+  
+  
+    .addetails {
+  
+  
+  
+  
+  
+      display: block;
+  
+  
+    }
+  
+  
+  
+    .adsinfo h1 {
+  
+  
+  
+  
+  
+  
+  
+  
+      font-size: 1em;
+      font-weight: normal;
+  
+  
+    }
+  
+  
+  
+  
+    .adsinfo a {
+  
+  
+  
+  
+  
+      font-size: 0.7em;
+  
+  
+  
+    }
+  
+  
+  
+  
+  
+  
+  }
+  
+  
+  
+  @media screen and (max-width:460px) {
+    .call {
+      margin: 10px 0px;
+      gap: 20px;
+    }
+  
+  
+    .adspages {
+  
+      display: block;
+  
+    }
+    .proright ul{
+      margin-left:-15px;
+      padding: 0px 0px;
+    }
+  
+  
+  
+    .ada {
+  
+  
+  
+  
+  
+      display: block;
+      padding: 10px 15px;
+    }
+  
+  
+    
+    .prorightline {
+  
+  
+  
+  
+      display: none;
+        }
+    .closememu {
+      font-size: 1rem;
+      color: whitesmoke;
+      display: flex;
+      padding: 10px 15px;
+    }
+  
+    .productleft {
+      height: 900%;
+      padding: 4px 4px;
+      margin-left: 0px;
+      border-radius: 0px;
+    }
+  
+  
+    .adssreach {
+      color: white;
+      display: flex;
+      margin-top: 40px;
+      align-items: center;
+  
+      justify-content: center;
+    }
+  
+    .adssreach input {
+      height: 50px;
+      width: 300px;
+    }
+  
+  
+    .adssreach i {
+  
+  
+  
+  
+  
+      display: none;
+    }
+  
+  
+  
+  
+    .productleft h1 {
+  
+  
+  justify-content: start;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      font-size: 1.6em;
+    }
+  
+    
+    .adsline a {
+      content: "";
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(216, 215, 215, 0.267);
+    }
+  .fliterbutton{
+    display: inline;
+  }
+    
+  
+    .productsocial {
+  
+  
+      overflow: hidden;
+      width: 100%;
+      display: flex;
+      justify-content: start;
+  
+    }
+  
+  
+  
+    .productsocial ul {
+  
+      display: block;
+      justify-content: start;
+    }
+  
+    .modal-button {
+      cursor: pointer;
+    }
+  
+    .modal {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.3s ease-in-out;
+      transform: translateX(-100%);
+    }
+  
+    .modal.show {
+      transform: translateX(0);
+    }
+  
+    .productleft {
+    
+      display: block;
+      
+      width: 100%;
+      align-items: center;
+    }
+    .productleft h1{
+      margin-bottom: 0px;
+    }
+  
+  
+    .productsocial ul li {
+  
+  
+  
+  
+      display: flex;
+      justify-content: start;
+      padding: 6px 10px;
+      font-size: 1.1em;
+    }
+  
+  
+    .productsocial ul li i {
+  
+  
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+    .links {
+      background-color: #0D000D;
+      color: rgb(47, 146, 138);
+  
+      padding: 6px 20px;
+      display: flex;
+    }
+  
+    .proright {
+      margin-top: 20px;
+      display: block;
+      width: 100%;
+      margin-left: 0px;
+      color: whitesmoke;
+      padding: 10px 10px;
+    }
+    
+  
+  
+    .adsicons a {
+      font-size: 0.6em;
+  
+      margin-left: 0px;
+      color: whitesmoke;
+    }
+  
+    .adsicons i {
+      padding: 0px 4px;
+      color: whitesmoke;
+    }
+  
+    .catsocial {
+      max-height: 620px;
+  
+      display: flex;
+      justify-content: start;
+    }
+  
+    .cat-social-list li {
+      display: flex;
+      justify-content: start;
+    }
+  
+    .cat-social-list li a {
+  
+      font-size: 0.99rem;
+      padding: 3px 10px;
+    }
+  
+    .buttonofleftscolling {
+      background: none;
+      border: none;
+      background-color: transparent;
+      color: white;
+      display: flex;
+      padding: 10px 20px;
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  
+    .leftscoll h1 {
+      display: flex;
+      padding: 10px 20px;
+  
+      justify-content: start;
+      font-weight: 600;
+    }
+  
+  
+    .leftscoll h2 {
+      display: flex;
+      font-weight: normal;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+    }
+  
+    .translatedDiv {
+      overflow: hidden;
+      transition: transform 0.2s ease-in-out;
+    }
+  
+    .translatedDiv.slide-left {
+      transform: translateX(-11%);
+    }
+  
+    .fliterbutton {
+      color: rgb(47, 146, 138);
+      position: relative;
+      right: 0px;
+      left: -20px;
+  
+    }
+  
+    .prorightlinks {
+  
+      overflow-x: auto;
+      white-space: nowrap;
+  
+    }
+  
+  
+    .prorightlinks li {
+  
+  
+      list-style-type: none;
+      margin-right: 10px;
+  
+  
+    }
+  
+    .productsocial span {
+      display: none;
+    }
+  
+    .links-list .links {
+  
+      font-size: 1em;
+      padding: 10px 19px;
+  
+  
+    }
+  
+  
+  
+  
+  
+    .links-list {
+  
+      display: inline-flex;
+      padding: 10px;
+    }
+  
+  
+    .rightscrolling {
+  
+  
+  
+      overflow-y: scroll;
+  
+  
+  
+  
+      height: 555px;
+      padding: 0 0px;
+      margin-top: 15px;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  
+    .adsimgcard img {
+  
+  
+  
+  
+  
+      height: auto;
+      width: 170px;
+      border-radius: 20px;
+  
+    }
+  
+  
+  
+  
+    .addetails {
+  
+  
+  
+  
+  
+      display: block;
+  
+  
+    }
+  
+  
+  
+    .adsinfo h1 {
+  
+  
+  
+  
+  
+  
+  
+  
+      font-size: 1em;
+      font-weight: normal;
+  
+  
+    }
+  
+  
+  
+  
+    .adsinfo a {
+  
+  
+  
+  
+  
+      font-size: 0.7em;
+  
+  
+  
+    }
+  
+  
+  
+  
+  
+  
+  }
+  
+  
+  @media screen and (max-width: 430px){
+    .rightscrolling{
+      height: 598px;
+    }
+  }
+  
+  @media screen and (max-width:414px) {
+    .rightscrolling{
+      height: 563px;
+    }
+  }
+  @media screen and (max-width:412px) {
+    .rightscrolling{
+      height: 597px;
+    }
+  }
+  
+  
+  @media screen and (max-width:409px) {
+    .call {
+  
+  
+   
+      margin: 0px 0px;
+  
+      gap: 16px;
+  
+    }
+  .adsinfo{
+    margin-top: 5px;
+  }
+  
+    .adspages {
+  
+      display: block;
+  
+    }
+  
+  
+  
+    .ada {
+  
+  
+  
+  
+  
+      display: block;
+      padding: 0px 15px;
+    }
+  
+  
+    
+    .prorightline {
+      display: none;
+        }
+    .closememu {
+      font-size: 1rem;
+      color: whitesmoke;
+      display: flex;
+      padding: 10px 15px;
+    }
+  
+    .productleft {
+      height: 900%;
+      padding: 4px 4px;
+      margin-left: 0px;
+      border-radius: 0px;
+    }
+  
+  
+    .adssreach {
+      color: white;
+      display: flex;
+      margin-top: 40px;
+      align-items: center;
+  
+      justify-content: center;
+    }
+  
+    .adssreach input {
+  
+  
+      height: 50px;
+      
+      width: 300px;
+    }
+  
+  
+    .adssreach i {
+  
+  
+  
+  
+  
+      display: none;
+    }
+  
+  
+  
+  
+    .productleft h1 {
+  
+  
+  justify-content: start;
+      display: flex;
+      align-items: center;
+      padding: 15px;
+      font-size: 1.6em;
+    }
+  
+    
+    .adsline a {
+      content: "";
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid rgba(216, 215, 215, 0.267);
+    }
+  .fliterbutton{
+    display: inline;
+  }
+    
+  
+    .productsocial {
+  
+  
+      overflow: hidden;
+      width: 100%;
+      display: flex;
+      justify-content: start;
+  
+    }
+  
+  
+  
+    .productsocial ul {
+  
+      display: block;
+      justify-content: start;
+    }
+  
+    .modal-button {
+      cursor: pointer;
+    }
+  
+    .modal {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.3s ease-in-out;
+      transform: translateX(-100%);
+    }
+  
+    .modal.show {
+      transform: translateX(0);
+    }
+  
+    .productleft {
+    
+      display: block;
+      
+      width: 100%;
+      align-items: center;
+    }
+    .productleft h1{
+      margin-bottom: 0px;
+    }
+  
+  
+    .productsocial ul li {
+  
+  
+  
+  
+      display: flex;
+      justify-content: start;
+      padding: 6px 10px;
+      font-size: 1.1em;
+    }
+  
+  
+    .productsocial ul li i {
+  
+  
+  
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+    .links {
+      background-color: #0D000D;
+      color: rgb(47, 146, 138);
+  
+      padding: 6px 20px;
+      display: flex;
+    }
+  
+    .proright {
+      margin-top: 30px;
+      display: block;
+      width: 100%;
+      height: 600px;
+      margin-left: 0px;
+      color: whitesmoke;
+      padding: 10px 10px;
+    }
+  
+    .adsicons a {
+      font-size: 0.6em;
+  
+      margin-left: 0px;
+      color: whitesmoke;
+    }
+  
+    .adsicons i {
+      padding: 0px 4px;
+      color: whitesmoke;
+    }
+  
+    .catsocial {
+      max-height: 530px;
+  
+      display: flex;
+      justify-content: start;
+    }
+  
+    .cat-social-list li {
+      display: flex;
+      justify-content: start;
+    }
+  
+    .cat-social-list li a {
+  
+      font-size: 0.99rem;
+      padding: 1px 10px;
+    }
+  
+    .buttonofleftscolling {
+      background: none;
+      border: none;
+      background-color: transparent;
+      color: white;
+      display: flex;
+      padding: 10px 20px;
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+  
+    .leftscoll h1 {
+      display: flex;
+      padding: 10px 20px;
+  
+      justify-content: start;
+      font-weight: 600;
+    }
+  
+  
+    .leftscoll h2 {
+      display: flex;
+      font-weight: normal;
+      padding: 10px 20px;
+      font-size: 1.1rem;
+    }
+  
+    .translatedDiv {
+      overflow: hidden;
+      transition: transform 0.2s ease-in-out;
+    }
+  
+    .translatedDiv.slide-left {
+      transform: translateX(-11%);
+    }
+  
+    .fliterbutton {
+      color: rgb(47, 146, 138);
+      position: relative;
+      right: 0px;
+      left: -20px;
+  
+    }
+  
+    .prorightlinks {
+  
+      overflow-x: auto;
+      white-space: nowrap;
+  
+    }
+  
+  
+    .prorightlinks li {
+  
+  
+      list-style-type: none;
+      margin-right: 10px;
+  
+  
+    }
+  
+    .productsocial span {
+      display: none;
+    }
+  
+    .links-list .links {
+  
+      font-size: 1em;
+      padding: 10px 19px;
+  
+  
+    }
+  
+  
+  
+  
+  
+    .links-list {
+  
+      display: inline-flex;
+      padding: 10px;
+    }
+  
+  
+    
+    .rightscrolling {
+      overflow-y: scroll;
+      height: 510px;
+      padding: 0 0px;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  
+    .adsimgcard img {
+  
+  
+  
+  
+  
+      height: auto;
+      width: 160px;
+      border-radius: 10px;
+  
+    }
+  
+  
+  
+  
+    .addetails {
+  
+  
+  
+  
+  
+      display: block;
+  
+  
+    }
+  
+  
+  
+    .adsinfo h1 {
+  
+  
+  
+  
+  
+  
+  
+  
+      font-size: 0.8em;
+      font-weight: normal;
+  
+  
+    }
+  
+  
+  
+  
+    .adsinfo a {
+  
+  
+  
+  
+  
+      font-size: 0.6em;
+  
+  
+  
+    }
+  
+  
+  
+  
+  
+  
+  }
+  
+  @media screen and (max-width:376px){
+    .proright {
+      margin-top: 30px;
+      display: block;
+      width: 100%;
+      height: auto;
+      margin-left: 0px;
+      color: whitesmoke;
+      padding: 10px 10px;
+    }
+    .call{
+      margin: 0px 0px;
+  
+      gap: 14px;
+    }
+    .adsimgcard img {
+      height: auto;
+      width: 150px;
+      border-radius: 10px;
+  
+    }
+    .rightscrolling {
+      overflow-y: scroll;
+      height: 360px;
+      padding: 0 0px;
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+  }
+  
+  @media screen and (max-width:360px)
+  {
+  
+    .adssreach input {
+  
+  
+      height: 50px;
+      
+      width: 250px;
+    }
+  
+    .call{
+      margin: 0px 0px;
+  
+      gap: 16px;
+    }
+    .rightscrolling {
+      height: 560px;
+    }
+    .adsimgcard img {
+      height: auto;
+      width: 590px;
+      border-radius: 10px;
+  
+    }
+  }
+  
+  .call {
+  
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+   
+  
+  }
+  
+  
+  .productleft {
+    color: rgb(47, 146, 138);
+    overflow: hidden;
+  }
+  
+
+  .links-list .link {
+    @media (max-width:375px) {
+      font-size: 1em;
+  
+  
+    }
+  }
+  
+
+  .links-list {
+    white-space: nowrap;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .prorightlinks::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .productleft {
+    color: rgb(47, 146, 138);
     text-transform: capitalize;
+  
+    background-color: #050F14;
+  
   }
-
-
-  .productsocial ul li i {
-
-    font-size: 1.2em;
-    margin-right: 10px;
-    display: flex;
-    align-items: center;
-  }
-
-
-
-  .rightadscontainer {
-    display: flex;
-    justify-content: center;
-  }
-
-
+  
+  
+  
   .proright {
-
-
-
-
-    width: 74%;
-    color: aliceblue;
-    height: 70vh;
-    border-radius: 15px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    padding: 6px 0;
-
-
-
+    background-color: #050F14;
   }
-
-  .links {
-    color: rgb(47, 146, 138);
-
+  
+  .cat-social-list a {
+    padding: 0px 10px;
   }
-
-
-
-  .prorightlinks {
-
-
-
-    display: flex;
-    justify-content: flex-start;
-    margin-left: 15px;
-    margin-top: 7px;
-    padding: 0px 0px;
-  }
-
-  .links {
-    background-color: #0D000D;
-    border-radius: 7px;
-    padding: 9px 40px;
-    display: flex;
-  }
-
-  .rightscrolling {
-    overflow-y: scroll;
-
-  }
-
-  .rightscrolling {
-
-
-    height: calc(100% - 1em);
-    /* padding: 0 10px; */
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-  }
-
-  .adsimgcard img {
-    height: auto;
-    width: 100%;
-    max-width: 200px;
-    object-fit: cover;
-  }
-
-
-  .adsimgcard {
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  .prorightline {
-
-
-    margin-left: 10px;
-
-
-
-    width: 99%;
-    margin-top: 12px;
-    border: 1px solid rgba(216, 215, 215, 0.267);
+  
+  
+  .cat-social-list li {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 0 0px;
-  }
-
-
-  .proright ul li {
-    padding: 0px 22px;
-    font-size: 1em;
-
-  }
-
-  .proright ul {
-
-    display: flex;
-
-  }
-
-  .adsicons i {
-    padding: 0px 2px;
-    color: whitesmoke;
-  }
-
-
-  .adsicons a {
-    font-size: 0.5em;
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .adsicons {
-    color: whitesmoke;
-    padding: 0px 5px;
-    overflow: hidden;
-    font-size: 0.8rem;
-  }
-
-
-
-  .addetails {
-
-
-
-
-
-    display: flex;
-
-
-  }
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 0.7em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.5em;
-
-
-
-  }
-
-
-
-
-
-
-}
-
-
-
-@media screen and (min-width:914px) and (max-width:1023px) {
-  .call {
-
-
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px 5px;
-
-    gap: 30px;
-    justify-content: space-evenly;
-
-  }
-
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 15px 15px;
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 40px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 580px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.6em;
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: start;
-  }
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-  .productleft {
-    /* background-color: hsla(0, 0%, 6%, 0.2);
-                    backdrop-filter: blur(16px); */
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-
-
-  .productsocial ul li {
-
-
-
-
-    display: flex;
-    justify-content: start;
-    padding: 13px 17px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 6px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 30px;
-    display: block;
-    color: whitesmoke;
     padding: 10px 10px;
   }
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 820px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0px;
-    left: -20px;
-
-  }
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .productsocial span {
-    display: none;
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 19px;
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 10px;
-  }
-
-
-  .rightscrolling {
-
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 500px;
-    padding: 0 0px;
-    display: flex;
-    flex-direction: column;
+  
+  .productsmenu {
     align-items: center;
   }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 170px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.7em;
-
-
-
-  }
-
-
-
-
-
-
-}
-
-
-
-@media screen and (min-width:911px) and (max-width:913px) {
-  .call {
-
-
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px 5px;
-
-    gap: 30px;
-    justify-content: space-evenly;
-
-  }
-
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 15px 15px;
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 40px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 580px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.6em;
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: start;
-  }
-
-  .modal-button {
+  
+  
+  .checkboxs {
+  
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
     cursor: pointer;
   }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-  .productleft {
-    /* background-color: hsla(0, 0%, 6%, 0.2);
-                    backdrop-filter: blur(16px); */
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-
-
-  .productsocial ul li {
-
-
-
-
-    display: flex;
-    justify-content: start;
-    padding: 13px 17px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 6px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 30px;
-    display: block;
-    color: whitesmoke;
-    padding: 10px 10px;
-  }
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 820px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
+  
+  .checkboxs:checked {
     background-color: transparent;
-    color: white;
+    border-color: #007bff;
+  }
+  
+  
+  .checkboxs:checked::after {
+    content: '\2713';
     display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
   }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0px;
-    left: -20px;
-
-  }
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .productsocial span {
+  
+  
+  .rightscrolling::-webkit-scrollbar {
     display: none;
   }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 19px;
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 10px;
-  }
-
-
+  
   .rightscrolling {
-
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 520px;
-    padding: 0 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    -ms-overflow-style: none;
+  
+    scrollbar-width: none;
   }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 170px;
-    border-radius: 20px;
-
+  
+  .catsocial::-webkit-scrollbar {
+    display: none;
+  
   }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
+  
+  .catsocial {
+    -ms-overflow-style: none;
+  
+    scrollbar-width: none;
   }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.7em;
-
-
-
-  }
-
-
-
-
-
-
-}
-
-
-
-@media screen and (min-width:900px) and (max-width:910px) {
+  
   .call {
-
-
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px 5px;
-
-    gap: 30px;
-    justify-content: space-evenly;
-
-  }
-
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 15px 15px;
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 40px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 580px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.6em;
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: start;
-  }
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-  .productleft {
-    /* background-color: hsla(0, 0%, 6%, 0.2);
-                    backdrop-filter: blur(16px); */
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-
-
-  .productsocial ul li {
-
-
-
-
-    display: flex;
-    justify-content: start;
-    padding: 13px 17px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 6px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 30px;
-    display: block;
-    color: whitesmoke;
-    padding: 10px 10px;
-  }
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 820px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0px;
-    left: -20px;
-
-  }
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .productsocial span {
-    display: none;
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 19px;
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 10px;
-  }
-
-
-  .rightscrolling {
-
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 500px;
-    padding: 0 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 170px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.7em;
-
-
-
-  }
-
-
-
-
-
-
-}
-
-
-
-
-
-
-@media screen and (min-width:851px) and (max-width:900px) {
-  .call {
-
-
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px 5px;
-
-    gap: 30px;
-    justify-content: space-evenly;
-
-  }
-
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 15px 15px;
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 40px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 580px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.6em;
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: start;
-  }
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-  .productleft {
-    /* background-color: hsla(0, 0%, 6%, 0.2);
-                    backdrop-filter: blur(16px); */
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-
-
-  .productsocial ul li {
-
-
-
-
-    display: flex;
-    justify-content: start;
-    padding: 13px 17px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 6px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 30px;
-    display: block;
-    color: whitesmoke;
-    padding: 10px 10px;
-  }
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 820px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0px;
-    left: -20px;
-
-  }
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .productsocial span {
-    display: none;
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 19px;
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 10px;
-  }
-
-
-  .rightscrolling {
-
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 520px;
-    padding: 0 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 170px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.7em;
-
-
-
-  }
-
-
-
-
-
-
-}
-
-
-@media screen and (min-width:800px) and (max-width:850px) {
-  .call {
-
-
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px 5px;
-
-    gap: 30px;
-    justify-content: space-evenly;
-
-  }
-
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 15px 15px;
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 40px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 580px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.6em;
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: start;
-  }
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-  .productleft {
-    /* background-color: hsla(0, 0%, 6%, 0.2);
-                    backdrop-filter: blur(16px); */
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-
-
-  .productsocial ul li {
-
-
-
-
-    display: flex;
-    justify-content: start;
-    padding: 13px 17px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 6px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 30px;
-    display: block;
-    color: whitesmoke;
-    padding: 10px 10px;
-  }
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 820px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0px;
-    left: -20px;
-
-  }
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .productsocial span {
-    display: none;
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 19px;
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 10px;
-  }
-
-
-  .rightscrolling {
-
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 520px;
-    padding: 0 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 170px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.7em;
-
-
-
-  }
-
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-@media screen and (min-width:751px) and (max-width:799px) {
-  .call {
-
-
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px 0px;
-
-    gap: 20px;
-    justify-content: space-evenly;
-
-  }
-
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 15px 15px;
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 40px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 580px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.6em;
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: start;
-  }
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-  .productleft {
-    /* background-color: hsla(0, 0%, 6%, 0.2);
-                    backdrop-filter: blur(16px); */
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-
-
-  .productsocial ul li {
-
-
-
-
-    display: flex;
-    justify-content: start;
-    padding: 13px 17px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 6px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 30px;
-    display: block;
-    color: whitesmoke;
-    padding: 10px 10px;
-  }
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 820px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0px;
-    left: -20px;
-
-  }
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .productsocial span {
-    display: none;
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 19px;
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 10px;
-  }
-
-
-  .rightscrolling {
-
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 520px;
-    padding: 0 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 170px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.7em;
-
-
-
-  }
-
-
-
-
-
-
-}
-
-
-@media screen and (min-width:651px) and (max-width:750px) {
-  .call {
-
-
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px 0px;
-
-    gap: 20px;
-    justify-content: space-evenly;
-
-  }
-
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 15px 15px;
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 40px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 580px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.6em;
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: start;
-  }
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-  .productleft {
-    /* background-color: hsla(0, 0%, 6%, 0.2);
-                    backdrop-filter: blur(16px); */
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-
-
-  .productsocial ul li {
-
-
-
-
-    display: flex;
-    justify-content: start;
-    padding: 13px 17px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 6px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 30px;
-    display: block;
-    color: whitesmoke;
-    padding: 10px 10px;
-  }
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 820px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0px;
-    left: -20px;
-
-  }
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .productsocial span {
-    display: none;
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 19px;
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 10px;
-  }
-
-
-  .rightscrolling {
-
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 500px;
-    padding: 0 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 170px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.7em;
-
-
-
-  }
-
-
-
-
-
-
-}
-
-
-
-@media screen and (min-width:550px) and (max-width:650px) {
-  .call {
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px 0px;
-    gap: 20px;
-    justify-content: space-evenly;
-
-  }
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0;
-    left: -28px;
-
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 20px 15px;
-  }
-
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 15px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 420px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-  .productleft {
-    /* background-color: hsla(0, 0%, 6%, 0.2);
-                                                    backdrop-filter: blur(16px); */
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-  .productsocial ul li {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 17px;
-    font-size: 1em;
-  }
-
-
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 10px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 30px;
-    display: block;
-    color: whitesmoke;
-    padding: 16px 10px;
-  }
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 620px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .productsocial span {
-    display: none;
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 19px;
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 0 10px;
-  }
-
-
-  .rightscrolling {
-
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 520px;
-    padding: 0 0px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 170px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.7em;
-
-
-
-  }
-
-
-
-
-
-
-}
-
-
-
-
-
-@media screen and (min-width:504px) and (max-width:549px) {
-  .call {
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 10px 0px;
-    gap: 1px;
-    justify-content: space-evenly;
-
-  }
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0;
-    left: -27px;
-
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 15px 15px;
-  }
-
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 15px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 370px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-  .productleft {
-    /* background-color: hsla(0, 0%, 6%, 0.2);
-                                                    backdrop-filter: blur(16px); */
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-  .productsocial ul li {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 17px;
-    font-size: 1em;
-  }
-
-
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 10px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 30px;
-    display: block;
-    color: whitesmoke;
-    padding: 16px 10px;
-  }
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 620px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .productsocial span {
-    display: none;
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 19px;
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 0 10px;
-  }
-
-
-  .rightscrolling {
-
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 520px;
-    padding: 0 0px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 200px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 0.9em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.66em;
-
-
-
-  }
-
-
-
-
-
-
-}
-
-
-
-@media screen and (min-width:441px) and (max-width:503px) {
-  .call {
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 10px 0px;
-    gap: 20px;
-    justify-content: space-evenly;
-
-  }
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0;
-    left: -20px;
-
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 15px 15px;
-  }
-
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 15px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 370px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-  .productleft {
-    /* background-color: hsla(0, 0%, 6%, 0.2);
-                                                    backdrop-filter: blur(16px); */
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-  .productsocial ul li {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 17px;
-    font-size: 1em;
-  }
-
-
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 10px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 30px;
-    display: block;
-    color: whitesmoke;
-    padding: 16px 10px;
-  }
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 620px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .productsocial span {
-    display: none;
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 19px;
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 0 10px;
-  }
-
-
-  .rightscrolling {
-
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 520px;
-    padding: 0 0px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 180px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 0.9em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.66em;
-
-
-
-  }
-
-
-
-
-
-
-}
-
-
-
-
-@media screen and (min-width:430px) and (max-width:440px) {
-  .call {
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px 0px;
-    gap: 20px;
-    justify-content: space-evenly;
-
-  }
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0;
-    left: -14px;
-
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 10px 15px;
-  }
-
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 15px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 340px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-  .productleft {
-    /* background-color: hsla(0, 0%, 6%, 0.2);
-                                                    backdrop-filter: blur(16px); */
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-  .productsocial ul li {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 17px;
-    font-size: 1em;
-  }
-
-
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 10px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 20px;
-    display: block;
-    color: whitesmoke;
-    padding: 16px 10px;
-  }
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 620px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .productsocial span {
-    display: none;
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 19px;
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 0 10px;
-  }
-
-
-  .rightscrolling {
-
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 590px;
-    padding: 0 0px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 170px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.7em;
-
-
-
-  }
-
-
-
-
-
-
-}
-
-@media screen and (min-width:414px) and (max-width:429px) {
-  .call {
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px 0px;
-    gap: 20px;
-    justify-content: space-evenly;
-
-  }
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0;
-    left: -14px;
-
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 10px 15px;
-  }
-
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 15px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 340px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-  .productleft {
-    /* background-color: hsla(0, 0%, 6%, 0.2);
-                                                    backdrop-filter: blur(16px); */
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-  .productsocial ul li {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 17px;
-    font-size: 1em;
-  }
-
-
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 10px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 20px;
-    display: block;
-    color: whitesmoke;
-    padding: 16px 10px;
-  }
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 620px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .productsocial span {
-    display: none;
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 19px;
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 0 10px;
-  }
-
-
-  .rightscrolling {
-
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 430px;
-    padding: 0 0px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 170px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.7em;
-
-
-
-  }
-
-
-
-
-
-
-}
-@media screen and (min-width:412px) and (max-width:413px) {
-  .call {
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px 0px;
-    gap: 20px;
-    justify-content: space-evenly;
-
-  }
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0;
-    left: -14px;
-
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 10px 15px;
-  }
-
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 15px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 340px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-  .productleft {
-    /* background-color: hsla(0, 0%, 6%, 0.2);
-                                                    backdrop-filter: blur(16px); */
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-  .productsocial ul li {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 17px;
-    font-size: 1em;
-  }
-
-
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 10px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 20px;
-    display: block;
-    color: whitesmoke;
-    padding: 16px 10px;
-  }
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 620px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .productsocial span {
-    display: none;
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 19px;
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 0 10px;
-  }
-
-
-  .rightscrolling {
-
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 590px;
-    padding: 0 0px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 170px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 1em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.7em;
-
-
-
-  }
-
-
-
-
-
-
-}
-
-
-@media screen and (min-width:380px) and (max-width:411px) {
-  .call {
-
-
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 4px;
-
-    gap: 10px;
-    justify-content: space-evenly;
-
-  }
-
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0;
-    left: -14px;
-
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-
-  .adspages {
-
-    display: block;
-
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-
-
-  .ada {
-    display: block;
-    padding: 8px 15px;
-  }
-
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 300px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial span {
-    display: none;
-  }
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .productleft {
-
-    display: block;
-    width: 100%;
-
-    align-items: center;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .productsocial ul li {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 17px;
-    font-size: 1em;
-  }
-
-
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 6px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 20px;
-    display: block;
-    color: whitesmoke;
-    padding: 15px 10px;
-  }
-
-
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 550px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
     display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 1px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 18px;
-
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 0;
-  }
-
-
-  .rightscrolling {
-    overflow-y: scroll;
-    height: 530px;
-    padding: 0 0px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-    height: auto;
-    width: 140px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 0.8em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.6em;
-
-
-
-  }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width:350px) and (max-width:379px) {
-  .call {
-
-
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 4px;
-
-    gap: 10px;
-    justify-content: space-evenly;
-
-  }
-
-
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0;
-    left: -14px;
-
-  }
-
-  .adsline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-  .flutline a {
-    content: "";
-    display: flex;
-    align-items: center;
-    margin-left: 5px;
-    justify-content: center;
-    border: 1px solid rgba(216, 215, 215, 0.267);
-  }
-
-
-
-
-  .adspages {
-
-    display: block;
-
-  }
-
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 12px 15px;
-  }
-
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 20px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 300px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial span {
-    display: none;
-  }
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .productleft h1 {
-
-
-
-
-    align-items: center;
-    padding: 15px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial {
-
-
-    overflow: hidden;
-    width: 100%;
-
-  }
-
-
-
-  .productsocial ul {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .productleft {
-
-    display: block;
-    width: 100%;
-
-    align-items: center;
-  }
-
-  .productleft {
-    height: 900%;
-  }
-
-  .productsocial ul li {
-
-    display: block;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 17px;
-    font-size: 1em;
-  }
-
-
-
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 6px 20px;
-    display: flex;
-  }
-
-  .proright {
-    margin-top: 0px;
-    display: block;
-    color: whitesmoke;
-    padding: 15px 10px;
-  }
-
-
-
-  .adsicons a {
-    font-size: 0.6em;
-
-    margin-left: 0px;
-    color: whitesmoke;
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 550px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 1px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 18px;
-
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 0;
-  }
-
-
-  .rightscrolling {
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 380px;
-    padding: 0 0px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 140px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: block;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 0.8em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.6em;
-
-
-
-  }
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width:220px) and (max-width:349px) {
-  .call {
-
-
-    flex-wrap: wrap;
-    align-items: center;
-    margin: 20px;
-
-    gap: 17px;
-    justify-content: center;
-
-  }
-  .fliterbutton {
-    color: rgb(47, 146, 138);
-    position: relative;
-    right: 0;
-    left: -9px;
-
-  }
-  .closememu {
-    font-size: 1rem;
-    color: whitesmoke;
-    display: flex;
-    padding: 10px 15px;
-  }
-
-  .adspages {
-
-    display: block;
-
-  }
-
-  .modal-button {
-    cursor: pointer;
-  }
-
-  .modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: transform 0.3s ease-in-out;
-    transform: translateX(-100%);
-  }
-
-  .modal.show {
-    transform: translateX(0);
-  }
-
-
-  .ada {
-
-
-
-
-
-    display: block;
-    padding: 35px 15px;
-  }
-
-
-  .adssreach {
-    color: white;
-    display: flex;
-    margin-top: 40px;
-    align-items: center;
-
-    justify-content: center;
-  }
-
-  .adssreach input {
-
-
-    height: 50px;
-    border-radius: 10px;
-    background-color: transparent;
-    border: 7px #050F14 solid;
-    width: 190px;
-    color: white;
-    padding-left: 30px;
-  }
-
-
-  .adssreach i {
-
-
-
-
-
-    display: none;
-  }
-
-
-
-
-  .productleft h1 {
-
-
-
-
-    padding: 15px;
-    font-size: 1.1em;
-  }
-
-
-  .productsocial {
-    overflow: hidden;
-    width: 100%;
-  }
-
-
-
-  .productsocial ul {
-    display: block;
-    align-items: center;
-  }
-
-
-  .productleft {
-
-    display: block;
-    width: 100%;
-    align-items: center;
-  }
-
-  .productsocial ul li {
-
-
-
-
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 15px 17px;
-    font-size: 1em;
-  }
-
-.productleft{
-  height: 100%;
-}
-  .productsocial ul li i {
-
-
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .links {
-    background-color: #0D000D;
-    color: rgb(47, 146, 138);
-
-    padding: 6px 20px;
-    display: flex;
-  }
-
-  .catsocial {
-    display: flex;
-    justify-content: start;
-    max-height: 580px;
-    overflow-y: auto;
-  }
-
-  .cat-social-list li {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-  }
-
-  .cat-social-list li a {
-    display: flex;
-    justify-content: start;
-    text-align: center;
-    font-size: 0.99rem;
-    padding: 3px 10px;
-  }
-
-  .buttonofleftscolling {
-    background: none;
-    border: none;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    padding: 10px 20px;
-    font-size: 1rem;
-    margin-bottom: 10px;
-  }
-
-  .leftscoll h1 {
-    display: flex;
-    padding: 10px 20px;
-
-    justify-content: start;
-    font-weight: 600;
-  }
-
-
-  .leftscoll h2 {
-    display: flex;
-    font-weight: normal;
-    padding: 10px 20px;
-    font-size: 1.1rem;
-  }
-
-  .translatedDiv {
-    overflow: hidden;
-    transition: transform 0.2s ease-in-out;
-  }
-
-  .translatedDiv.slide-left {
-    transform: translateX(-11%);
-  }
-
-
-  .proright {
-    margin-top: 20px;
-    display: block;
-    color: whitesmoke;
-    padding: 10px 10px;
-  }
-
-  .adsicons i {
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-
-
-
-  .adsicons a {
-    font-size: 0.58em;
-    padding: 0px 4px;
-    color: whitesmoke;
-  }
-
-  .prorightlinks {
-
-    overflow-x: auto;
-    white-space: nowrap;
-
-  }
-
-
-  .prorightlinks li {
-
-
-    list-style-type: none;
-    margin-right: 10px;
-
-
-  }
-
-  .links-list .links {
-
-    font-size: 1em;
-    padding: 10px 18px;
-
-
-
-  }
-
-
-
-
-
-  .links-list {
-
-    display: inline-flex;
-    padding: 0;
-  }
-
-
-  .rightscrolling {
-
-
-    overflow-y: scroll;
-
-
-
-
-
-    height: 430px;
-    padding: 0 10px;
-    margin-top: 15px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-
-  .adsimgcard img {
-
-
-
-
-
-    height: auto;
-    width: 230px;
-    border-radius: 20px;
-
-  }
-
-
-
-
-  .addetails {
-
-
-
-
-
-    display: flex;
-
-
-  }
-
-
-
-  .adsinfo h1 {
-
-
-
-
-
-
-
-
-    font-size: 0.75em;
-    font-weight: normal;
-
-
-  }
-
-
-
-
-  .adsinfo a {
-
-
-
-
-
-    font-size: 0.6em;
-
-
-
-  }
-
-
-
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.flittercat {
-  -ms-overflow-style: none;
-
-  scrollbar-width: none;
-}
-
-
-
-
-.links-list {
-
-  white-space: nowrap;
-  overflow-x: auto;
-
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-
-}
-
-.prorightlinks::-webkit-scrollbar {
-  display: none;
-}
-
-
-.link-list li {
-
-  list-style-type: none;
-  margin-right: 10px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.links-list .link {
-  @media (max-width:375px) {
-    font-size: 1em;
-
-
   }
-}
-
-
-
-
-.links-list {
-  white-space: nowrap;
-  overflow-x: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.prorightlinks::-webkit-scrollbar {
-  display: none;
-}
-
-
-.productleft {
-  color: rgb(47, 146, 138);
-  text-transform: capitalize;
-
-  background-color: #050F14;
-
-}
-
-
-
-.proright {
-  background-color: #050F14;
-}
-
-.cat-social-list a {
-  padding: 0px 10px;
-}
-
-
-.cat-social-list li {
-  display: flex;
-  align-items: center;
-  padding: 10px 10px;
-}
-
-.productsmenu {
-  align-items: center;
-}
-
-
-.checkboxs {
-
-  appearance: none;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-
-  width: 20px;
-  height: 20px;
-  border: 2px solid #ccc;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-.checkboxs:checked {
-  background-color: transparent;
-  border-color: #007bff;
-}
-
-
-.checkboxs:checked::after {
-  content: '\2713';
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-size: 12px;
-  color: #fff;
-}
-
-
-
-
-
-.rightscrolling::-webkit-scrollbar {
-  display: none;
-}
-
-.rightscrolling {
-  -ms-overflow-style: none;
-
-  scrollbar-width: none;
-}
-
-.catsocial::-webkit-scrollbar {
-  display: none;
-
-}
-
-.catsocial {
-  -ms-overflow-style: none;
-
-  scrollbar-width: none;
-}
-
-.call {
-
-  display: flex;
-}
