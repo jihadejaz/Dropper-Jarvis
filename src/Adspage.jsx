@@ -58,7 +58,7 @@ function Adspage() {
         </li>
         <li style={{ backgroundColor: "transparent" }}>
           <Link to="../products" className={linkClassName} onClick={closeMobileMenu}>
-          product
+    product
           </Link>
         </li>
       
@@ -128,7 +128,7 @@ color: "rgb(47, 146, 138)",
               <ul className='navul'>
                 <li><Link to="/" className='link'>Home</Link></li>
                 <li><Link to="../ads" className='link'>ads</Link></li>
-                <li><Link to="../products" className='link'>product</Link></li>
+                <li><Link to="../products" className='link'>products</Link></li>
               </ul>
             </div>
           </div>
@@ -173,7 +173,7 @@ color: "rgb(47, 146, 138)",
     <span className='adslines'><a></a> </span>
     
     <div className='adssocial'>
-  <ul className='social-list'>
+  <ul className='ads-social-list'>
     <li><i className="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></li>
     <li><i className="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></li>
     <li><i className="fa fa-snapchat-ghost" aria-hidden="true"></i><span>Snapchat</span></li>
@@ -193,7 +193,7 @@ color: "rgb(47, 146, 138)",
     <div className='adsrightlinks'>
   <ul className='links-list'>
     <li><Link className='links' to='../topselling'>Top Selling</Link></li>
-    <li><Link className='links'>Winner Products</Link></li>
+    <li><Link className='links'>Winner adss</Link></li>
     <li><Link className='links'>Recent Dropshipping</Link></li>
   </ul>
 </div>
@@ -210,31 +210,7 @@ color: "rgb(47, 146, 138)",
         <h1>Project1 Name</h1>
         <a>Upload: 27/3/2024</a>
       </div>
-      <div className='adsinfoinocs'>
-  
-      
-        <Link className='adsicons'>
-        
-      <a> <i className="fa fa-comment" aria-hidden="true"> </i>999 </a>
-          
-       
-         </Link> 
-         <Link className='adsicons'>
-  
-     <a>
-        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
-        999
-     </a>    
-         </Link>
-         <Link className='adsicons'>
-      <a>
-      
-        <i className="fa fa-share-alt" aria-hidden="true"></i>
-        500
-      </a>   
-         </Link>
-         
-      </div>
+   
     </div>
       </div>
       
@@ -246,31 +222,7 @@ color: "rgb(47, 146, 138)",
         <h1>Project1 Name</h1>
         <a>Upload: 27/3/2024</a>
       </div>
-      <div className='adsinfoinocs'>
   
-      
-        <Link className='adsicons'>
-        
-      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
-          
-       
-         </Link> 
-         <Link className='adsicons'>
-  
-     <a>
-        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
-        2000
-     </a>    
-         </Link>
-         <Link className='adsicons'>
-      <a>
-      
-        <i className="fa fa-share-alt" aria-hidden="true"></i>
-        500
-      </a>   
-         </Link>
-         
-      </div>
     </div>
       </div>
       
@@ -281,31 +233,7 @@ color: "rgb(47, 146, 138)",
         <h1>Project1 Name</h1>
         <a>Upload: 27/3/2024</a>
       </div>
-      <div className='adsinfoinocs'>
-  
-      
-        <Link className='adsicons'>
-        
-      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
-          
-       
-         </Link> 
-         <Link className='adsicons'>
-  
-     <a>
-        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
-        2000
-     </a>    
-         </Link>
-         <Link className='adsicons'>
-      <a>
-      
-        <i className="fa fa-share-alt" aria-hidden="true"></i>
-        500
-      </a>   
-         </Link>
-         
-      </div>
+    
     </div>
       </div>
       
@@ -316,31 +244,7 @@ color: "rgb(47, 146, 138)",
         <h1>Project1 Name</h1>
         <a>Upload: 27/3/2024</a>
       </div>
-      <div className='adsinfoinocs'>
-  
-      
-        <Link className='adsicons'>
-        
-      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
-          
-       
-         </Link> 
-         <Link className='adsicons'>
-  
-     <a>
-        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
-        2000
-     </a>    
-         </Link>
-         <Link className='adsicons'>
-      <a>
-      
-        <i className="fa fa-share-alt" aria-hidden="true"></i>
-        500
-      </a>   
-         </Link>
-         
-      </div>
+    
     </div>
       </div>
       
@@ -351,31 +255,7 @@ color: "rgb(47, 146, 138)",
         <h1>Project1 Name</h1>
         <a>Upload: 27/3/2024</a>
       </div>
-      <div className='adsinfoinocs'>
-  
       
-        <Link className='adsicons'>
-        
-      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
-          
-       
-         </Link> 
-         <Link className='adsicons'>
-  
-     <a>
-        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
-        2000
-     </a>    
-         </Link>
-         <Link className='adsicons'>
-      <a>
-      
-        <i className="fa fa-share-alt" aria-hidden="true"></i>
-        500
-      </a>   
-         </Link>
-         
-      </div>
     </div>
       </div>
       <div className='adsimgcard'>
@@ -385,31 +265,7 @@ color: "rgb(47, 146, 138)",
         <h1>Project1 Name</h1>
         <a>Upload: 27/3/2024</a>
       </div>
-      <div className='adsinfoinocs'>
-  
-      
-        <Link className='adsicons'>
-        
-      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
-          
-       
-         </Link> 
-         <Link className='adsicons'>
-  
-     <a>
-        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
-        2000
-     </a>    
-         </Link>
-         <Link className='adsicons'>
-      <a>
-      
-        <i className="fa fa-share-alt" aria-hidden="true"></i>
-        500
-      </a>   
-         </Link>
-         
-      </div>
+    
     </div>
       </div>
       <div className='adsimgcard'>
@@ -419,31 +275,7 @@ color: "rgb(47, 146, 138)",
         <h1>Project1 Name</h1>
         <a>Upload: 27/3/2024</a>
       </div>
-      <div className='adsinfoinocs'>
-  
-      
-        <Link className='adsicons'>
-        
-      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
-          
-       
-         </Link> 
-         <Link className='adsicons'>
-  
-     <a>
-        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
-        2000
-     </a>    
-         </Link>
-         <Link className='adsicons'>
-      <a>
-      
-        <i className="fa fa-share-alt" aria-hidden="true"></i>
-        500
-      </a>   
-         </Link>
-         
-      </div>
+    
     </div>
       </div>
     
@@ -455,31 +287,7 @@ color: "rgb(47, 146, 138)",
         <h1>Project1 Name</h1>
         <a>Upload: 27/3/2024</a>
       </div>
-      <div className='adsinfoinocs'>
   
-      
-        <Link className='adsicons'>
-        
-      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
-          
-       
-         </Link> 
-         <Link className='adsicons'>
-  
-     <a>
-        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
-        2000
-     </a>    
-         </Link>
-         <Link className='adsicons'>
-      <a>
-      
-        <i className="fa fa-share-alt" aria-hidden="true"></i>
-        500
-      </a>   
-         </Link>
-         
-      </div>
     </div>
       </div>
     
@@ -491,31 +299,7 @@ color: "rgb(47, 146, 138)",
         <h1>Project1 Name</h1>
         <a>Upload: 27/3/2024</a>
       </div>
-      <div className='adsinfoinocs'>
-  
-      
-        <Link className='adsicons'>
-        
-      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
-          
-       
-         </Link> 
-         <Link className='adsicons'>
-  
-     <a>
-        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
-        2000
-     </a>    
-         </Link>
-         <Link className='adsicons'>
-      <a>
-      
-        <i className="fa fa-share-alt" aria-hidden="true"></i>
-        500
-      </a>   
-         </Link>
-         
-      </div>
+     
     </div>
       </div>
     
@@ -527,31 +311,7 @@ color: "rgb(47, 146, 138)",
         <h1>Project1 Name</h1>
         <a>Upload: 27/3/2024</a>
       </div>
-      <div className='adsinfoinocs'>
-  
-      
-        <Link className='adsicons'>
-        
-      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
-          
-       
-         </Link> 
-         <Link className='adsicons'>
-  
-     <a>
-        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
-        2000
-     </a>    
-         </Link>
-         <Link className='adsicons'>
-      <a>
-      
-        <i className="fa fa-share-alt" aria-hidden="true"></i>
-        500
-      </a>   
-         </Link>
-         
-      </div>
+    
     </div>
       </div>
     
@@ -563,31 +323,7 @@ color: "rgb(47, 146, 138)",
         <h1>Project1 Name</h1>
         <a>Upload: 27/3/2024</a>
       </div>
-      <div className='adsinfoinocs'>
-  
       
-        <Link className='adsicons'>
-        
-      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
-          
-       
-         </Link> 
-         <Link className='adsicons'>
-  
-     <a>
-        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
-        2000
-     </a>    
-         </Link>
-         <Link className='adsicons'>
-      <a>
-      
-        <i className="fa fa-share-alt" aria-hidden="true"></i>
-        500
-      </a>   
-         </Link>
-         
-      </div>
     </div>
       </div>
     
@@ -599,31 +335,7 @@ color: "rgb(47, 146, 138)",
         <h1>Project1 Name</h1>
         <a>Upload: 27/3/2024</a>
       </div>
-      <div className='adsinfoinocs'>
-  
-      
-        <Link className='adsicons'>
-        
-      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
-          
-       
-         </Link> 
-         <Link className='adsicons'>
-  
-     <a>
-        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
-        2000
-     </a>    
-         </Link>
-         <Link className='adsicons'>
-      <a>
-      
-        <i className="fa fa-share-alt" aria-hidden="true"></i>
-        500
-      </a>   
-         </Link>
-         
-      </div>
+   
     </div>
       </div>
 </section>

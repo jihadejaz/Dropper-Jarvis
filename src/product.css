@@ -1,7 +1,11 @@
+#root{
+  height: 100vh;
+  overflow-y: hidden;
+}
 @media screen and (max-width:2000px) {
 
   .call{
-    gap: 37px;
+    gap: 38px;
     margin: 10px 0;
   }
     .fliterbutton {
@@ -25,7 +29,7 @@
   
       display: flex;
       justify-content: space-evenly;
-      padding: 45px 30px;
+      padding: 50px 30px;
     }
   
     .productleft {
@@ -42,7 +46,7 @@
       color: white;
       position: relative;
       display: flex;
-      margin-top: 20px;
+      margin-top: 40px;
       align-items: center;
   
       justify-content: center;
@@ -255,11 +259,6 @@
   
   
     .prorightline {
-  
-  
-  
-  
-  
       width: 99%;
       margin-top: 4.9px;
       border: 1px solid rgba(216, 215, 215, 0.267);
@@ -278,7 +277,7 @@
     .catsocial {
       display: flex;
       justify-content: center;
-      max-height: 360px;
+      max-height: 378px;
       overflow-y: auto;
     }
   
@@ -311,7 +310,7 @@
     .adsimgcard img {
   
       width: 100%;
-      max-width: 319px;
+      max-width: 330px;
       object-fit: cover;
     }
   
@@ -400,11 +399,28 @@
   }
   
   
+  @media screen  and (max-width:1918px){
+    .call{
+      gap: 60px;
+    }
+    .adsimgcard img {
+      max-width: 309px;
+  }
+  }
   
-  
+  @media screen and (max-width:1820px) {
+    .call{
+      gap: 80px;
+    }
+    .adsimgcard img {
+      max-width: 373px;
+  }
+  }
   @media screen and (max-width:1790px) {
   
-  
+    .call{
+      gap: 50px;
+    }
   
   
     .adssreach {
@@ -436,7 +452,7 @@
   
       width: 80%;
       border-radius: 15px;
-      margin-left: 30px;
+      margin-left: 10px;
       padding: 0 0;
     }
    
@@ -573,7 +589,7 @@
     .adsimgcard img {
    
   
-      max-width: 290px;
+      max-width: 370px;
     
     }
   
@@ -646,6 +662,60 @@
     }
   
   }
+  @media screen and (max-width:1675px){
+    .call{
+      gap: 30px;
+    }
+  }
+@media screen and (max-width:1667px) {
+  
+  .adsimgcard img {
+    max-width: 359px;
+}
+  
+}
+
+  @media screen and (max-width:1652px){
+    .call{
+      gap: 60px;
+    }
+    .adsimgcard img {
+      max-width: 329px;
+  }
+    
+  }
+  
+  @media screen and (max-width:1512px) {
+  .call{
+    gap: 45px;
+  }
+  }
+  @media screen and (max-width:1505px) {
+    .ada{
+      padding: 25px 30px; 
+    }
+    
+  }
+  
+  @media screen and (max-width:1479px) {
+    .adssreach{
+      margin: 10px;
+    }
+    .ada{
+      padding: 18px 30px; 
+    }
+    .adsimgcard img {
+      max-width: 290px;
+  }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
   
   
   @media screen and (max-width:1399px) {
@@ -872,6 +942,7 @@
   
   
   
+  
   @media screen and (max-width:1300px) {
     .call {
       flex-wrap: wrap;
@@ -881,7 +952,16 @@
       justify-content: center;
     }
   
+    .adssreach {
+    
   
+      margin-top: 30px;
+      
+    }
+   
+    .ada{
+      padding: 25px 30px; 
+    }
   
   
   
@@ -1138,7 +1218,18 @@
     }
   
   }
-  
+  @media screen and (max-width:1253px) {
+  .ada{
+    padding: 30px 30px;
+  }
+  .adsimgcard img {
+    max-width: 250px;
+  }
+  .call{
+    gap: 50px;
+  }
+
+  }
   @media screen and (max-width:1180px){
     .ada{
       padding: 36px 30px;
@@ -1147,6 +1238,23 @@
       margin-top: 37px;
     }
   } 
+  
+  @media screen and (max-width:1277px) {
+    .adsimgcard img {
+      max-width: 250px;
+    }
+  
+  }
+  
+  @media screen and (max-width:1251px) {
+    .adsimgcard img {
+      max-width: 230px;
+    }
+  
+  }
+  
+  
+  
   @media screen and (max-width:1025px) {
    
     .buttonofleftscolling {
@@ -1495,7 +1603,7 @@
   
       height: 50px;
       
-      width: 600px;
+      width: 580px;
     }
   
   
@@ -1824,6 +1932,19 @@
   
   
   
+  
+  
+  @media screen and (max-width:656px) {
+    .adssreach input {
+  
+  
+   
+      
+      width: 540px;
+    }
+  
+  
+  }
   @media screen and (max-width:600px) {
     .call {
   
@@ -2220,7 +2341,7 @@
   
   }
   
-  
+
   
   @media screen and (max-width:460px) {
     .call {
@@ -2408,6 +2529,7 @@
       margin-top: 20px;
       display: block;
       width: 100%;
+      height: auto;
       margin-left: 0px;
       color: whitesmoke;
       padding: 10px 10px;
@@ -2612,24 +2734,39 @@
   
   
   }
-  
-  
   @media screen and (max-width: 430px){
+    .call{
+      height: 580px;
+    }
     .rightscrolling{
-      height: 598px;
+    height: 585px;
     }
   }
-  
   @media screen and (max-width:414px) {
-    .rightscrolling{
-      height: 563px;
+    .call{
+      overflow-y: auto;
     }
+    .proright{
+      margin-top: 7px;
+    }
+    .rightscrolling{
+      height: 555px;
+      }
   }
   @media screen and (max-width:412px) {
-    .rightscrolling{
-      height: 597px;
+    .call{
+      overflow-y: auto;
+    }
+    .call{
+      height: 590px;
+    }
+    .proright{
+      margin-top: 20px;
     }
   }
+  
+
+
   
   
   @media screen and (max-width:409px) {
@@ -3017,9 +3154,14 @@
   
   }
   
+
+ 
+  
+  
+ 
   @media screen and (max-width:376px){
     .proright {
-      margin-top: 30px;
+      margin-top: 20px;
       display: block;
       width: 100%;
       height: auto;
@@ -3050,7 +3192,7 @@
   
   }
   
-  @media screen and (max-width:360px)
+  @media screen and (max-width:363px)
   {
   
     .adssreach input {
@@ -3064,17 +3206,50 @@
     .call{
       margin: 0px 0px;
   
-      gap: 16px;
+      gap: 10px;
     }
     .rightscrolling {
-      height: 560px;
+      height: 420px;
     }
     .adsimgcard img {
       height: auto;
-      width: 590px;
       border-radius: 10px;
   
     }
+  }
+
+  @media screen and (max-width:359px) {
+    .call{
+      margin: 0px 0px;
+  
+      gap: 7px;
+    }
+    .rightscrolling {
+      height: 540px;
+      
+    }
+    .adsimgcard img {
+      height: auto;
+     width: 130px;
+      border-radius: 10px;
+  
+    }
+  }
+
+  @media screen and (max-width:330px) {
+    .call{
+      margin: 0px 0px;
+  
+      gap: 7px;
+    }
+    .rightscrolling {
+      height: 350px;
+      
+    }
+    .proright{
+      height: auto;
+    }
+   
   }
   
   .call {
@@ -3093,7 +3268,11 @@
     overflow: hidden;
   }
   
-
+  
+  
+  
+  
+  
   .links-list .link {
     @media (max-width:375px) {
       font-size: 1em;
@@ -3102,7 +3281,9 @@
     }
   }
   
-
+  
+  
+  
   .links-list {
     white-space: nowrap;
     overflow-x: auto;
@@ -3175,13 +3356,13 @@
   }
   
   
-  .rightscrolling::-webkit-scrollbar {
+  .call::-webkit-scrollbar {
     display: none;
   }
   
-  .rightscrolling {
+  .call {
     -ms-overflow-style: none;
-  
+  overflow-y: auto;
     scrollbar-width: none;
   }
   

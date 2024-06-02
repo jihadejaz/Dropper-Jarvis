@@ -483,7 +483,139 @@ function Topselling() {
     </div>
       </div>
     
+      <div className='adsimgcard'>
+      <img src="images/23.jpg" alt="" />
+      <div className='addetails'>
+      <div className='adsinfo'>
+        <h1>Project1 Name</h1>
+        <a>Upload: 27/3/2024</a>
+      </div>
+      <div className='adsinfoinocs'>
   
+      
+        <Link className='adsicons'>
+        
+      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
+          
+       
+         </Link> 
+         <Link className='adsicons'>
+  
+     <a>
+        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
+        2000
+     </a>    
+         </Link>
+         <Link className='adsicons'>
+      <a>
+      
+        <i className="fa fa-share-alt" aria-hidden="true"></i>
+        500
+      </a>   
+         </Link>
+         
+      </div>
+    </div>
+      </div>  <div className='adsimgcard'>
+      <img src="images/23.jpg" alt="" />
+      <div className='addetails'>
+      <div className='adsinfo'>
+        <h1>Project1 Name</h1>
+        <a>Upload: 27/3/2024</a>
+      </div>
+      <div className='adsinfoinocs'>
+  
+      
+        <Link className='adsicons'>
+        
+      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
+          
+       
+         </Link> 
+         <Link className='adsicons'>
+  
+     <a>
+        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
+        2000
+     </a>    
+         </Link>
+         <Link className='adsicons'>
+      <a>
+      
+        <i className="fa fa-share-alt" aria-hidden="true"></i>
+        500
+      </a>   
+         </Link>
+         
+      </div>
+    </div>
+      </div>  <div className='adsimgcard'>
+      <img src="images/23.jpg" alt="" />
+      <div className='addetails'>
+      <div className='adsinfo'>
+        <h1>Project1 Name</h1>
+        <a>Upload: 27/3/2024</a>
+      </div>
+      <div className='adsinfoinocs'>
+  
+      
+        <Link className='adsicons'>
+        
+      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
+          
+       
+         </Link> 
+         <Link className='adsicons'>
+  
+     <a>
+        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
+        2000
+     </a>    
+         </Link>
+         <Link className='adsicons'>
+      <a>
+      
+        <i className="fa fa-share-alt" aria-hidden="true"></i>
+        500
+      </a>   
+         </Link>
+         
+      </div>
+    </div>
+      </div>  <div className='adsimgcard'>
+      <img src="images/23.jpg" alt="" />
+      <div className='addetails'>
+      <div className='adsinfo'>
+        <h1>Project1 Name</h1>
+        <a>Upload: 27/3/2024</a>
+      </div>
+      <div className='adsinfoinocs'>
+  
+      
+        <Link className='adsicons'>
+        
+      <a> <i className="fa fa-comment" aria-hidden="true"> </i>9000 </a>
+          
+       
+         </Link> 
+         <Link className='adsicons'>
+  
+     <a>
+        <i className="fa fa-thumbs-up" aria-hidden="true"></i>
+        2000
+     </a>    
+         </Link>
+         <Link className='adsicons'>
+      <a>
+      
+        <i className="fa fa-share-alt" aria-hidden="true"></i>
+        500
+      </a>   
+         </Link>
+         
+      </div>
+    </div>
+      </div>
       <div className='adsimgcard'>
       <img src="images/16.jpg" alt="" />
       <div className='addetails'>
@@ -626,6 +758,7 @@ function Topselling() {
       </div>
     </div>
       </div>
+      
   </section>
   </div>
   
